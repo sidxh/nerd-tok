@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useCallback, useState } from 'react'
-import { Loader2, Search, X, Download } from 'lucide-react'
+import { Loader2, Search, X, Download, Menu } from 'lucide-react'
 import { ArxivCard } from '@/components/ArxivCard'
 import { ArticleCard } from '@/components/ArticleCard'
 import { useArxivPapers } from '@/hooks/useArxivPapers'
@@ -16,6 +16,19 @@ const scrollbarHideStyles = `
   .hide-scrollbar::-webkit-scrollbar {
     display: none;  /* Chrome, Safari and Opera */
   }
+  .modal-animation {
+    animation: modalFade 0.2s ease-out;
+  }
+  @keyframes modalFade {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
 `;
 
 type Tab = 'papers' | 'articles';
@@ -24,6 +37,7 @@ function App() {
   const [activeTab, setActiveTab] = useState<Tab>('papers');
   const [showAbout, setShowAbout] = useState(false)
   const [showLikes, setShowLikes] = useState(false)
+  const [showMobileMenu, setShowMobileMenu] = useState(false)
   const { papers, loading: arxivLoading, fetchPapers } = useArxivPapers()
   const { articles, loading: articlesLoading, fetchArticles, hasMore, resetArticles } = useArticles()
   const { likedPapers, toggleLike } = useLikedPapers()
@@ -106,12 +120,22 @@ function App() {
             onClick={() => window.location.reload()}
             className="text-2xl font-bold text-white hover:text-white/90 transition-all flex items-center gap-2"
           >
-            ArXivTok
+            NerdTok
           </button>
         </div>
 
-        {/* Tab Navigation - Now fixed */}
-        <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 flex gap-2 bg-black/20 backdrop-blur-sm p-1 rounded-full border border-white/10">
+        {/* Mobile Menu Button */}
+        <div className="fixed top-4 right-4 z-50 md:hidden">
+          <button
+            onClick={() => setShowMobileMenu(!showMobileMenu)}
+            className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition-all"
+          >
+            <Menu className="w-6 h-6" />
+          </button>
+        </div>
+
+        {/* Desktop Navigation */}
+        <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 hidden md:flex gap-2 bg-black/20 backdrop-blur-sm p-1 rounded-full border border-white/10">
           <button
             onClick={() => handleTabChange('papers')}
             className={`px-6 py-2 rounded-full transition-all ${
@@ -134,8 +158,8 @@ function App() {
           </button>
         </div>
 
-        {/* Right Navigation */}
-        <div className="fixed top-4 right-4 z-50 flex gap-2 bg-black/20 backdrop-blur-sm p-1 rounded-full border border-white/10">
+        {/* Desktop Right Navigation */}
+        <div className="fixed top-4 right-4 z-50 hidden md:flex gap-2 bg-black/20 backdrop-blur-sm p-1 rounded-full border border-white/10">
           <button
             onClick={() => setShowAbout(!showAbout)}
             className={`px-4 py-1.5 rounded-full transition-all ${
@@ -158,39 +182,94 @@ function App() {
           </button>
         </div>
 
+        {/* Mobile Navigation Menu */}
+        {showMobileMenu && (
+          <div className="fixed inset-x-4 top-16 z-50 md:hidden">
+            <div className="bg-gray-900/95 backdrop-blur-sm rounded-lg border border-white/10 shadow-xl p-2 space-y-2 modal-animation">
+              <button
+                onClick={() => {
+                  handleTabChange('papers');
+                  setShowMobileMenu(false);
+                }}
+                className={`w-full px-4 py-2 rounded-lg transition-all text-left ${
+                  activeTab === 'papers'
+                    ? 'bg-white text-black font-medium'
+                    : 'text-white hover:bg-white/10'
+                }`}
+              >
+                Research Papers
+              </button>
+              <button
+                onClick={() => {
+                  handleTabChange('articles');
+                  setShowMobileMenu(false);
+                }}
+                className={`w-full px-4 py-2 rounded-lg transition-all text-left ${
+                  activeTab === 'articles'
+                    ? 'bg-white text-black font-medium'
+                    : 'text-white hover:bg-white/10'
+                }`}
+              >
+                Articles
+              </button>
+              <div className="h-px bg-white/10 my-2" />
+              <button
+                onClick={() => {
+                  setShowAbout(true);
+                  setShowMobileMenu(false);
+                }}
+                className="w-full px-4 py-2 rounded-lg text-white hover:bg-white/10 transition-all text-left"
+              >
+                About
+              </button>
+              <button
+                onClick={() => {
+                  setShowLikes(true);
+                  setShowMobileMenu(false);
+                }}
+                className="w-full px-4 py-2 rounded-lg text-white hover:bg-white/10 transition-all text-left"
+              >
+                Likes
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* About Modal */}
         {showAbout && (
           <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-            <div className="bg-gray-900 p-6 rounded-lg max-w-md relative">
+            <div className="bg-gray-900/90 p-8 rounded-2xl max-w-md relative border border-white/10 shadow-2xl modal-animation">
               <button
                 onClick={() => setShowAbout(false)}
-                className="absolute top-2 right-2 text-white/70 hover:text-white"
+                className="absolute top-4 right-4 p-2 rounded-full hover:bg-white/10 transition-all"
               >
-                ✕
+                <X className="w-5 h-5 text-white/70 hover:text-white" />
               </button>
-              <h2 className="text-xl font-bold mb-4">About ArXivTok</h2>
-              <p className="mb-4">
-                A TikTok-style interface for exploring arXiv research papers.
+              <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">About NerdTok</h2>
+              <p className="text-lg text-white/90 leading-relaxed">
+                A TikTok-style interface for exploring arXiv research papers. Swipe through papers, save your favorites, and discover new research in an engaging way.
               </p>
             </div>
           </div>
         )}
 
+        {/* Likes Modal */}
         {showLikes && (
           <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-            <div className="bg-gray-900 p-6 rounded-lg w-full max-w-2xl h-[80vh] flex flex-col relative">
+            <div className="bg-gray-900/90 p-6 rounded-2xl w-full max-w-2xl h-[80vh] flex flex-col relative border border-white/10 shadow-2xl modal-animation">
               <button
                 onClick={() => setShowLikes(false)}
-                className="absolute top-2 right-2 text-white/70 hover:text-white"
+                className="absolute top-4 right-4 p-2 rounded-full hover:bg-white/10 transition-all"
               >
-                ✕
+                <X className="w-5 h-5 text-white/70 hover:text-white" />
               </button>
 
-              <div className="flex justify-between items-center mb-4">
-                <h2 className="text-xl font-bold">Liked Papers</h2>
+              <div className="flex justify-between items-center mb-6">
+                <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Liked Papers</h2>
                 {likedPapers.length > 0 && (
                   <button
                     onClick={handleExport}
-                    className="flex items-center gap-2 px-3 py-1.5 text-sm bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors"
+                    className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-all"
                     title="Export liked papers"
                   >
                     <Download className="w-4 h-4" />
@@ -205,39 +284,46 @@ function App() {
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   placeholder="Search liked papers..."
-                  className="w-full bg-gray-800 text-white px-4 py-2 pl-10 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full bg-white/5 text-white px-4 py-3 pl-11 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/50 border border-white/10 transition-all"
                 />
-                <Search className="w-5 h-5 text-white/50 absolute left-3 top-1/2 transform -translate-y-1/2" />
+                <Search className="w-5 h-5 text-white/50 absolute left-4 top-1/2 transform -translate-y-1/2" />
               </div>
 
               <div className="flex-1 overflow-y-auto min-h-0 hide-scrollbar">
                 {filteredLikedPapers.length === 0 ? (
-                  <p className="text-white/70">
-                    {searchQuery ? "No matches found." : "No liked papers yet."}
-                  </p>
+                  <div className="flex flex-col items-center justify-center h-full text-center">
+                    <p className="text-white/70 text-lg">
+                      {searchQuery ? "No matches found." : "No liked papers yet."}
+                    </p>
+                    {!searchQuery && (
+                      <p className="text-white/50 mt-2">
+                        Start exploring and like some papers!
+                      </p>
+                    )}
+                  </div>
                 ) : (
                   <div className="space-y-4">
                     {filteredLikedPapers.map((paper) => (
-                      <div key={paper.id} className="flex gap-4 items-start group">
+                      <div key={paper.id} className="flex gap-4 items-start group p-4 rounded-xl hover:bg-white/5 transition-all">
                         <div className="flex-1">
                           <div className="flex justify-between items-start">
                             <a
                               href={paper.pdfUrl}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="font-bold hover:text-gray-200"
+                              className="font-bold hover:text-blue-400 transition-colors"
                             >
                               {paper.title}
                             </a>
                             <button
                               onClick={() => toggleLike(paper)}
-                              className="text-white/50 hover:text-white/90 p-1 rounded-full md:opacity-0 md:group-hover:opacity-100 transition-opacity"
+                              className="text-white/50 hover:text-white/90 p-2 rounded-full hover:bg-white/10 transition-all"
                               aria-label="Remove from likes"
                             >
                               <X className="w-4 h-4" />
                             </button>
                           </div>
-                          <p className="text-sm text-white/70 line-clamp-2">
+                          <p className="text-sm text-white/70 line-clamp-2 mt-2">
                             {paper.abstract}
                           </p>
                         </div>
