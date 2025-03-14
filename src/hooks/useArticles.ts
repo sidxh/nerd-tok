@@ -13,7 +13,7 @@ export interface Article {
   source: string;
 }
 
-const BATCH_SIZE = 10;
+// const BATCH_SIZE = 10;
 const BLOG_COUNT = 4;
 const YOUTUBE_COUNT = 4;
 const COURSE_COUNT = 2;
