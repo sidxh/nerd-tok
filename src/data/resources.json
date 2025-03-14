@@ -1,0 +1,774 @@
+{
+  "resources": [
+    {
+      "id": "1",
+      "title": "Understanding Transformers: A Deep Dive",
+      "link": "https://www.youtube.com/watch?v=4Bdc55j80l8",
+      "description": "A comprehensive visual guide to transformer architecture, breaking down attention mechanisms and positional encoding with clear animations and examples.",
+      "source": "YouTube"
+    },
+    {
+      "id": "2",
+      "title": "The Illustrated GPT-2",
+      "link": "http://jalammar.github.io/illustrated-gpt2/",
+      "description": "A visual guide to understanding GPT-2's architecture, training process, and how it generates text. Perfect for both beginners and advanced practitioners.",
+      "source": "Blog"
+    },
+    {
+      "id": "3",
+      "title": "Neural Networks from Scratch",
+      "link": "https://www.youtube.com/watch?v=Wo5dMEP_BbI",
+      "description": "Build a neural network from scratch using Python. Understanding backpropagation, activation functions, and gradient descent through practical implementation.",
+      "source": "YouTube"
+    },
+    {
+      "id": "4",
+      "title": "A Comprehensive Guide to Attention Mechanisms",
+      "link": "https://lilianweng.github.io/posts/2018-06-24-attention/",
+      "description": "Deep dive into various attention mechanisms in deep learning, from basic dot-product attention to multi-head self-attention used in modern architectures.",
+      "source": "Blog"
+    },
+    {
+      "id": "5",
+      "title": "Practical Deep Learning Course",
+      "link": "https://course.fast.ai/",
+      "description": "Free course that takes you from linear regression to cutting-edge deep learning models. Practical approach with real-world applications.",
+      "source": "Course"
+    },
+    {
+      "id": "6",
+      "title": "Machine Learning System Design",
+      "link": "https://www.youtube.com/watch?v=uF1V2MqX2U0",
+      "description": "Learn how to design and implement large-scale machine learning systems. Covers architecture, scalability, and deployment considerations.",
+      "source": "YouTube"
+    },
+    {
+      "id": "7",
+      "title": "Deep Learning Book",
+      "link": "https://www.deeplearningbook.org/",
+      "description": "Comprehensive resource covering both theoretical foundations and practical applications of deep learning. Written by pioneers in the field.",
+      "source": "Book"
+    },
+    {
+      "id": "8",
+      "title": "Reinforcement Learning: An Introduction",
+      "link": "http://incompleteideas.net/book/the-book-2nd.html",
+      "description": "The classic textbook on reinforcement learning, updated for modern approaches. Covers fundamentals through advanced topics.",
+      "source": "Book"
+    },
+    {
+      "id": "9",
+      "title": "CS231n: CNN for Visual Recognition",
+      "link": "http://cs231n.stanford.edu/",
+      "description": "Stanford's renowned course on Convolutional Neural Networks. Complete with lectures, notes, and assignments.",
+      "source": "Course"
+    },
+    {
+      "id": "10",
+      "title": "Natural Language Processing with Transformers",
+      "link": "https://www.youtube.com/watch?v=_eSGWNqKeeY",
+      "description": "Practical guide to using transformers for NLP tasks. Covers BERT, GPT, and their variants with code examples.",
+      "source": "YouTube"
+    },
+    {
+      "id": "11",
+      "title": "MIT Deep Learning Basics: Introduction and Overview",
+      "link": "https://www.youtube.com/watch?v=O5xeyoRL95U",
+      "description": "Comprehensive introduction to deep learning fundamentals by MIT researchers. Covers neural networks, optimization, and modern architectures with practical examples.",
+      "source": "YouTube"
+    },
+    {
+      "id": "12",
+      "title": "Machine Learning Design Patterns",
+      "link": "https://www.oreilly.com/library/view/machine-learning-design/9781098115777/",
+      "description": "Essential patterns and architectures for building reliable, scalable, and maintainable ML systems in production. Includes real-world case studies and best practices.",
+      "source": "Book"
+    },
+    {
+      "id": "13",
+      "title": "Full Stack Deep Learning",
+      "link": "https://fullstackdeeplearning.com/",
+      "description": "Learn to design, train, and deploy deep learning systems. Covers the full stack from data collection to production deployment and monitoring.",
+      "source": "Course"
+    },
+    {
+      "id": "14",
+      "title": "Distill: Machine Learning Research",
+      "link": "https://distill.pub/",
+      "description": "Clear, interactive explanations of machine learning concepts and research papers. Features beautiful visualizations and in-depth technical content.",
+      "source": "Blog"
+    },
+    {
+      "id": "15",
+      "title": "Stanford CS224N: NLP with Deep Learning",
+      "link": "https://web.stanford.edu/class/cs224n/",
+      "description": "Deep dive into Natural Language Processing using deep learning. Covers word vectors, RNNs, transformers, and question answering systems.",
+      "source": "Course"
+    },
+    {
+      "id": "16",
+      "title": "Deep Learning for Computer Vision",
+      "link": "https://www.youtube.com/watch?v=dJYGatp4SvA",
+      "description": "Comprehensive tutorial on computer vision with deep learning. Covers CNNs, object detection, segmentation, and modern architectures.",
+      "source": "YouTube"
+    },
+    {
+      "id": "17",
+      "title": "Machine Learning Yearning",
+      "link": "https://www.deeplearning.ai/machine-learning-yearning/",
+      "description": "Andrew Ng's practical guide to structuring machine learning projects. Learn how to diagnose errors and optimize ML systems.",
+      "source": "Book"
+    },
+    {
+      "id": "18",
+      "title": "Deep Learning Specialization",
+      "link": "https://www.deeplearning.ai/deep-learning-specialization/",
+      "description": "Five-course specialization covering deep learning fundamentals to advanced applications. Includes hands-on projects and real-world case studies.",
+      "source": "Course"
+    },
+    {
+      "id": "19",
+      "title": "The Batch by DeepLearning.AI",
+      "link": "https://www.deeplearning.ai/the-batch/",
+      "description": "Weekly newsletter covering the latest developments in AI, including research breakthroughs, industry applications, and ethical considerations.",
+      "source": "Blog"
+    },
+    {
+      "id": "20",
+      "title": "MLOps Zoomcamp",
+      "link": "https://github.com/DataTalksClub/mlops-zoomcamp",
+      "description": "Free course on MLOps fundamentals. Learn to deploy ML models, monitor them in production, and maintain ML systems at scale.",
+      "source": "Course"
+    },
+    {
+      "id": "21",
+      "title": "Deep Learning State of the Art",
+      "link": "https://www.youtube.com/watch?v=0VH1Lim8gL8",
+      "description": "Annual review of the latest breakthroughs in deep learning research and applications. Covers major trends and future directions.",
+      "source": "YouTube"
+    },
+    {
+      "id": "22",
+      "title": "Probabilistic Machine Learning",
+      "link": "https://probml.github.io/pml-book/",
+      "description": "Comprehensive introduction to probabilistic approaches in machine learning. Covers Bayesian methods, graphical models, and probabilistic programming.",
+      "source": "Book"
+    },
+    {
+      "id": "23",
+      "title": "Fast.ai: Practical Deep Learning",
+      "link": "https://www.fast.ai/",
+      "description": "Top-down approach to deep learning. Learn to build practical applications before diving into theory. Includes extensive code examples.",
+      "source": "Course"
+    },
+    {
+      "id": "24",
+      "title": "Andrej Karpathy's Blog",
+      "link": "http://karpathy.github.io/",
+      "description": "Insightful posts on deep learning, neural networks, and AI from Tesla's former AI director. Includes code implementations and tutorials.",
+      "source": "Blog"
+    },
+    {
+      "id": "25",
+      "title": "MIT 6.S191: Introduction to Deep Learning",
+      "link": "http://introtodeeplearning.com/",
+      "description": "MIT's introductory course to deep learning methods. Includes lectures, labs, and software tutorials with real-world applications.",
+      "source": "Course"
+    },
+    {
+      "id": "26",
+      "title": "Quantum Machine Learning",
+      "link": "https://www.youtube.com/watch?v=Lbndu5EIWvI",
+      "description": "Introduction to quantum computing applications in machine learning. Explores quantum algorithms, hardware, and potential advantages over classical methods.",
+      "source": "YouTube"
+    },
+    {
+      "id": "27",
+      "title": "Practical MLOps",
+      "link": "https://www.oreilly.com/library/view/practical-mlops/9781098103002/",
+      "description": "Guide to implementing MLOps practices in real-world scenarios. Covers continuous integration, deployment, and monitoring of ML systems.",
+      "source": "Book"
+    },
+    {
+      "id": "28",
+      "title": "Deep Reinforcement Learning",
+      "link": "https://www.youtube.com/watch?v=2pWv7GOvuf0",
+      "description": "David Silver's renowned course on deep reinforcement learning. Covers policy gradients, Q-learning, and advanced RL algorithms.",
+      "source": "YouTube"
+    },
+    {
+      "id": "29",
+      "title": "Machine Learning Systems Design",
+      "link": "https://github.com/chiphuyen/machine-learning-systems-design",
+      "description": "Comprehensive guide to designing large-scale machine learning systems. Includes case studies and interview preparation materials.",
+      "source": "Blog"
+    },
+    {
+      "id": "30",
+      "title": "Berkeley CS 182: Deep Learning",
+      "link": "https://cs182sp21.github.io/",
+      "description": "Berkeley's deep learning course covering advanced topics like GANs, VAEs, and modern architectures with practical applications.",
+      "source": "Course"
+    },
+    {
+      "id": "31",
+      "title": "Deep Learning with PyTorch",
+      "link": "https://pytorch.org/deep-learning-with-pytorch",
+      "description": "Official PyTorch book covering deep learning fundamentals and advanced topics with practical code examples.",
+      "source": "Book"
+    },
+    {
+      "id": "32",
+      "title": "JAX: Accelerated Machine Learning",
+      "link": "https://jax.readthedocs.io/en/latest/notebooks/quickstart.html",
+      "description": "Learn to use JAX for high-performance machine learning research. Covers automatic differentiation, vectorization, and parallel processing.",
+      "source": "Blog"
+    },
+    {
+      "id": "33",
+      "title": "Graph Neural Networks",
+      "link": "https://www.youtube.com/watch?v=uF53xsT7mjc",
+      "description": "Comprehensive introduction to graph neural networks. Covers message passing, graph convolutions, and applications in various domains.",
+      "source": "YouTube"
+    },
+    {
+      "id": "34",
+      "title": "Deep Learning for Time Series",
+      "link": "https://www.manning.com/books/deep-learning-for-time-series",
+      "description": "Practical guide to applying deep learning to time series data. Covers RNNs, LSTMs, and attention mechanisms for forecasting.",
+      "source": "Book"
+    },
+    {
+      "id": "35",
+      "title": "ML Production Engineering",
+      "link": "https://madewithml.com/",
+      "description": "End-to-end course on building production ML systems. Covers data pipelines, model serving, and monitoring with modern tools.",
+      "source": "Course"
+    },
+    {
+      "id": "36",
+      "title": "Transformers from Scratch",
+      "link": "http://peterbloem.nl/blog/transformers",
+      "description": "Step-by-step guide to building transformer models from scratch. Includes detailed explanations and PyTorch implementation.",
+      "source": "Blog"
+    },
+    {
+      "id": "37",
+      "title": "Deep Learning for Audio",
+      "link": "https://www.youtube.com/watch?v=fMqL5vckiU0",
+      "description": "Comprehensive tutorial on applying deep learning to audio processing. Covers spectrograms, audio classification, and speech recognition.",
+      "source": "YouTube"
+    },
+    {
+      "id": "38",
+      "title": "Bayesian Deep Learning",
+      "link": "https://arxiv.org/abs/2004.14633",
+      "description": "Introduction to uncertainty estimation in deep learning. Covers probabilistic neural networks and Bayesian optimization.",
+      "source": "Blog"
+    },
+    {
+      "id": "39",
+      "title": "Advanced NLP with spaCy",
+      "link": "https://course.spacy.io/",
+      "description": "Free course on industrial-strength NLP. Learn to build real-world text processing pipelines with spaCy.",
+      "source": "Course"
+    },
+    {
+      "id": "40",
+      "title": "Deep Learning and the Game of Go",
+      "link": "https://www.manning.com/books/deep-learning-and-the-game-of-go",
+      "description": "Learn deep learning concepts through implementing a Go-playing AI. Covers reinforcement learning and Monte Carlo tree search.",
+      "source": "Book"
+    },
+    {
+      "id": "41",
+      "title": "ML System Design Interview",
+      "link": "https://www.youtube.com/watch?v=uF7m0Yz_BHM",
+      "description": "Practical guide to machine learning system design interviews. Covers common questions and solution approaches.",
+      "source": "YouTube"
+    },
+    {
+      "id": "42",
+      "title": "Deep Learning for Robotics",
+      "link": "https://www.edx.org/course/deep-learning-for-robotics",
+      "description": "Course on applying deep learning to robotics. Covers perception, control, and reinforcement learning for robotic systems.",
+      "source": "Course"
+    },
+    {
+      "id": "43",
+      "title": "Machine Learning Engineering",
+      "link": "http://www.mlebook.com/",
+      "description": "Comprehensive guide to the machine learning engineering lifecycle. Covers data preparation, model development, and deployment.",
+      "source": "Book"
+    },
+    {
+      "id": "44",
+      "title": "Neural Rendering",
+      "link": "https://www.youtube.com/watch?v=LCTYRqW-ne8",
+      "description": "Introduction to neural rendering techniques. Covers NeRF, neural radiance fields, and 3D scene reconstruction.",
+      "source": "YouTube"
+    },
+    {
+      "id": "45",
+      "title": "Deep Learning for Climate Change",
+      "link": "https://www.climatechange.ai/tutorials",
+      "description": "Applications of deep learning in climate science. Covers climate modeling, prediction, and mitigation strategies.",
+      "source": "Course"
+    },
+    {
+      "id": "46",
+      "title": "Efficient Deep Learning",
+      "link": "https://efficientdl.com/",
+      "description": "Guide to optimizing deep learning models for production. Covers model compression, quantization, and efficient architectures.",
+      "source": "Blog"
+    },
+    {
+      "id": "47",
+      "title": "Deep Learning for Medical Imaging",
+      "link": "https://www.youtube.com/watch?v=bH9Nkg7G8S0",
+      "description": "Applications of deep learning in medical image analysis. Covers segmentation, classification, and diagnosis using CNNs.",
+      "source": "YouTube"
+    },
+    {
+      "id": "48",
+      "title": "Hands-on Machine Learning",
+      "link": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/",
+      "description": "Comprehensive guide to machine learning with Scikit-Learn and TensorFlow. Includes practical examples and best practices.",
+      "source": "Book"
+    },
+    {
+      "id": "49",
+      "title": "Deep Learning for Recommendation Systems",
+      "link": "https://developers.google.com/machine-learning/recommendation",
+      "description": "Google's course on building recommendation systems. Covers collaborative filtering, content-based methods, and deep learning approaches.",
+      "source": "Course"
+    },
+    {
+      "id": "50",
+      "title": "Machine Learning Testing",
+      "link": "https://www.jeremyjordan.me/testing-ml/",
+      "description": "Comprehensive guide to testing machine learning systems. Covers unit tests, integration tests, and monitoring ML models.",
+      "source": "Blog"
+    },
+    {
+      "id": "51",
+      "title": "Federated Learning",
+      "link": "https://www.youtube.com/watch?v=89BGjQYA0uE",
+      "description": "Introduction to privacy-preserving machine learning. Covers federated learning algorithms and practical implementations.",
+      "source": "YouTube"
+    },
+    {
+      "id": "52",
+      "title": "Deep Learning for Natural Language Generation",
+      "link": "https://www.manning.com/books/deep-learning-for-natural-language-generation",
+      "description": "Guide to building text generation systems. Covers language models, seq2seq architectures, and evaluation methods.",
+      "source": "Book"
+    },
+    {
+      "id": "53",
+      "title": "Applied ML in Production",
+      "link": "https://github.com/eugeneyan/applied-ml",
+      "description": "Curated papers, articles, and blogs on data science & machine learning in production. Real-world case studies and implementations.",
+      "source": "Blog"
+    },
+    {
+      "id": "54",
+      "title": "Deep Learning for Game Development",
+      "link": "https://www.coursera.org/learn/deep-learning-in-gaming",
+      "description": "Course on applying deep learning to game development. Covers reinforcement learning, procedural generation, and AI agents.",
+      "source": "Course"
+    },
+    {
+      "id": "55",
+      "title": "Machine Learning Security",
+      "link": "https://www.youtube.com/watch?v=8q7_4M4hVfs",
+      "description": "Overview of security considerations in ML systems. Covers adversarial attacks, model poisoning, and defense strategies.",
+      "source": "YouTube"
+    },
+    {
+      "id": "56",
+      "title": "Deep Learning for Forecasting",
+      "link": "https://www.amazon.com/Deep-Learning-Time-Series-Forecasting/dp/1801819934",
+      "description": "Practical guide to time series forecasting with deep learning. Covers modern architectures and real-world applications.",
+      "source": "Book"
+    },
+    {
+      "id": "57",
+      "title": "ML Infrastructure Engineering",
+      "link": "https://ml-ops.org/content/mlops-principles",
+      "description": "Guide to building robust ML infrastructure. Covers data pipelines, model serving, and monitoring at scale.",
+      "source": "Blog"
+    },
+    {
+      "id": "58",
+      "title": "Deep Learning for Edge Devices",
+      "link": "https://www.edx.org/course/deep-learning-for-edge-devices",
+      "description": "Course on deploying deep learning models to edge devices. Covers model optimization and embedded systems.",
+      "source": "Course"
+    },
+    {
+      "id": "59",
+      "title": "Interpretable Machine Learning",
+      "link": "https://www.youtube.com/watch?v=B-c8tIgchu0",
+      "description": "Methods for understanding and explaining machine learning models. Covers LIME, SHAP, and feature importance.",
+      "source": "YouTube"
+    },
+    {
+      "id": "60",
+      "title": "Deep Learning for Search",
+      "link": "https://www.manning.com/books/deep-learning-for-search",
+      "description": "Guide to building search engines with deep learning. Covers semantic search, ranking, and recommendation systems.",
+      "source": "Book"
+    },
+    {
+      "id": "61",
+      "title": "ML Design Patterns",
+      "link": "https://www.tensorflow.org/tutorials/structured_data/time_series",
+      "description": "TensorFlow's guide to implementing common ML design patterns. Covers architectures, training, and deployment patterns.",
+      "source": "Blog"
+    },
+    {
+      "id": "62",
+      "title": "Deep Learning for Speech Recognition",
+      "link": "https://www.youtube.com/watch?v=Z7YM-HAz-IY",
+      "description": "Comprehensive tutorial on building speech recognition systems. Covers acoustic models, language models, and end-to-end approaches.",
+      "source": "YouTube"
+    },
+    {
+      "id": "63",
+      "title": "Reinforcement Learning: Theory and Practice",
+      "link": "https://www.amazon.com/Reinforcement-Learning-Introduction-Richard-Sutton/dp/0262039249/",
+      "description": "Classic textbook on reinforcement learning fundamentals. Covers MDP, policy optimization, and deep RL methods.",
+      "source": "Book"
+    },
+    {
+      "id": "64",
+      "title": "Advanced Computer Vision",
+      "link": "https://www.coursera.org/specializations/advanced-computer-vision-with-tensorflow",
+      "description": "Deep dive into modern computer vision techniques. Covers object detection, segmentation, and visual reasoning.",
+      "source": "Course"
+    },
+    {
+      "id": "65",
+      "title": "ML System Architecture",
+      "link": "https://martinfowler.com/articles/cd4ml.html",
+      "description": "Martin Fowler's guide to continuous delivery for machine learning. Best practices for ML system architecture.",
+      "source": "Blog"
+    },
+    {
+      "id": "66",
+      "title": "Deep Learning for Genomics",
+      "link": "https://www.youtube.com/watch?v=aCYWP7z1cE4",
+      "description": "Applications of deep learning in genomics research. Covers sequence analysis, protein structure prediction, and gene expression.",
+      "source": "YouTube"
+    },
+    {
+      "id": "67",
+      "title": "Natural Language Processing with Deep Learning",
+      "link": "https://web.stanford.edu/class/cs224n/",
+      "description": "Stanford's comprehensive NLP course. Covers modern deep learning approaches to natural language processing.",
+      "source": "Course"
+    },
+    {
+      "id": "68",
+      "title": "Deep Learning Systems",
+      "link": "https://d2l.ai/",
+      "description": "Interactive deep learning book with code examples. Covers theory and implementation of modern deep learning systems.",
+      "source": "Book"
+    },
+    {
+      "id": "69",
+      "title": "ML Model Monitoring",
+      "link": "https://neptune.ai/blog/ml-model-monitoring",
+      "description": "Comprehensive guide to monitoring ML models in production. Covers metrics, alerts, and debugging strategies.",
+      "source": "Blog"
+    },
+    {
+      "id": "70",
+      "title": "Deep Learning for Finance",
+      "link": "https://www.youtube.com/watch?v=WK_m3L3r3f4",
+      "description": "Applications of deep learning in financial markets. Covers time series prediction, risk assessment, and portfolio optimization.",
+      "source": "YouTube"
+    },
+    {
+      "id": "71",
+      "title": "Machine Learning Design Interview",
+      "link": "https://www.amazon.com/Machine-Learning-Design-Interview-System/dp/1637215290",
+      "description": "Guide to machine learning system design interviews. Includes real-world problems and solution strategies.",
+      "source": "Book"
+    },
+    {
+      "id": "72",
+      "title": "Deep Learning for IoT",
+      "link": "https://www.edx.org/professional-certificate/deep-learning-for-iot",
+      "description": "Course on implementing deep learning models on IoT devices. Covers edge computing and embedded systems.",
+      "source": "Course"
+    },
+    {
+      "id": "73",
+      "title": "ML Feature Engineering",
+      "link": "https://machinelearningmastery.com/feature-engineering-for-machine-learning/",
+      "description": "Comprehensive guide to feature engineering in machine learning. Covers techniques and best practices.",
+      "source": "Blog"
+    },
+    {
+      "id": "74",
+      "title": "Deep Learning for 3D Vision",
+      "link": "https://www.youtube.com/watch?v=QZhw8HbZC7s",
+      "description": "Tutorial on 3D computer vision with deep learning. Covers point clouds, 3D reconstruction, and scene understanding.",
+      "source": "YouTube"
+    },
+    {
+      "id": "75",
+      "title": "ML Model Deployment",
+      "link": "https://www.coursera.org/learn/machine-learning-modeling-pipeline-in-production",
+      "description": "Course on deploying ML models to production. Covers containerization, scaling, and monitoring.",
+      "source": "Course"
+    },
+    {
+      "id": "76",
+      "title": "Deep Learning Hardware",
+      "link": "https://d2l.ai/chapter_computational-performance/hardware.html",
+      "description": "Guide to hardware considerations for deep learning. Covers GPUs, TPUs, and optimization techniques.",
+      "source": "Blog"
+    },
+    {
+      "id": "77",
+      "title": "Deep Learning for NLP Applications",
+      "link": "https://www.youtube.com/watch?v=n25JjoixM3I",
+      "description": "Practical applications of deep learning in NLP. Covers chatbots, translation systems, and text classification.",
+      "source": "YouTube"
+    },
+    {
+      "id": "78",
+      "title": "Machine Learning System Design",
+      "link": "https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969",
+      "description": "Guide to designing production-ready ML systems. Covers architecture, scalability, and maintenance.",
+      "source": "Book"
+    },
+    {
+      "id": "79",
+      "title": "Deep Learning for Computer Graphics",
+      "link": "https://www.udacity.com/course/deep-learning-for-computer-graphics",
+      "description": "Course on applying deep learning to computer graphics. Covers neural rendering, style transfer, and image synthesis.",
+      "source": "Course"
+    },
+    {
+      "id": "80",
+      "title": "ML Model Versioning",
+      "link": "https://neptune.ai/blog/ml-model-versioning",
+      "description": "Best practices for versioning ML models and experiments. Covers tools and workflows for model management.",
+      "source": "Blog"
+    },
+    {
+      "id": "81",
+      "title": "Deep Learning for Autonomous Vehicles",
+      "link": "https://www.youtube.com/watch?v=Q0nGo2-y0xY",
+      "description": "Applications of deep learning in self-driving cars. Covers perception, planning, and control systems.",
+      "source": "YouTube"
+    },
+    {
+      "id": "82",
+      "title": "Graph Neural Networks in Practice",
+      "link": "https://www.manning.com/books/graph-neural-networks-in-action",
+      "description": "Practical guide to implementing graph neural networks. Covers real-world applications and best practices.",
+      "source": "Book"
+    },
+    {
+      "id": "83",
+      "title": "Advanced Deep Learning",
+      "link": "https://www.coursera.org/specializations/advanced-machine-learning-tensorflow-gcp",
+      "description": "Advanced course on deep learning with TensorFlow. Covers cutting-edge architectures and techniques.",
+      "source": "Course"
+    },
+    {
+      "id": "84",
+      "title": "ML System Monitoring",
+      "link": "https://christophergs.com/machine-learning/2020/03/14/how-to-monitor-machine-learning-models/",
+      "description": "Comprehensive guide to monitoring ML systems in production. Covers metrics, alerting, and debugging.",
+      "source": "Blog"
+    },
+    {
+      "id": "85",
+      "title": "Deep Learning for Healthcare",
+      "link": "https://www.youtube.com/watch?v=UCQN1RX9x0k",
+      "description": "Applications of deep learning in healthcare. Covers medical diagnosis, drug discovery, and patient care.",
+      "source": "YouTube"
+    },
+    {
+      "id": "86",
+      "title": "Causal Machine Learning",
+      "link": "https://www.manning.com/books/causal-machine-learning",
+      "description": "Introduction to causality in machine learning. Covers causal inference, interventions, and counterfactuals.",
+      "source": "Book"
+    },
+    {
+      "id": "87",
+      "title": "Deep Learning for Time Series",
+      "link": "https://www.deeplearning.ai/courses/sequence-models/",
+      "description": "Course on applying deep learning to time series data. Covers RNNs, LSTMs, and attention mechanisms.",
+      "source": "Course"
+    },
+    {
+      "id": "88",
+      "title": "ML Data Pipeline Design",
+      "link": "https://towardsdatascience.com/data-pipelines-for-machine-learning-101-9f6d6a0f5935",
+      "description": "Guide to designing robust data pipelines for ML. Covers ETL, feature stores, and data quality.",
+      "source": "Blog"
+    },
+    {
+      "id": "89",
+      "title": "Deep Learning for Robotics",
+      "link": "https://www.youtube.com/watch?v=jAQJKQkIqXg",
+      "description": "Applications of deep learning in robotics. Covers perception, control, and reinforcement learning.",
+      "source": "YouTube"
+    },
+    {
+      "id": "90",
+      "title": "ML Model Interpretability",
+      "link": "https://christophm.github.io/interpretable-ml-book/",
+      "description": "Comprehensive guide to making ML models interpretable. Covers various techniques and tools.",
+      "source": "Book"
+    },
+    {
+      "id": "91",
+      "title": "Deep Learning for Signal Processing",
+      "link": "https://www.coursera.org/learn/deep-learning-signal-processing",
+      "description": "Course on applying deep learning to signal processing. Covers audio, radar, and sensor data analysis.",
+      "source": "Course"
+    },
+    {
+      "id": "92",
+      "title": "ML System Scalability",
+      "link": "https://engineering.fb.com/2016/05/09/core-data/introducing-fblearner-flow-facebook-s-ai-backbone/",
+      "description": "Facebook's approach to scaling ML systems. Covers infrastructure, pipelines, and distributed training.",
+      "source": "Blog"
+    },
+    {
+      "id": "93",
+      "title": "Deep Learning for Music Generation",
+      "link": "https://www.youtube.com/watch?v=NgUy3RHG86A",
+      "description": "Applications of deep learning in music generation. Covers sequence models, GANs, and audio synthesis.",
+      "source": "YouTube"
+    },
+    {
+      "id": "94",
+      "title": "Distributed Machine Learning",
+      "link": "https://www.oreilly.com/library/view/distributed-machine-learning/9781098120206/",
+      "description": "Guide to building distributed ML systems. Covers parallel training, model serving, and system design.",
+      "source": "Book"
+    },
+    {
+      "id": "95",
+      "title": "Deep Learning for Cybersecurity",
+      "link": "https://www.coursera.org/learn/ai-for-cybersecurity",
+      "description": "Course on applying deep learning to cybersecurity. Covers threat detection, anomaly detection, and defense.",
+      "source": "Course"
+    },
+    {
+      "id": "96",
+      "title": "ML Model Testing",
+      "link": "https://www.jeremyjordan.me/testing-ml/",
+      "description": "Comprehensive guide to testing ML models. Covers unit tests, integration tests, and validation strategies.",
+      "source": "Blog"
+    },
+    {
+      "id": "97",
+      "title": "Deep Learning for Natural Sciences",
+      "link": "https://www.youtube.com/watch?v=F1pm8B6KgBo",
+      "description": "Applications of deep learning in physics, chemistry, and biology. Covers scientific discovery and simulation.",
+      "source": "YouTube"
+    },
+    {
+      "id": "98",
+      "title": "ML Engineering at Scale",
+      "link": "https://www.amazon.com/Building-Machine-Learning-Powered-Applications/dp/149204511X/",
+      "description": "Guide to building and deploying ML applications at scale. Covers system design and best practices.",
+      "source": "Book"
+    },
+    {
+      "id": "99",
+      "title": "Deep Learning for Game AI",
+      "link": "https://www.udacity.com/course/artificial-intelligence-for-gaming--ud954",
+      "description": "Course on applying deep learning to game AI. Covers reinforcement learning, NPCs, and game strategies.",
+      "source": "Course"
+    },
+    {
+      "id": "100",
+      "title": "ML Model Governance",
+      "link": "https://towardsdatascience.com/model-governance-in-machine-learning-d5e7c85548b0",
+      "description": "Guide to implementing ML model governance. Covers compliance, documentation, and risk management.",
+      "source": "Blog"
+    },
+    {
+      "id": "101",
+      "title": "Deep Learning for AR/VR",
+      "link": "https://www.youtube.com/watch?v=RF5_1B3J4Po",
+      "description": "Applications of deep learning in augmented and virtual reality. Covers 3D perception, tracking, and rendering.",
+      "source": "YouTube"
+    },
+    {
+      "id": "102",
+      "title": "ML System Reliability",
+      "link": "https://www.oreilly.com/library/view/building-reliable-machine/9781492083283/",
+      "description": "Guide to building reliable ML systems. Covers testing, monitoring, and incident response.",
+      "source": "Book"
+    },
+    {
+      "id": "103",
+      "title": "Deep Learning for Quantum Computing",
+      "link": "https://qiskit.org/learn/course/machine-learning-quantum-computers",
+      "description": "Course on quantum machine learning. Covers quantum algorithms, hybrid systems, and applications.",
+      "source": "Course"
+    },
+    {
+      "id": "104",
+      "title": "ML Feature Stores",
+      "link": "https://www.tecton.ai/blog/what-is-a-feature-store/",
+      "description": "Guide to implementing feature stores for ML. Covers architecture, tools, and best practices.",
+      "source": "Blog"
+    },
+    {
+      "id": "105",
+      "title": "Deep Learning for Climate Science",
+      "link": "https://www.youtube.com/watch?v=Dp6q4Z_cUq4",
+      "description": "Applications of deep learning in climate science. Covers climate modeling, prediction, and impact assessment.",
+      "source": "YouTube"
+    },
+    {
+      "id": "106",
+      "title": "ML Model Security",
+      "link": "https://www.manning.com/books/machine-learning-security",
+      "description": "Guide to securing ML systems. Covers adversarial attacks, privacy, and defense mechanisms.",
+      "source": "Book"
+    },
+    {
+      "id": "107",
+      "title": "Deep Learning for Drug Discovery",
+      "link": "https://www.coursera.org/learn/ai-for-medicine",
+      "description": "Course on applying deep learning to drug discovery. Covers molecular modeling and drug design.",
+      "source": "Course"
+    },
+    {
+      "id": "108",
+      "title": "ML Infrastructure Design",
+      "link": "https://martinfowler.com/articles/ml-architecture-patterns.html",
+      "description": "Patterns for designing ML infrastructure. Covers scalability, reliability, and maintainability.",
+      "source": "Blog"
+    },
+    {
+      "id": "109",
+      "title": "Deep Learning for Space Exploration",
+      "link": "https://www.youtube.com/watch?v=XcHWLsVmHvk",
+      "description": "Applications of deep learning in space exploration. Covers satellite imagery, navigation, and discovery.",
+      "source": "YouTube"
+    },
+    {
+      "id": "110",
+      "title": "ML Ethics and Fairness",
+      "link": "https://www.amazon.com/Ethics-Data-Science-Mike-Loukides/dp/1492043898",
+      "description": "Guide to ethical considerations in ML. Covers bias, fairness, and responsible AI development.",
+      "source": "Book"
+    }
+  ]
+} 

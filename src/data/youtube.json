@@ -1,0 +1,704 @@
+{
+  "resources": [
+    {
+      "id": "yt1",
+      "title": "Natural Language Processing with Transformers",
+      "link": "https://www.youtube.com/watch?v=_eSGWNqKeeY",
+      "description": "Practical guide to using transformers for NLP tasks. Covers BERT, GPT, and their variants with code examples.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt2",
+      "title": "MIT Deep Learning Basics: Introduction and Overview",
+      "link": "https://www.youtube.com/watch?v=O5xeyoRL95U",
+      "description": "Comprehensive introduction to deep learning fundamentals by MIT researchers. Covers neural networks, optimization, and modern architectures with practical examples.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt3",
+      "title": "Deep Learning for Computer Vision",
+      "link": "https://www.youtube.com/watch?v=dJYGatp4SvA",
+      "description": "Comprehensive tutorial on computer vision with deep learning. Covers CNNs, object detection, segmentation, and modern architectures.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt4",
+      "title": "Deep Learning State of the Art",
+      "link": "https://www.youtube.com/watch?v=0VH1Lim8gL8",
+      "description": "Annual review of the latest breakthroughs in deep learning research and applications. Covers major trends and future directions.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt5",
+      "title": "Quantum Machine Learning",
+      "link": "https://www.youtube.com/watch?v=Lbndu5EIWvI",
+      "description": "Introduction to quantum computing applications in machine learning. Explores quantum algorithms, hardware, and potential advantages over classical methods.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt6",
+      "title": "Deep Reinforcement Learning",
+      "link": "https://www.youtube.com/watch?v=2pWv7GOvuf0",
+      "description": "David Silver's renowned course on deep reinforcement learning. Covers policy gradients, Q-learning, and advanced RL algorithms.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt7",
+      "title": "Graph Neural Networks",
+      "link": "https://www.youtube.com/watch?v=uF53xsT7mjc",
+      "description": "Comprehensive introduction to graph neural networks. Covers message passing, graph convolutions, and applications in various domains.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt8",
+      "title": "Deep Learning for Audio",
+      "link": "https://www.youtube.com/watch?v=fMqL5vckiU0",
+      "description": "Comprehensive tutorial on applying deep learning to audio processing. Covers spectrograms, audio classification, and speech recognition.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt9",
+      "title": "System Design Interview Series",
+      "link": "https://www.youtube.com/watch?v=bUHFg8CZFws",
+      "description": "Comprehensive series on system design interviews. Covers real-world examples like designing Twitter, Netflix, and other large-scale systems.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt10",
+      "title": "Advanced Algorithms (COMPSCI 224)",
+      "link": "https://www.youtube.com/watch?v=0JUN9aDxVmI",
+      "description": "Harvard's advanced algorithms course. Covers dynamic programming, network flow, and computational complexity theory.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt11",
+      "title": "Blockchain Technology Explained",
+      "link": "https://www.youtube.com/watch?v=SSo_EIwHSd4",
+      "description": "Deep dive into blockchain technology fundamentals. Covers consensus mechanisms, smart contracts, and decentralized applications.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt12",
+      "title": "Computer Graphics from Scratch",
+      "link": "https://www.youtube.com/watch?v=ih20l3pJoeU",
+      "description": "Building a 3D renderer from scratch. Covers ray tracing, rasterization, and computer graphics fundamentals.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt13",
+      "title": "Database Systems Course",
+      "link": "https://www.youtube.com/watch?v=4cWkVbC2bNE",
+      "description": "CMU's database systems course. Covers query optimization, transaction processing, and distributed databases.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt14",
+      "title": "Ethical Hacking Full Course",
+      "link": "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
+      "description": "Comprehensive guide to ethical hacking. Covers penetration testing, vulnerability assessment, and security tools.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt15",
+      "title": "Functional Programming in Haskell",
+      "link": "https://www.youtube.com/watch?v=Vgu82wiiZ90",
+      "description": "Introduction to functional programming using Haskell. Covers monads, type systems, and functional design patterns.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt16",
+      "title": "Game Development with Unity",
+      "link": "https://www.youtube.com/watch?v=pwZpJzpE2lQ",
+      "description": "Complete game development course using Unity. Covers 3D modeling, physics, and game mechanics implementation.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt17",
+      "title": "Hardware Architecture Design",
+      "link": "https://www.youtube.com/watch?v=zLP_X4wyHbY",
+      "description": "Advanced computer architecture course. Covers pipelining, cache design, and processor architecture.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt18",
+      "title": "iOS App Development",
+      "link": "https://www.youtube.com/watch?v=jbtqIBpUG7g",
+      "description": "Stanford's iOS development course. Covers Swift programming, UIKit, and iOS app architecture.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt19",
+      "title": "JavaScript Engine Internals",
+      "link": "https://www.youtube.com/watch?v=p-iiEDtpy6I",
+      "description": "Deep dive into V8 JavaScript engine. Covers JIT compilation, garbage collection, and optimization techniques.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt20",
+      "title": "Kubernetes Master Class",
+      "link": "https://www.youtube.com/watch?v=PH-2FfFD2PU",
+      "description": "Advanced Kubernetes concepts and patterns. Covers service mesh, operators, and custom controllers.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt21",
+      "title": "Linux Kernel Programming",
+      "link": "https://www.youtube.com/watch?v=LLBrBBImJt4",
+      "description": "Guide to Linux kernel development. Covers device drivers, kernel modules, and system calls.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt22",
+      "title": "Machine Learning Engineering",
+      "link": "https://www.youtube.com/watch?v=fu_jxBQQ3g4",
+      "description": "Best practices for deploying ML models in production. Covers model serving, monitoring, and scaling.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt23",
+      "title": "Network Security Fundamentals",
+      "link": "https://www.youtube.com/watch?v=E03gh1huvW4",
+      "description": "Comprehensive network security course. Covers firewalls, IDS/IPS, and security protocols.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt24",
+      "title": "Operating Systems Design",
+      "link": "https://www.youtube.com/watch?v=hry_qqXLej8",
+      "description": "Berkeley's operating systems course. Covers process management, file systems, and memory management.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt25",
+      "title": "Python for Data Science",
+      "link": "https://www.youtube.com/watch?v=WFr2WgN9_xE",
+      "description": "Advanced Python techniques for data science. Covers NumPy, Pandas, and scientific computing.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt26",
+      "title": "Quantum Computing Lectures",
+      "link": "https://www.youtube.com/watch?v=F_Riqjdh2oM",
+      "description": "Introduction to quantum computing principles. Covers quantum circuits, algorithms, and programming.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt27",
+      "title": "Rust Programming Language",
+      "link": "https://www.youtube.com/watch?v=5C_HPTJg5ek",
+      "description": "Comprehensive Rust programming course. Covers ownership, concurrency, and systems programming.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt28",
+      "title": "Web Security Academy",
+      "link": "https://www.youtube.com/watch?v=HGaFCcWM57U",
+      "description": "Advanced web security concepts. Covers XSS, CSRF, and other common web vulnerabilities.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt29",
+      "title": "Advanced Algorithms and Data Structures",
+      "link": "https://www.youtube.com/watch?v=0JUN9aDxVmI",
+      "description": "MIT's advanced algorithms course. Covers complex data structures, graph algorithms, and optimization techniques.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt30",
+      "title": "Bioinformatics Programming",
+      "link": "https://www.youtube.com/watch?v=P2TtQYK4eN4",
+      "description": "Programming for biological data analysis. Covers sequence analysis, phylogenetics, and structural bioinformatics.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt31",
+      "title": "Cloud Native Architecture",
+      "link": "https://www.youtube.com/watch?v=3UL1gppFMkg",
+      "description": "Design patterns for cloud-native applications. Covers microservices, containerization, and service mesh.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt32",
+      "title": "Distributed Systems Engineering",
+      "link": "https://www.youtube.com/watch?v=cQP8WApzIQQ",
+      "description": "MIT's distributed systems course. Covers consensus algorithms, fault tolerance, and distributed storage.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt33",
+      "title": "Embedded Linux Development",
+      "link": "https://www.youtube.com/watch?v=9vsu67uMcko",
+      "description": "Building embedded Linux systems. Covers bootloaders, device drivers, and real-time extensions.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt34",
+      "title": "Formal Verification Methods",
+      "link": "https://www.youtube.com/watch?v=dqwGwxHZKVg",
+      "description": "Introduction to formal verification. Covers model checking, theorem proving, and program verification.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt35",
+      "title": "GPU Architecture and Programming",
+      "link": "https://www.youtube.com/watch?v=7mCk_d5HF_A",
+      "description": "Advanced GPU programming concepts. Covers CUDA optimization, memory hierarchy, and parallel patterns.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt36",
+      "title": "Hardware Security",
+      "link": "https://www.youtube.com/watch?v=sL1I4OkP9e8",
+      "description": "Security aspects of hardware design. Covers side-channel attacks, secure boot, and hardware trojans.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt37",
+      "title": "Information Theory",
+      "link": "https://www.youtube.com/watch?v=UrefKMSEuAI",
+      "description": "Stanford's information theory course. Covers entropy, coding theory, and data compression.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt38",
+      "title": "Julia Programming Language",
+      "link": "https://www.youtube.com/watch?v=4igzy3bGVkQ",
+      "description": "Advanced Julia programming techniques. Covers multiple dispatch, metaprogramming, and performance optimization.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt39",
+      "title": "Knowledge Graph Construction",
+      "link": "https://www.youtube.com/watch?v=pCq7g2pVgdY",
+      "description": "Building and querying knowledge graphs. Covers RDF, SPARQL, and ontology design.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt40",
+      "title": "Low Latency Systems",
+      "link": "https://www.youtube.com/watch?v=NH1Tta7purM",
+      "description": "Design and implementation of low latency systems. Covers FPGA programming, network optimization, and real-time processing.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt41",
+      "title": "Machine Learning Compilers",
+      "link": "https://www.youtube.com/watch?v=qTHGDGwcxWY",
+      "description": "Building ML compilers and optimizers. Covers TVM, MLIR, and hardware acceleration.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt42",
+      "title": "Network Protocol Design",
+      "link": "https://www.youtube.com/watch?v=QOtA76ga_fY",
+      "description": "Designing network protocols. Covers protocol verification, performance analysis, and implementation.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt43",
+      "title": "Operating System Security",
+      "link": "https://www.youtube.com/watch?v=fqUy118FVZI",
+      "description": "Security aspects of operating systems. Covers access control, isolation mechanisms, and secure boot.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt44",
+      "title": "Program Synthesis",
+      "link": "https://www.youtube.com/watch?v=_O7FSgyQ1AY",
+      "description": "Automated program synthesis techniques. Covers sketching, verification, and program repair.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt45",
+      "title": "Quantum Error Correction",
+      "link": "https://www.youtube.com/watch?v=LKmBxYHs2Tc",
+      "description": "Error correction in quantum computing. Covers stabilizer codes, surface codes, and fault tolerance.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt46",
+      "title": "Real-time Operating Systems",
+      "link": "https://www.youtube.com/watch?v=F321087yYy4",
+      "description": "Design and implementation of RTOS. Covers scheduling, interrupt handling, and resource management.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt47",
+      "title": "Secure Hardware Design",
+      "link": "https://www.youtube.com/watch?v=YzPky5hKHIM",
+      "description": "Hardware security architecture. Covers trusted execution environments, secure enclaves, and hardware attacks.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt48",
+      "title": "Tensor Computation",
+      "link": "https://www.youtube.com/watch?v=kjBOesZCoqc",
+      "description": "Advanced tensor computation methods. Covers tensor networks, automatic differentiation, and optimization.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt49",
+      "title": "UNIX System Programming",
+      "link": "https://www.youtube.com/watch?v=fS0aw2kXXyg",
+      "description": "Advanced UNIX programming. Covers system calls, signals, and interprocess communication.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt50",
+      "title": "Virtual Machine Implementation",
+      "link": "https://www.youtube.com/watch?v=FnGCDLhaxKU",
+      "description": "Building virtual machines from scratch. Covers bytecode interpretation, JIT compilation, and garbage collection.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt51",
+      "title": "WebAssembly Deep Dive",
+      "link": "https://www.youtube.com/watch?v=HktWin_LPf4",
+      "description": "Advanced WebAssembly concepts. Covers memory model, threading, and performance optimization.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt52",
+      "title": "XR Development Fundamentals",
+      "link": "https://www.youtube.com/watch?v=2IeMxfnzgZ4",
+      "description": "Extended reality development. Covers AR/VR systems, spatial computing, and interaction design.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt53",
+      "title": "YAML and Configuration",
+      "link": "https://www.youtube.com/watch?v=cdLNKUoMc6c",
+      "description": "Advanced YAML usage and configuration management. Covers schema validation and infrastructure as code.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt54",
+      "title": "Zero Knowledge Protocols",
+      "link": "https://www.youtube.com/watch?v=HUs1bH85X9I",
+      "description": "Implementation of zero-knowledge protocols. Covers SNARKs, STARKs, and privacy-preserving systems.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt55",
+      "title": "Advanced Computer Graphics",
+      "link": "https://www.youtube.com/watch?v=8u5j5vphPXY",
+      "description": "Modern computer graphics techniques. Covers ray tracing, global illumination, and real-time rendering.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt56",
+      "title": "Blockchain Scalability",
+      "link": "https://www.youtube.com/watch?v=9PyBBoDnMs",
+      "description": "Scaling solutions for blockchain systems. Covers layer 2 protocols, sharding, and state channels.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt57",
+      "title": "Compiler Optimization",
+      "link": "https://www.youtube.com/watch?v=5_Y3kc_lfXc",
+      "description": "Advanced compiler optimization techniques. Covers SSA form, loop optimization, and vectorization.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt58",
+      "title": "Database Engine Design",
+      "link": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+      "description": "Building a database engine from scratch. Covers storage engines, query optimization, and concurrency control.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt59",
+      "title": "Edge Computing Systems",
+      "link": "https://www.youtube.com/watch?v=cEOUeJR4m4s",
+      "description": "Design and implementation of edge computing systems. Covers distributed processing and edge AI.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt60",
+      "title": "Functional Language Implementation",
+      "link": "https://www.youtube.com/watch?v=8_U1yWr3xa0",
+      "description": "Implementing functional programming languages. Covers lambda calculus, type systems, and runtime systems.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt61",
+      "title": "Game Engine Architecture",
+      "link": "https://www.youtube.com/watch?v=JxI3Eu5DPwE",
+      "description": "Modern game engine design. Covers rendering systems, physics engines, and asset management.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt62",
+      "title": "High Performance Computing",
+      "link": "https://www.youtube.com/watch?v=eDmaJsXK_qs",
+      "description": "Advanced HPC concepts. Covers parallel algorithms, cluster computing, and performance optimization.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt63",
+      "title": "IoT Systems Design",
+      "link": "https://www.youtube.com/watch?v=h0gWfVCSGQQ",
+      "description": "Building IoT systems. Covers sensor networks, data collection, and edge processing.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt64",
+      "title": "Just-In-Time Compilation",
+      "link": "https://www.youtube.com/watch?v=d8kCdLCi6Lk",
+      "description": "JIT compiler implementation. Covers dynamic optimization, profiling, and code generation.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt65",
+      "title": "Kernel Development",
+      "link": "https://www.youtube.com/watch?v=LVQd22tTgTU",
+      "description": "Linux kernel development. Covers device drivers, kernel modules, and debugging techniques.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt66",
+      "title": "Language Virtual Machines",
+      "link": "https://www.youtube.com/watch?v=UJPdhx5zTaw",
+      "description": "Building language VMs. Covers bytecode interpretation, memory management, and optimization.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt67",
+      "title": "Machine Learning Systems",
+      "link": "https://www.youtube.com/watch?v=uapdILWYTzE",
+      "description": "Building production ML systems. Covers model serving, monitoring, and scaling.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt68",
+      "title": "Network Programming",
+      "link": "https://www.youtube.com/watch?v=FGdiSJakIS4",
+      "description": "Advanced network programming. Covers socket programming, protocols, and network security.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt69",
+      "title": "Operating System Design",
+      "link": "https://www.youtube.com/watch?v=HfzAuAp1TuI",
+      "description": "Building an operating system. Covers process management, memory management, and file systems.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt70",
+      "title": "Parallel Programming",
+      "link": "https://www.youtube.com/watch?v=F6Ipn7gCOsY",
+      "description": "Advanced parallel programming concepts. Covers threading models, synchronization, and parallel algorithms.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt71",
+      "title": "Quantum Computing Basics",
+      "link": "https://www.youtube.com/watch?v=F_Riqjdh2oM",
+      "description": "Introduction to quantum computing. Covers quantum circuits, algorithms, and programming frameworks.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt72",
+      "title": "Reverse Engineering",
+      "link": "https://www.youtube.com/watch?v=75gBFiFtAb8",
+      "description": "Software reverse engineering techniques. Covers disassembly, debugging, and malware analysis.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt73",
+      "title": "Secure Coding Practices",
+      "link": "https://www.youtube.com/watch?v=2RmDyXUEgZw",
+      "description": "Writing secure code. Covers common vulnerabilities, secure design patterns, and testing.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt74",
+      "title": "System Design",
+      "link": "https://www.youtube.com/watch?v=ZgdS0EUmn70",
+      "description": "Large-scale system design. Covers scalability, reliability, and distributed systems.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt75",
+      "title": "Type Theory",
+      "link": "https://www.youtube.com/watch?v=zmYnZDzn8Fg",
+      "description": "Advanced type theory concepts. Covers type systems, dependent types, and formal verification.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt76",
+      "title": "UI/UX Design Patterns",
+      "link": "https://www.youtube.com/watch?v=Nj6F4EQnVh8",
+      "description": "Modern UI/UX design patterns. Covers accessibility, responsive design, and user testing.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt77",
+      "title": "Virtual Reality Development",
+      "link": "https://www.youtube.com/watch?v=2IeMxfnzgZ4",
+      "description": "VR application development. Covers 3D graphics, interaction design, and performance optimization.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt78",
+      "title": "Web Security",
+      "link": "https://www.youtube.com/watch?v=HGaFCcWM57U",
+      "description": "Advanced web security concepts. Covers common vulnerabilities, secure architecture, and testing.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt79",
+      "title": "Advanced Algorithmic Trading",
+      "link": "https://www.youtube.com/watch?v=u5jw5jS3znA",
+      "description": "Building algorithmic trading systems. Covers market microstructure and execution algorithms.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt80",
+      "title": "Biometric Security Systems",
+      "link": "https://www.youtube.com/watch?v=k8P2PK_wsjk",
+      "description": "Implementation of biometric authentication. Covers fingerprint, facial recognition, and iris scanning.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt81",
+      "title": "Cloud Native Security",
+      "link": "https://www.youtube.com/watch?v=n9n2yQjZ9Nk",
+      "description": "Security in cloud-native applications. Covers container security and service mesh protection.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt82",
+      "title": "Digital Signal Processing",
+      "link": "https://www.youtube.com/watch?v=rF2Yb_a9bTw",
+      "description": "Advanced DSP concepts. Covers filter design, spectral analysis, and real-time processing.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt83",
+      "title": "Embedded Systems Security",
+      "link": "https://www.youtube.com/watch?v=pK_dj2mRzrk",
+      "description": "Security in embedded systems. Covers secure boot, trusted execution, and side-channel protection.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt84",
+      "title": "FPGA Programming",
+      "link": "https://www.youtube.com/watch?v=lLg1AgA2Xoo",
+      "description": "Hardware design with FPGAs. Covers VHDL, Verilog, and hardware acceleration.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt85",
+      "title": "Game Physics Engine",
+      "link": "https://www.youtube.com/watch?v=3Oay1YxkP5c",
+      "description": "Building a physics engine for games. Covers collision detection and rigid body dynamics.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt86",
+      "title": "Hardware Verification",
+      "link": "https://www.youtube.com/watch?v=q7C0_m5L8Zs",
+      "description": "Verification of hardware designs. Covers formal methods and simulation-based testing.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt87",
+      "title": "Information Retrieval Systems",
+      "link": "https://www.youtube.com/watch?v=kNkCwEg3qX4",
+      "description": "Building search engines. Covers indexing, ranking, and query processing.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt88",
+      "title": "Kernel Development Advanced",
+      "link": "https://www.youtube.com/watch?v=tJ0f_B5SYiw",
+      "description": "Advanced Linux kernel development. Covers memory management and device drivers.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt89",
+      "title": "Low Latency Networking",
+      "link": "https://www.youtube.com/watch?v=6w_E5MZj0pY",
+      "description": "High-performance networking. Covers kernel bypass and network stack optimization.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt90",
+      "title": "Machine Learning Systems Design",
+      "link": "https://www.youtube.com/watch?v=c_AUuTuPA5k",
+      "description": "Designing production ML systems. Covers feature stores and model serving infrastructure.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt91",
+      "title": "Network Function Virtualization",
+      "link": "https://www.youtube.com/watch?v=Vm_H7Jl8Rcw",
+      "description": "NFV architecture and implementation. Covers virtual network functions and service chaining.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt92",
+      "title": "Operating System Boot Process",
+      "link": "https://www.youtube.com/watch?v=3eexVq1q3vY",
+      "description": "Deep dive into OS boot sequence. Covers bootloaders and kernel initialization.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt93",
+      "title": "Processor Architecture Design",
+      "link": "https://www.youtube.com/watch?v=zLP_X4wyHbY",
+      "description": "CPU architecture and design. Covers pipelining, out-of-order execution, and cache systems.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt94",
+      "title": "Quantum Computing Hardware",
+      "link": "https://www.youtube.com/watch?v=Lbndu5EIWvI",
+      "description": "Hardware implementation of quantum computers. Covers qubit design and control systems.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt95",
+      "title": "Real-time Operating Systems",
+      "link": "https://www.youtube.com/watch?v=F321087yYy4",
+      "description": "RTOS implementation details. Covers scheduling and interrupt handling.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt96",
+      "title": "Software Defined Radio",
+      "link": "https://www.youtube.com/watch?v=tG8JaNzqVxE",
+      "description": "Building SDR applications. Covers signal processing and protocol implementation.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt97",
+      "title": "Trusted Platform Modules",
+      "link": "https://www.youtube.com/watch?v=7sJw6eo0Jk8",
+      "description": "TPM implementation and usage. Covers secure storage and remote attestation.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt98",
+      "title": "UEFI Development",
+      "link": "https://www.youtube.com/watch?v=V2QMiGn7DnE",
+      "description": "UEFI firmware development. Covers boot services and runtime services.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt99",
+      "title": "Virtual Reality Systems",
+      "link": "https://www.youtube.com/watch?v=2IeMxfnzgZ4",
+      "description": "VR system architecture. Covers tracking systems and rendering optimization.",
+      "source": "YouTube"
+    },
+    {
+      "id": "yt100",
+      "title": "Zero Knowledge Systems",
+      "link": "https://www.youtube.com/watch?v=HUs1bH85X9I",
+      "description": "Building zero-knowledge systems. Covers ZK-SNARKs and privacy protocols.",
+      "source": "YouTube"
+    }
+  ]
+} 

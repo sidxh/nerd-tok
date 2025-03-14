@@ -1,0 +1,704 @@
+{
+  "resources": [
+    {
+      "id": "blog1",
+      "title": "Distill: Machine Learning Research",
+      "link": "https://distill.pub/",
+      "description": "Clear, interactive explanations of machine learning concepts and research papers. Features beautiful visualizations and in-depth technical content.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog2",
+      "title": "The Batch by DeepLearning.AI",
+      "link": "https://www.deeplearning.ai/the-batch/",
+      "description": "Weekly newsletter covering the latest developments in AI, including research breakthroughs, industry applications, and ethical considerations.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog3",
+      "title": "Andrej Karpathy's Blog",
+      "link": "http://karpathy.github.io/",
+      "description": "Insightful posts on deep learning, neural networks, and AI from Tesla's former AI director. Includes code implementations and tutorials.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog4",
+      "title": "Machine Learning Systems Design",
+      "link": "https://github.com/chiphuyen/machine-learning-systems-design",
+      "description": "Comprehensive guide to designing large-scale machine learning systems. Includes case studies and interview preparation materials.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog5",
+      "title": "JAX: Accelerated Machine Learning",
+      "link": "https://jax.readthedocs.io/en/latest/notebooks/quickstart.html",
+      "description": "Learn to use JAX for high-performance machine learning research. Covers automatic differentiation, vectorization, and parallel processing.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog6",
+      "title": "Transformers from Scratch",
+      "link": "http://peterbloem.nl/blog/transformers",
+      "description": "Step-by-step guide to building transformer models from scratch. Includes detailed explanations and PyTorch implementation.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog7",
+      "title": "ML Model Monitoring",
+      "link": "https://neptune.ai/blog/ml-model-monitoring",
+      "description": "Comprehensive guide to monitoring ML models in production. Covers metrics, alerts, and debugging strategies.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog8",
+      "title": "ML Infrastructure Design",
+      "link": "https://martinfowler.com/articles/ml-architecture-patterns.html",
+      "description": "Patterns for designing ML infrastructure. Covers scalability, reliability, and maintainability.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog9",
+      "title": "High Scalability",
+      "link": "http://highscalability.com/",
+      "description": "In-depth analysis of how popular websites and services are built to scale. Features detailed system design case studies and architecture breakdowns.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog10",
+      "title": "Blockchain at Berkeley",
+      "link": "https://blockchain.berkeley.edu/blog/",
+      "description": "Technical deep dives into blockchain technology, smart contracts, and cryptographic protocols. Includes implementation details and security considerations.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog11",
+      "title": "Trail of Bits Blog",
+      "link": "https://blog.trailofbits.com/",
+      "description": "Expert analysis of cybersecurity vulnerabilities, reverse engineering, and secure system design. Features technical write-ups of real-world security incidents.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog12",
+      "title": "Distributed Systems for Fun and Profit",
+      "link": "http://book.mixu.net/distsys/",
+      "description": "Comprehensive guide to distributed systems theory and practice. Covers consensus algorithms, fault tolerance, and real-world implementations.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog13",
+      "title": "Project Zero",
+      "link": "https://googleprojectzero.blogspot.com/",
+      "description": "Google's security research blog detailing zero-day vulnerabilities, exploit techniques, and defensive measures. Includes detailed technical analysis.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog14",
+      "title": "Computer Architecture Today",
+      "link": "https://www.sigarch.org/blog/",
+      "description": "Expert discussions on modern computer architecture, hardware design, and performance optimization. Features contributions from leading researchers.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog15",
+      "title": "The Morning Paper",
+      "link": "https://blog.acolyer.org/",
+      "description": "Daily deep dives into computer science research papers. Covers distributed systems, databases, AI, and more with accessible explanations.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog16",
+      "title": "Compiler Design",
+      "link": "https://www.cs.cornell.edu/courses/cs6120/2020fa/blog/",
+      "description": "Advanced topics in compiler optimization, static analysis, and program transformation. Features practical implementations and case studies.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog17",
+      "title": "Cryptography Engineering",
+      "link": "https://blog.cryptographyengineering.com/",
+      "description": "Deep technical analysis of cryptographic protocols, security vulnerabilities, and best practices. Written by leading cryptography researchers.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog18",
+      "title": "Database Internals",
+      "link": "https://databaseinternals.com/",
+      "description": "Detailed exploration of database system design, including storage engines, query optimization, and transaction processing.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog19",
+      "title": "Operating Systems: Three Easy Pieces",
+      "link": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "description": "Comprehensive guide to operating system concepts, including virtualization, concurrency, and persistence. Features practical examples and exercises.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog20",
+      "title": "Quantum Computing Explained",
+      "link": "https://quantum.country/",
+      "description": "Interactive essays on quantum computing fundamentals, algorithms, and applications. Uses spaced repetition for effective learning.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog21",
+      "title": "System Design Primer",
+      "link": "https://github.com/donnemartin/system-design-primer",
+      "description": "Comprehensive resource for large-scale system design. Covers scalability, load balancing, caching, and real-world architecture examples.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog22",
+      "title": "Real-world Cryptography",
+      "link": "https://www.real-world-crypto.com/blog",
+      "description": "Practical applications of cryptography in modern systems. Covers protocols, implementations, and common security pitfalls.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog23",
+      "title": "Reinforcement Learning Blog",
+      "link": "https://lilianweng.github.io/lil-log/",
+      "description": "Deep technical posts on reinforcement learning algorithms, architectures, and applications. Includes mathematical derivations and code examples.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog24",
+      "title": "Computer Networks: A Systems Approach",
+      "link": "https://book.systemsapproach.org/",
+      "description": "Detailed exploration of computer networking principles, protocols, and architectures. Features practical examples and implementation details.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog25",
+      "title": "Machine Learning Systems at Scale",
+      "link": "https://stanford-cs329s.github.io/",
+      "description": "Comprehensive guide to building and deploying ML systems at scale. Covers infrastructure, monitoring, and production best practices.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog26",
+      "title": "Zero Knowledge Proofs",
+      "link": "https://zkp.science/",
+      "description": "Technical deep dive into zero-knowledge proof systems, their applications in blockchain, and implementation considerations.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog27",
+      "title": "Embedded Systems Programming",
+      "link": "https://embedded.fm/blog",
+      "description": "Practical guide to embedded systems development, real-time operating systems, and hardware interfaces. Includes case studies and best practices.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog28",
+      "title": "Software Performance Engineering",
+      "link": "https://calendar.perfplanet.com/",
+      "description": "Advanced topics in software performance optimization, profiling, and benchmarking. Features contributions from performance experts.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog29",
+      "title": "Algorithms to Live By",
+      "link": "https://algorithmstoliveby.com/",
+      "description": "Practical applications of computer science algorithms in everyday life. Explores optimization, scheduling, and decision-making strategies.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog30",
+      "title": "Cloud Architecture Patterns",
+      "link": "https://aws.amazon.com/architecture/",
+      "description": "Best practices and design patterns for cloud-native applications. Features real-world case studies from AWS solutions architects.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog31",
+      "title": "Functional Programming Patterns",
+      "link": "https://fsharpforfunandprofit.com/",
+      "description": "Comprehensive guide to functional programming concepts and patterns. Includes practical examples in F# and other functional languages.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog32",
+      "title": "Game Engine Architecture",
+      "link": "https://www.gameenginebook.com/blog/",
+      "description": "Deep dive into modern game engine design, rendering techniques, and performance optimization. Features code examples and case studies.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog33",
+      "title": "Hardware Security Lab",
+      "link": "https://securehardware.org/",
+      "description": "Research and analysis of hardware security vulnerabilities, side-channel attacks, and hardware-based defenses.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog34",
+      "title": "Internet Protocol Design",
+      "link": "https://ipdesign.io/",
+      "description": "Technical exploration of internet protocols, network architecture, and protocol design principles. Includes RFCs and implementation details.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog35",
+      "title": "Julia for Data Science",
+      "link": "https://juliafordatascience.com/",
+      "description": "Advanced techniques for scientific computing and data analysis using Julia. Covers performance optimization and parallel computing.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog36",
+      "title": "Kubernetes Patterns",
+      "link": "https://kubernetes.io/blog/",
+      "description": "Design patterns and best practices for container orchestration with Kubernetes. Includes real-world deployment scenarios.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog37",
+      "title": "Language Implementation Patterns",
+      "link": "https://craftinginterpreters.com/",
+      "description": "Step-by-step guide to implementing programming languages. Covers lexing, parsing, and virtual machine design.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog38",
+      "title": "Memory Management Deep Dive",
+      "link": "https://deepu.tech/memory-management-in-programming/",
+      "description": "Comprehensive analysis of memory management techniques in different programming languages and runtime environments.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog39",
+      "title": "Neural Network Architectures",
+      "link": "https://colah.github.io/",
+      "description": "Visual explanations of neural network architectures and deep learning concepts. Features interactive demonstrations.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog40",
+      "title": "Operating System Development",
+      "link": "https://os.phil-opp.com/",
+      "description": "Tutorial series on writing an operating system in Rust. Covers bootloader development, memory management, and device drivers.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog41",
+      "title": "Privacy Engineering",
+      "link": "https://privacypatterns.org/",
+      "description": "Design patterns and best practices for building privacy-preserving systems. Includes legal compliance considerations.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog42",
+      "title": "Quantum Algorithm Zoo",
+      "link": "https://quantumalgorithmzoo.org/",
+      "description": "Comprehensive catalog of quantum algorithms and their applications. Includes complexity analysis and implementation considerations.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog43",
+      "title": "Reverse Engineering Tools",
+      "link": "https://reverse.put.as/",
+      "description": "Techniques and tools for software reverse engineering. Covers disassembly, debugging, and malware analysis.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog44",
+      "title": "Secure Software Design",
+      "link": "https://www.securecoding.cert.org/",
+      "description": "Guidelines and patterns for developing secure software. Covers common vulnerabilities and mitigation strategies.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog45",
+      "title": "Time Series Analysis",
+      "link": "https://www.timeseriesanalysis.com/",
+      "description": "Advanced techniques for analyzing and forecasting time series data. Includes statistical methods and deep learning approaches.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog46",
+      "title": "UI/UX Engineering",
+      "link": "https://www.designsystems.com/",
+      "description": "Best practices for building scalable design systems and user interfaces. Includes accessibility and performance considerations.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog47",
+      "title": "WebAssembly Weekly",
+      "link": "https://wasmweekly.news/",
+      "description": "Latest developments in WebAssembly technology, tools, and applications. Includes performance benchmarks and case studies.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog48",
+      "title": "Zero Trust Security",
+      "link": "https://zerotrust.cyber.gov/",
+      "description": "Comprehensive guide to implementing zero trust security architecture. Covers identity management, network segmentation, and access control.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog49",
+      "title": "Advanced Data Structures",
+      "link": "https://www.cs.cmu.edu/~rwh/courses/ds/",
+      "description": "Deep dive into advanced data structures and their applications. Covers persistent data structures, probabilistic data structures, and concurrent data structures.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog50",
+      "title": "Bioinformatics Algorithms",
+      "link": "https://bioinformaticsalgorithms.com/",
+      "description": "Computational methods for analyzing biological data. Covers sequence alignment, genome assembly, and protein structure prediction.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog51",
+      "title": "Computer Vision Weekly",
+      "link": "https://www.computervisionblog.com/",
+      "description": "Latest developments in computer vision research and applications. Covers object detection, image segmentation, and 3D reconstruction.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog52",
+      "title": "Distributed Database Systems",
+      "link": "https://dbmsmusings.blogspot.com/",
+      "description": "In-depth analysis of distributed database systems. Covers consistency models, replication strategies, and distributed transactions.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog53",
+      "title": "Edge Computing Architecture",
+      "link": "https://edgecomputing.blog/",
+      "description": "Design patterns and best practices for edge computing. Covers latency optimization, data privacy, and deployment strategies.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog54",
+      "title": "Formal Methods in Software",
+      "link": "https://fmie.science/",
+      "description": "Application of formal methods in software development. Covers theorem proving, model checking, and formal verification.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog55",
+      "title": "GPU Programming Guide",
+      "link": "https://gpgpu-computing.blogspot.com/",
+      "description": "Advanced techniques for GPU programming. Covers CUDA, OpenCL, and parallel algorithm optimization.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog56",
+      "title": "High Frequency Trading",
+      "link": "https://mechanicalmarkets.wordpress.com/",
+      "description": "Technical aspects of high-frequency trading systems. Covers low-latency architectures, market microstructure, and algorithmic trading.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog57",
+      "title": "IoT Security Research",
+      "link": "https://iotsecurity.blog/",
+      "description": "Security challenges and solutions in IoT systems. Covers device authentication, secure communication, and vulnerability analysis.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog58",
+      "title": "JVM Internals",
+      "link": "https://blog.jamesdbloom.com/",
+      "description": "Deep dive into Java Virtual Machine internals. Covers garbage collection, JIT compilation, and performance tuning.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog59",
+      "title": "Knowledge Graph Engineering",
+      "link": "https://kgengineering.org/",
+      "description": "Building and maintaining knowledge graphs. Covers ontology design, graph algorithms, and semantic web technologies.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog60",
+      "title": "LLVM Compiler Infrastructure",
+      "link": "https://llvmblog.org/",
+      "description": "Development and optimization using LLVM. Covers intermediate representation, optimization passes, and backend generation.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog61",
+      "title": "Machine Learning Systems Design",
+      "link": "https://mlsystemsdesign.com/",
+      "description": "Architectural patterns for ML systems. Covers feature stores, model serving, and online learning systems.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog62",
+      "title": "Network Protocol Analysis",
+      "link": "https://netprotocols.blogspot.com/",
+      "description": "Deep dive into network protocols. Covers TCP/IP internals, protocol design, and network debugging.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog63",
+      "title": "Operating System Internals",
+      "link": "https://osinternal.blogspot.com/",
+      "description": "Low-level details of operating systems. Covers process scheduling, memory management, and system calls.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog64",
+      "title": "Program Analysis Techniques",
+      "link": "https://programanalysis.com/",
+      "description": "Static and dynamic program analysis methods. Covers abstract interpretation, symbolic execution, and bug finding.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog65",
+      "title": "Quantum Error Correction",
+      "link": "https://quantumerror.blog/",
+      "description": "Error correction in quantum computing. Covers stabilizer codes, surface codes, and fault-tolerant quantum computation.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog66",
+      "title": "Real-time Systems Design",
+      "link": "https://realtimesystems.org/",
+      "description": "Design and implementation of real-time systems. Covers scheduling algorithms, timing analysis, and embedded systems.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog67",
+      "title": "Secure Hardware Design",
+      "link": "https://securehw.blog/",
+      "description": "Hardware security architecture and design. Covers trusted execution environments, secure boot, and hardware attacks.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog68",
+      "title": "Tensor Computing",
+      "link": "https://tensorcomputing.ai/",
+      "description": "Advanced tensor computation techniques. Covers tensor networks, automatic differentiation, and hardware acceleration.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog69",
+      "title": "UNIX System Programming",
+      "link": "https://unixprogramming.com/",
+      "description": "Advanced UNIX programming concepts. Covers system calls, IPC mechanisms, and daemon processes.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog70",
+      "title": "Virtualization Technology",
+      "link": "https://virtualization.blog/",
+      "description": "Deep dive into virtualization technologies. Covers hypervisors, containers, and cloud infrastructure.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog71",
+      "title": "WebAssembly Systems",
+      "link": "https://wasmsystems.dev/",
+      "description": "Building systems with WebAssembly. Covers WASI, runtime optimization, and cross-platform development.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog72",
+      "title": "XR Development",
+      "link": "https://xrdev.blog/",
+      "description": "Extended reality development techniques. Covers AR/VR systems, spatial computing, and immersive interfaces.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog73",
+      "title": "Yaml Engineering",
+      "link": "https://yamlguide.info/",
+      "description": "Best practices for YAML configuration. Covers schema validation, templating, and infrastructure as code.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog74",
+      "title": "Zero-Knowledge Systems",
+      "link": "https://zkresearch.xyz/",
+      "description": "Implementation of zero-knowledge proof systems. Covers SNARKs, STARKs, and privacy-preserving protocols.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog75",
+      "title": "API Design Patterns",
+      "link": "https://apidesignpatterns.dev/",
+      "description": "Best practices for designing APIs. Covers RESTful design, GraphQL, and API versioning strategies.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog76",
+      "title": "Browser Engine Internals",
+      "link": "https://browserengineering.com/",
+      "description": "Deep dive into browser engine architecture. Covers rendering engines, JavaScript engines, and web standards.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog77",
+      "title": "Computational Geometry",
+      "link": "https://compgeom.com/",
+      "description": "Algorithms in computational geometry. Covers convex hulls, Voronoi diagrams, and geometric data structures.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog78",
+      "title": "Distributed ML Systems",
+      "link": "https://distributedml.ai/",
+      "description": "Building distributed machine learning systems. Covers parameter servers, federated learning, and distributed training.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog79",
+      "title": "Algorithmic Game Theory",
+      "link": "https://algorithmicgametheory.org/",
+      "description": "Mathematical foundations of game theory in computer science. Covers mechanism design and economic algorithms.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog80",
+      "title": "Biomedical Image Analysis",
+      "link": "https://biomedicalimagingblog.com/",
+      "description": "Advanced techniques in medical image processing. Covers segmentation, registration, and deep learning applications.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog81",
+      "title": "Cryptographic Engineering",
+      "link": "https://cryptoengineering.org/",
+      "description": "Implementation aspects of cryptographic systems. Covers secure protocols and hardware security modules.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog82",
+      "title": "Data Center Architecture",
+      "link": "https://datacenterarchitecture.com/",
+      "description": "Modern data center design principles. Covers networking, power management, and cooling systems.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog83",
+      "title": "Embedded Vision Systems",
+      "link": "https://embeddedvision.org/",
+      "description": "Computer vision on embedded devices. Covers hardware acceleration and optimization techniques.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog84",
+      "title": "Formal Language Theory",
+      "link": "https://formallanguages.com/",
+      "description": "Theoretical foundations of programming languages. Covers automata theory and formal semantics.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog85",
+      "title": "Graph Database Internals",
+      "link": "https://graphdb-internals.com/",
+      "description": "Implementation details of graph databases. Covers storage engines and query optimization.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog86",
+      "title": "High-Frequency Systems",
+      "link": "https://hftarchitecture.com/",
+      "description": "Architecture of high-frequency trading systems. Covers ultra-low latency design patterns.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog87",
+      "title": "Industrial IoT Security",
+      "link": "https://iiot-security.org/",
+      "description": "Security in industrial IoT systems. Covers SCADA security and industrial protocols.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog88",
+      "title": "Just-in-Time Optimization",
+      "link": "https://jitoptimization.com/",
+      "description": "Advanced JIT compiler techniques. Covers speculative optimization and profile-guided compilation.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog89",
+      "title": "Kernel Debugging Techniques",
+      "link": "https://kerneldebugging.com/",
+      "description": "Advanced kernel debugging methods. Covers crash analysis and live debugging.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog90",
+      "title": "Low-Level Programming",
+      "link": "https://lowlevelprogramming.org/",
+      "description": "Systems programming close to hardware. Covers assembly language and CPU architecture.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog91",
+      "title": "Memory Management Internals",
+      "link": "https://memorymanagement.org/",
+      "description": "Deep dive into memory management systems. Covers garbage collection and allocation strategies.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog92",
+      "title": "Network Protocol Design",
+      "link": "https://networkprotocols.org/",
+      "description": "Design and implementation of network protocols. Covers protocol verification and testing.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog93",
+      "title": "Operating System Security",
+      "link": "https://ossecurity.org/",
+      "description": "Security aspects of operating systems. Covers access control and secure boot mechanisms.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog94",
+      "title": "Parallel Algorithm Design",
+      "link": "https://parallelalgorithms.org/",
+      "description": "Design of parallel algorithms. Covers distributed algorithms and synchronization patterns.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog95",
+      "title": "Quantum Error Mitigation",
+      "link": "https://quantumerror.org/",
+      "description": "Error mitigation in quantum systems. Covers quantum error correction codes and fault tolerance.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog96",
+      "title": "Real-time Graphics",
+      "link": "https://realtimegraphics.org/",
+      "description": "Real-time rendering techniques. Covers modern graphics APIs and shader programming.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog97",
+      "title": "Secure Boot Systems",
+      "link": "https://secureboot.org/",
+      "description": "Implementation of secure boot mechanisms. Covers trusted platform modules and chain of trust.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog98",
+      "title": "Trusted Computing",
+      "link": "https://trustedcomputing.org/",
+      "description": "Principles of trusted computing. Covers secure enclaves and attestation mechanisms.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog99",
+      "title": "Virtual Machine Design",
+      "link": "https://vmdesign.org/",
+      "description": "Architecture of virtual machines. Covers hypervisor design and hardware virtualization.",
+      "source": "Blog"
+    },
+    {
+      "id": "blog100",
+      "title": "Zero-Trust Networks",
+      "link": "https://zerotrustnetworks.org/",
+      "description": "Implementation of zero-trust architecture. Covers identity-based security and microsegmentation.",
+      "source": "Blog"
+    }
+  ]
+} 

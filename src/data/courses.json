@@ -1,0 +1,704 @@
+{
+  "resources": [
+    {
+      "id": "course1",
+      "title": "Full Stack Deep Learning",
+      "link": "https://fullstackdeeplearning.com/",
+      "description": "Learn to design, train, and deploy deep learning systems. Covers the full stack from data collection to production deployment and monitoring.",
+      "source": "Course"
+    },
+    {
+      "id": "course2",
+      "title": "Stanford CS224N: NLP with Deep Learning",
+      "link": "https://web.stanford.edu/class/cs224n/",
+      "description": "Deep dive into Natural Language Processing using deep learning. Covers word vectors, RNNs, transformers, and question answering systems.",
+      "source": "Course"
+    },
+    {
+      "id": "course3",
+      "title": "Deep Learning Specialization",
+      "link": "https://www.deeplearning.ai/deep-learning-specialization/",
+      "description": "Five-course specialization covering deep learning fundamentals to advanced applications. Includes hands-on projects and real-world case studies.",
+      "source": "Course"
+    },
+    {
+      "id": "course4",
+      "title": "MLOps Zoomcamp",
+      "link": "https://github.com/DataTalksClub/mlops-zoomcamp",
+      "description": "Free course on MLOps fundamentals. Learn to deploy ML models, monitor them in production, and maintain ML systems at scale.",
+      "source": "Course"
+    },
+    {
+      "id": "course5",
+      "title": "Fast.ai: Practical Deep Learning",
+      "link": "https://www.fast.ai/",
+      "description": "Top-down approach to deep learning. Learn to build practical applications before diving into theory. Includes extensive code examples.",
+      "source": "Course"
+    },
+    {
+      "id": "course6",
+      "title": "MIT 6.S191: Introduction to Deep Learning",
+      "link": "http://introtodeeplearning.com/",
+      "description": "MIT's introductory course to deep learning methods. Includes lectures, labs, and software tutorials with real-world applications.",
+      "source": "Course"
+    },
+    {
+      "id": "course7",
+      "title": "Berkeley CS 182: Deep Learning",
+      "link": "https://cs182sp21.github.io/",
+      "description": "Berkeley's deep learning course covering advanced topics like GANs, VAEs, and modern architectures with practical applications.",
+      "source": "Course"
+    },
+    {
+      "id": "course8",
+      "title": "ML Production Engineering",
+      "link": "https://madewithml.com/",
+      "description": "End-to-end course on building production ML systems. Covers data pipelines, model serving, and monitoring with modern tools.",
+      "source": "Course"
+    },
+    {
+      "id": "course9",
+      "title": "Advanced Computer Architecture",
+      "link": "https://www.coursera.org/learn/comparch",
+      "description": "Deep dive into modern processor design, memory hierarchies, and parallel architectures. Includes hands-on projects with hardware description languages.",
+      "source": "Course"
+    },
+    {
+      "id": "course10",
+      "title": "Blockchain Development",
+      "link": "https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309",
+      "description": "Comprehensive course on blockchain development. Covers Ethereum, smart contracts, and decentralized application architecture.",
+      "source": "Course"
+    },
+    {
+      "id": "course11",
+      "title": "Cloud Computing Specialization",
+      "link": "https://www.coursera.org/specializations/cloud-computing",
+      "description": "In-depth study of cloud computing concepts. Covers AWS, Azure, and Google Cloud platforms with hands-on projects.",
+      "source": "Course"
+    },
+    {
+      "id": "course12",
+      "title": "Compiler Construction",
+      "link": "https://www.edx.org/course/compilers",
+      "description": "Stanford's compiler course. Build a complete compiler from scratch, covering lexing, parsing, and code generation.",
+      "source": "Course"
+    },
+    {
+      "id": "course13",
+      "title": "Cryptography I",
+      "link": "https://www.coursera.org/learn/crypto",
+      "description": "Stanford's cryptography course. Covers encryption, authentication, and cryptographic protocols with mathematical foundations.",
+      "source": "Course"
+    },
+    {
+      "id": "course14",
+      "title": "Data Engineering with Python",
+      "link": "https://www.datacamp.com/courses/data-engineering-for-everyone",
+      "description": "Comprehensive data engineering course. Covers ETL pipelines, data warehousing, and big data processing frameworks.",
+      "source": "Course"
+    },
+    {
+      "id": "course15",
+      "title": "Embedded Systems Design",
+      "link": "https://www.edx.org/course/embedded-systems-shape-the-world",
+      "description": "Hands-on course in embedded systems programming. Covers microcontrollers, real-time operating systems, and IoT applications.",
+      "source": "Course"
+    },
+    {
+      "id": "course16",
+      "title": "Functional Programming in Scala",
+      "link": "https://www.coursera.org/specializations/scala",
+      "description": "EPFL's Scala programming course. Covers functional programming principles, parallel programming, and big data processing.",
+      "source": "Course"
+    },
+    {
+      "id": "course17",
+      "title": "Game Engine Development",
+      "link": "https://www.udemy.com/course/game-engine-development/",
+      "description": "Build a game engine from scratch. Covers graphics programming, physics simulation, and game architecture design.",
+      "source": "Course"
+    },
+    {
+      "id": "course18",
+      "title": "High Performance Computing",
+      "link": "https://www.coursera.org/learn/high-performance-computing",
+      "description": "Advanced course in parallel computing. Covers MPI, OpenMP, and GPU programming for scientific applications.",
+      "source": "Course"
+    },
+    {
+      "id": "course19",
+      "title": "Information Security",
+      "link": "https://www.cybrary.it/course/information-security-certification-training",
+      "description": "Comprehensive information security course. Covers risk management, security policies, and incident response.",
+      "source": "Course"
+    },
+    {
+      "id": "course20",
+      "title": "JavaScript Performance",
+      "link": "https://frontendmasters.com/courses/web-performance/",
+      "description": "Advanced JavaScript performance optimization. Covers memory management, rendering performance, and network optimization.",
+      "source": "Course"
+    },
+    {
+      "id": "course21",
+      "title": "Kubernetes for Developers",
+      "link": "https://www.udacity.com/course/kubernetes-for-developers--ud615",
+      "description": "Practical Kubernetes course for developers. Covers container orchestration, deployment strategies, and microservices architecture.",
+      "source": "Course"
+    },
+    {
+      "id": "course22",
+      "title": "Machine Learning Operations",
+      "link": "https://www.deeplearning.ai/machine-learning-engineering-for-production-mlops/",
+      "description": "End-to-end MLOps course. Covers model deployment, monitoring, and maintenance in production environments.",
+      "source": "Course"
+    },
+    {
+      "id": "course23",
+      "title": "Network Security",
+      "link": "https://www.offensive-security.com/pwk-oscp/",
+      "description": "Offensive Security's penetration testing course. Covers network attacks, exploitation, and security assessments.",
+      "source": "Course"
+    },
+    {
+      "id": "course24",
+      "title": "Operating System Engineering",
+      "link": "https://pdos.csail.mit.edu/6.S081/2020/",
+      "description": "MIT's operating system course. Build an operating system from scratch using the xv6 teaching operating system.",
+      "source": "Course"
+    },
+    {
+      "id": "course25",
+      "title": "Programming Language Theory",
+      "link": "https://www.cs.cmu.edu/~rwh/courses/ppl/",
+      "description": "Advanced course in programming language design. Covers type theory, semantics, and language implementation.",
+      "source": "Course"
+    },
+    {
+      "id": "course26",
+      "title": "Quantum Computing",
+      "link": "https://www.edx.org/course/quantum-computing",
+      "description": "MIT's quantum computing course. Covers quantum mechanics, quantum algorithms, and quantum programming frameworks.",
+      "source": "Course"
+    },
+    {
+      "id": "course27",
+      "title": "Robotics: Computational Motion Planning",
+      "link": "https://www.coursera.org/learn/robotics-motion-planning",
+      "description": "Advanced robotics course. Covers path planning algorithms, manipulation planning, and motion control.",
+      "source": "Course"
+    },
+    {
+      "id": "course28",
+      "title": "Software Architecture & Design",
+      "link": "https://www.udacity.com/course/software-architecture-design--ud821",
+      "description": "Comprehensive software architecture course. Covers design patterns, architectural styles, and system design principles.",
+      "source": "Course"
+    },
+    {
+      "id": "course29",
+      "title": "Advanced Computer Networks",
+      "link": "https://www.coursera.org/learn/advanced-computer-networks",
+      "description": "Deep dive into modern networking protocols and architectures. Covers SDN, NFV, and network virtualization.",
+      "source": "Course"
+    },
+    {
+      "id": "course30",
+      "title": "Bioinformatics Algorithms",
+      "link": "https://www.edx.org/course/bioinformatics-algorithms",
+      "description": "Computational methods for analyzing biological data. Covers sequence alignment, phylogenetics, and structural analysis.",
+      "source": "Course"
+    },
+    {
+      "id": "course31",
+      "title": "Cloud Security Architecture",
+      "link": "https://www.udacity.com/course/cloud-security",
+      "description": "Security design patterns for cloud systems. Covers identity management, encryption, and compliance.",
+      "source": "Course"
+    },
+    {
+      "id": "course32",
+      "title": "Distributed Database Systems",
+      "link": "https://www.coursera.org/learn/distributed-database",
+      "description": "Design and implementation of distributed databases. Covers sharding, replication, and consistency models.",
+      "source": "Course"
+    },
+    {
+      "id": "course33",
+      "title": "Edge Computing and IoT",
+      "link": "https://www.edx.org/course/edge-computing",
+      "description": "Building edge computing applications. Covers sensor networks, real-time processing, and edge AI.",
+      "source": "Course"
+    },
+    {
+      "id": "course34",
+      "title": "Formal Methods in Software Engineering",
+      "link": "https://www.coursera.org/learn/formal-methods",
+      "description": "Applying formal methods to software development. Covers specification languages, verification, and validation.",
+      "source": "Course"
+    },
+    {
+      "id": "course35",
+      "title": "GPU Computing",
+      "link": "https://www.udacity.com/course/gpu-programming",
+      "description": "Parallel programming with GPUs. Covers CUDA, OpenCL, and parallel algorithms optimization.",
+      "source": "Course"
+    },
+    {
+      "id": "course36",
+      "title": "Hardware Security",
+      "link": "https://www.coursera.org/learn/hardware-security",
+      "description": "Security aspects of hardware design. Covers side-channel attacks, secure boot, and hardware trojans.",
+      "source": "Course"
+    },
+    {
+      "id": "course37",
+      "title": "Information Theory and Coding",
+      "link": "https://www.edx.org/course/information-theory",
+      "description": "Fundamentals of information theory. Covers entropy, source coding, and error correction.",
+      "source": "Course"
+    },
+    {
+      "id": "course38",
+      "title": "Julia for Scientific Computing",
+      "link": "https://www.coursera.org/learn/julia-programming",
+      "description": "Scientific computing with Julia. Covers numerical methods, parallel computing, and performance optimization.",
+      "source": "Course"
+    },
+    {
+      "id": "course39",
+      "title": "Knowledge Graphs and Semantic Web",
+      "link": "https://www.udacity.com/course/knowledge-graphs",
+      "description": "Building and querying knowledge graphs. Covers RDF, SPARQL, and ontology engineering.",
+      "source": "Course"
+    },
+    {
+      "id": "course40",
+      "title": "Low Latency Trading Systems",
+      "link": "https://www.coursera.org/learn/low-latency-trading",
+      "description": "Building high-frequency trading systems. Covers market microstructure, order matching, and risk management.",
+      "source": "Course"
+    },
+    {
+      "id": "course41",
+      "title": "Machine Learning Compilers",
+      "link": "https://www.edx.org/course/ml-compilers",
+      "description": "Optimizing ML models for hardware. Covers TVM, MLIR, and hardware acceleration.",
+      "source": "Course"
+    },
+    {
+      "id": "course42",
+      "title": "Network Protocol Engineering",
+      "link": "https://www.coursera.org/learn/protocol-engineering",
+      "description": "Designing and implementing network protocols. Covers protocol verification and performance analysis.",
+      "source": "Course"
+    },
+    {
+      "id": "course43",
+      "title": "Operating System Security",
+      "link": "https://www.udacity.com/course/os-security",
+      "description": "Security mechanisms in operating systems. Covers access control, isolation, and secure boot.",
+      "source": "Course"
+    },
+    {
+      "id": "course44",
+      "title": "Program Analysis and Verification",
+      "link": "https://www.coursera.org/learn/program-analysis",
+      "description": "Static and dynamic program analysis. Covers abstract interpretation, symbolic execution, and verification.",
+      "source": "Course"
+    },
+    {
+      "id": "course45",
+      "title": "Quantum Computing Fundamentals",
+      "link": "https://www.edx.org/course/quantum-computing",
+      "description": "Introduction to quantum computing. Covers quantum mechanics, algorithms, and programming.",
+      "source": "Course"
+    },
+    {
+      "id": "course46",
+      "title": "Real-time Systems",
+      "link": "https://www.coursera.org/learn/real-time-systems",
+      "description": "Design and implementation of real-time systems. Covers scheduling, timing analysis, and RTOS.",
+      "source": "Course"
+    },
+    {
+      "id": "course47",
+      "title": "Secure Hardware Design",
+      "link": "https://www.udacity.com/course/secure-hardware",
+      "description": "Designing secure hardware systems. Covers trusted execution environments and secure processors.",
+      "source": "Course"
+    },
+    {
+      "id": "course48",
+      "title": "Tensor Methods in Machine Learning",
+      "link": "https://www.coursera.org/learn/tensor-methods",
+      "description": "Advanced tensor computation techniques. Covers tensor networks and decomposition methods.",
+      "source": "Course"
+    },
+    {
+      "id": "course49",
+      "title": "UNIX Systems Programming",
+      "link": "https://www.edx.org/course/unix-programming",
+      "description": "Advanced UNIX programming concepts. Covers system calls, IPC, and network programming.",
+      "source": "Course"
+    },
+    {
+      "id": "course50",
+      "title": "Virtual Machine Design",
+      "link": "https://www.coursera.org/learn/vm-design",
+      "description": "Building virtual machines. Covers bytecode interpretation, JIT compilation, and optimization.",
+      "source": "Course"
+    },
+    {
+      "id": "course51",
+      "title": "WebAssembly Systems Programming",
+      "link": "https://www.udacity.com/course/webassembly",
+      "description": "Systems programming with WebAssembly. Covers memory model, threading, and optimization.",
+      "source": "Course"
+    },
+    {
+      "id": "course52",
+      "title": "XR Development",
+      "link": "https://www.coursera.org/learn/xr-development",
+      "description": "Extended reality application development. Covers AR/VR systems and spatial computing.",
+      "source": "Course"
+    },
+    {
+      "id": "course53",
+      "title": "YAML and Infrastructure as Code",
+      "link": "https://www.edx.org/course/infrastructure-as-code",
+      "description": "Infrastructure automation with YAML. Covers configuration management and deployment.",
+      "source": "Course"
+    },
+    {
+      "id": "course54",
+      "title": "Zero Knowledge Proofs",
+      "link": "https://www.coursera.org/learn/zero-knowledge",
+      "description": "Theory and implementation of zero-knowledge proofs. Covers SNARKs and privacy protocols.",
+      "source": "Course"
+    },
+    {
+      "id": "course55",
+      "title": "Advanced Algorithms",
+      "link": "https://www.edx.org/course/advanced-algorithms",
+      "description": "Complex algorithmic techniques. Covers approximation algorithms and randomized algorithms.",
+      "source": "Course"
+    },
+    {
+      "id": "course56",
+      "title": "Blockchain Technology",
+      "link": "https://www.coursera.org/learn/blockchain-tech",
+      "description": "Advanced blockchain concepts. Covers consensus mechanisms and smart contracts.",
+      "source": "Course"
+    },
+    {
+      "id": "course57",
+      "title": "Computer Graphics Programming",
+      "link": "https://www.udacity.com/course/computer-graphics",
+      "description": "Modern graphics programming. Covers ray tracing, shaders, and real-time rendering.",
+      "source": "Course"
+    },
+    {
+      "id": "course58",
+      "title": "Database Internals",
+      "link": "https://www.coursera.org/learn/database-internals",
+      "description": "Internal workings of databases. Covers storage engines and query optimization.",
+      "source": "Course"
+    },
+    {
+      "id": "course59",
+      "title": "Embedded Systems Programming",
+      "link": "https://www.edx.org/course/embedded-systems",
+      "description": "Programming for embedded devices. Covers real-time systems and device drivers.",
+      "source": "Course"
+    },
+    {
+      "id": "course60",
+      "title": "Functional Programming Design",
+      "link": "https://www.coursera.org/learn/fp-design",
+      "description": "Advanced functional programming. Covers type systems and category theory.",
+      "source": "Course"
+    },
+    {
+      "id": "course61",
+      "title": "Game Engine Development",
+      "link": "https://www.udacity.com/course/game-engine",
+      "description": "Building game engines from scratch. Covers physics simulation and rendering.",
+      "source": "Course"
+    },
+    {
+      "id": "course62",
+      "title": "High Performance Computing",
+      "link": "https://www.coursera.org/learn/high-performance",
+      "description": "Parallel and distributed computing. Covers MPI, OpenMP, and cluster computing.",
+      "source": "Course"
+    },
+    {
+      "id": "course63",
+      "title": "Internet of Things Security",
+      "link": "https://www.edx.org/course/iot-security",
+      "description": "Security in IoT systems. Covers device security and network protocols.",
+      "source": "Course"
+    },
+    {
+      "id": "course64",
+      "title": "Just-In-Time Compilation",
+      "link": "https://www.coursera.org/learn/jit-compilation",
+      "description": "Building JIT compilers. Covers optimization techniques and code generation.",
+      "source": "Course"
+    },
+    {
+      "id": "course65",
+      "title": "Kernel Programming",
+      "link": "https://www.udacity.com/course/kernel-programming",
+      "description": "Linux kernel development. Covers device drivers and kernel modules.",
+      "source": "Course"
+    },
+    {
+      "id": "course66",
+      "title": "Language Implementation",
+      "link": "https://www.coursera.org/learn/language-implementation",
+      "description": "Implementing programming languages. Covers parsers and virtual machines.",
+      "source": "Course"
+    },
+    {
+      "id": "course67",
+      "title": "Machine Learning Infrastructure",
+      "link": "https://www.edx.org/course/ml-infrastructure",
+      "description": "Building ML infrastructure. Covers model serving and monitoring.",
+      "source": "Course"
+    },
+    {
+      "id": "course68",
+      "title": "Network Security",
+      "link": "https://www.coursera.org/learn/network-security",
+      "description": "Advanced network security. Covers firewalls and intrusion detection.",
+      "source": "Course"
+    },
+    {
+      "id": "course69",
+      "title": "Operating Systems Implementation",
+      "link": "https://www.udacity.com/course/os-implementation",
+      "description": "Building an operating system. Covers process management and file systems.",
+      "source": "Course"
+    },
+    {
+      "id": "course70",
+      "title": "Parallel Computing",
+      "link": "https://www.coursera.org/learn/parallel-computing",
+      "description": "Parallel programming concepts. Covers threading models and synchronization.",
+      "source": "Course"
+    },
+    {
+      "id": "course71",
+      "title": "Quantum Algorithms",
+      "link": "https://www.edx.org/course/quantum-algorithms",
+      "description": "Advanced quantum computing algorithms. Covers quantum circuits and optimization.",
+      "source": "Course"
+    },
+    {
+      "id": "course72",
+      "title": "Reverse Engineering Techniques",
+      "link": "https://www.coursera.org/learn/reverse-engineering",
+      "description": "Software reverse engineering. Covers disassembly and debugging techniques.",
+      "source": "Course"
+    },
+    {
+      "id": "course73",
+      "title": "Secure Software Engineering",
+      "link": "https://www.udacity.com/course/secure-software",
+      "description": "Building secure software. Covers security testing and vulnerability analysis.",
+      "source": "Course"
+    },
+    {
+      "id": "course74",
+      "title": "System Design and Architecture",
+      "link": "https://www.coursera.org/learn/system-design",
+      "description": "Large-scale system design. Covers scalability and distributed systems.",
+      "source": "Course"
+    },
+    {
+      "id": "course75",
+      "title": "Type Systems",
+      "link": "https://www.edx.org/course/type-systems",
+      "description": "Advanced type theory. Covers type inference and dependent types.",
+      "source": "Course"
+    },
+    {
+      "id": "course76",
+      "title": "UI/UX Engineering",
+      "link": "https://www.coursera.org/learn/uiux-engineering",
+      "description": "Modern UI/UX development. Covers accessibility and responsive design.",
+      "source": "Course"
+    },
+    {
+      "id": "course77",
+      "title": "Virtual Reality Systems",
+      "link": "https://www.udacity.com/course/vr-systems",
+      "description": "VR system development. Covers 3D graphics and interaction design.",
+      "source": "Course"
+    },
+    {
+      "id": "course78",
+      "title": "Web Security Engineering",
+      "link": "https://www.coursera.org/learn/web-security",
+      "description": "Advanced web security. Covers common vulnerabilities and secure architecture.",
+      "source": "Course"
+    },
+    {
+      "id": "course79",
+      "title": "Advanced Algorithmic Trading",
+      "link": "https://www.coursera.org/learn/algorithmic-trading",
+      "description": "Building high-frequency trading systems. Covers market microstructure and execution algorithms.",
+      "source": "Course"
+    },
+    {
+      "id": "course80",
+      "title": "Biometric Systems",
+      "link": "https://www.edx.org/course/biometric-systems",
+      "description": "Design and implementation of biometric systems. Covers authentication and identification methods.",
+      "source": "Course"
+    },
+    {
+      "id": "course81",
+      "title": "Cloud Security Operations",
+      "link": "https://www.udacity.com/course/cloud-security-ops",
+      "description": "Security operations in cloud environments. Covers threat detection and incident response.",
+      "source": "Course"
+    },
+    {
+      "id": "course82",
+      "title": "Digital Signal Processing",
+      "link": "https://www.coursera.org/learn/dsp-engineering",
+      "description": "Advanced DSP implementation. Covers filter design and real-time processing systems.",
+      "source": "Course"
+    },
+    {
+      "id": "course83",
+      "title": "Embedded Security",
+      "link": "https://www.edx.org/course/embedded-security",
+      "description": "Security in embedded systems. Covers secure boot and trusted execution environments.",
+      "source": "Course"
+    },
+    {
+      "id": "course84",
+      "title": "FPGA Design",
+      "link": "https://www.udacity.com/course/fpga-design",
+      "description": "Hardware design with FPGAs. Covers VHDL, Verilog, and hardware acceleration.",
+      "source": "Course"
+    },
+    {
+      "id": "course85",
+      "title": "Game Physics",
+      "link": "https://www.coursera.org/learn/game-physics",
+      "description": "Physics simulation for games. Covers collision detection and rigid body dynamics.",
+      "source": "Course"
+    },
+    {
+      "id": "course86",
+      "title": "Hardware Verification",
+      "link": "https://www.edx.org/course/hardware-verification",
+      "description": "Formal verification of hardware designs. Covers model checking and theorem proving.",
+      "source": "Course"
+    },
+    {
+      "id": "course87",
+      "title": "Information Retrieval",
+      "link": "https://www.coursera.org/learn/information-retrieval",
+      "description": "Building search engines. Covers indexing, ranking, and query processing systems.",
+      "source": "Course"
+    },
+    {
+      "id": "course88",
+      "title": "Kernel Internals",
+      "link": "https://www.udacity.com/course/kernel-internals",
+      "description": "Deep dive into Linux kernel. Covers memory management and process scheduling.",
+      "source": "Course"
+    },
+    {
+      "id": "course89",
+      "title": "Low Latency Systems",
+      "link": "https://www.coursera.org/learn/low-latency",
+      "description": "Building ultra-low latency systems. Covers network optimization and hardware acceleration.",
+      "source": "Course"
+    },
+    {
+      "id": "course90",
+      "title": "ML Infrastructure",
+      "link": "https://www.edx.org/course/ml-infrastructure",
+      "description": "Building ML infrastructure. Covers feature stores and model serving systems.",
+      "source": "Course"
+    },
+    {
+      "id": "course91",
+      "title": "Network Functions",
+      "link": "https://www.udacity.com/course/network-functions",
+      "description": "Network function virtualization. Covers virtual network functions and service chaining.",
+      "source": "Course"
+    },
+    {
+      "id": "course92",
+      "title": "OS Development",
+      "link": "https://www.coursera.org/learn/os-development",
+      "description": "Operating system development from scratch. Covers bootloaders and kernel development.",
+      "source": "Course"
+    },
+    {
+      "id": "course93",
+      "title": "Processor Design",
+      "link": "https://www.edx.org/course/processor-design",
+      "description": "CPU architecture and implementation. Covers pipelining and out-of-order execution.",
+      "source": "Course"
+    },
+    {
+      "id": "course94",
+      "title": "Quantum Hardware",
+      "link": "https://www.coursera.org/learn/quantum-hardware",
+      "description": "Quantum computer hardware. Covers qubit design and quantum control systems.",
+      "source": "Course"
+    },
+    {
+      "id": "course95",
+      "title": "RTOS Design",
+      "link": "https://www.udacity.com/course/rtos-design",
+      "description": "Real-time operating system design. Covers scheduling and interrupt handling.",
+      "source": "Course"
+    },
+    {
+      "id": "course96",
+      "title": "Software Radio",
+      "link": "https://www.coursera.org/learn/software-radio",
+      "description": "Software defined radio implementation. Covers signal processing and protocols.",
+      "source": "Course"
+    },
+    {
+      "id": "course97",
+      "title": "TPM Programming",
+      "link": "https://www.edx.org/course/tpm-programming",
+      "description": "Trusted Platform Module programming. Covers secure storage and attestation.",
+      "source": "Course"
+    },
+    {
+      "id": "course98",
+      "title": "UEFI Programming",
+      "link": "https://www.udacity.com/course/uefi-programming",
+      "description": "UEFI firmware development. Covers boot services and runtime services.",
+      "source": "Course"
+    },
+    {
+      "id": "course99",
+      "title": "VR Development",
+      "link": "https://www.coursera.org/learn/vr-development",
+      "description": "Virtual reality system development. Covers tracking and rendering optimization.",
+      "source": "Course"
+    },
+    {
+      "id": "course100",
+      "title": "Zero Knowledge Proofs",
+      "link": "https://www.edx.org/course/zero-knowledge-proofs",
+      "description": "Implementation of zero-knowledge systems. Covers SNARKs and privacy protocols.",
+      "source": "Course"
+    }
+  ]
+} 
