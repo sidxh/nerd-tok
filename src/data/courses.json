@@ -4,701 +4,801 @@
       "id": "course1",
       "title": "Full Stack Deep Learning",
       "link": "https://fullstackdeeplearning.com/",
-      "description": "Learn to design, train, and deploy deep learning systems. Covers the full stack from data collection to production deployment and monitoring.",
-      "source": "Course"
+      "description": "A comprehensive course that bridges the gap between deep learning research and production deployment. You will learn the complete lifecycle of deep learning projects, from data collection and annotation to model deployment and monitoring. The course covers essential MLOps practices, including experiment tracking, model versioning, and continuous deployment pipelines. Practical sessions focus on building scalable training infrastructure, optimizing models for production, and implementing robust monitoring systems. Special emphasis on best practices for managing deep learning projects, handling technical debt, and ensuring reproducibility. Includes real-world case studies and hands-on projects deploying models in production environments.",
+      "source": "Course",
+      "tags": ["Deep Learning", "MLOps", "Production ML"]
     },
     {
       "id": "course2",
       "title": "Stanford CS224N: NLP with Deep Learning",
       "link": "https://web.stanford.edu/class/cs224n/",
-      "description": "Deep dive into Natural Language Processing using deep learning. Covers word vectors, RNNs, transformers, and question answering systems.",
-      "source": "Course"
+      "description": "Stanford's premier course on natural language processing using modern deep learning approaches. The curriculum progresses from word vector representations and neural network basics to advanced transformer architectures. You will gain deep understanding of key NLP models including RNNs, LSTMs, and attention mechanisms, with emphasis on their mathematical foundations and practical implementations. The course covers crucial NLP tasks such as machine translation, question answering, and text generation. Includes extensive programming assignments implementing state-of-the-art models from scratch. Special focus on recent research developments and current challenges in NLP.",
+      "source": "Course",
+      "tags": ["NLP", "Deep Learning", "Neural Networks"]
     },
     {
       "id": "course3",
       "title": "Deep Learning Specialization",
       "link": "https://www.deeplearning.ai/deep-learning-specialization/",
-      "description": "Five-course specialization covering deep learning fundamentals to advanced applications. Includes hands-on projects and real-world case studies.",
-      "source": "Course"
+      "description": "Andrew Ng's authoritative deep learning specialization covering fundamental concepts to advanced applications. The five-course series systematically builds understanding of neural networks, optimization algorithms, and deep learning architectures. You will learn essential concepts including backpropagation, convolutional networks, sequence models, and practical aspects of deep learning projects. The curriculum includes hands-on programming assignments implementing various architectures from scratch. Special emphasis on understanding hyperparameter tuning, regularization techniques, and best practices for training deep neural networks. Includes real-world case studies and industry applications across computer vision, NLP, and speech recognition.",
+      "source": "Course",
+      "tags": ["Deep Learning", "Neural Networks", "AI"]
     },
     {
       "id": "course4",
       "title": "MLOps Zoomcamp",
       "link": "https://github.com/DataTalksClub/mlops-zoomcamp",
-      "description": "Free course on MLOps fundamentals. Learn to deploy ML models, monitor them in production, and maintain ML systems at scale.",
-      "source": "Course"
+      "description": "Practical course focused on the operational aspects of deploying and maintaining machine learning systems in production. You will learn essential MLOps tools and practices, including experiment tracking with MLflow, model deployment with Flask/FastAPI, and monitoring with Prometheus/Grafana. The curriculum covers containerization with Docker, orchestration with Kubernetes, and continuous deployment pipelines. Special emphasis on best practices for model versioning, feature stores, and automated retraining pipelines. Includes hands-on projects building end-to-end ML pipelines and implementing monitoring systems for production ML services.",
+      "source": "Course",
+      "tags": ["MLOps", "DevOps", "Production ML"]
     },
     {
       "id": "course5",
       "title": "Fast.ai: Practical Deep Learning",
       "link": "https://www.fast.ai/",
-      "description": "Top-down approach to deep learning. Learn to build practical applications before diving into theory. Includes extensive code examples.",
-      "source": "Course"
+      "description": "Innovative course teaching deep learning through a top-down, practical approach. You will start by building working applications before diving into theoretical foundations. The curriculum covers computer vision, natural language processing, and tabular data analysis using the fast.ai library. Emphasizes practical techniques for training models effectively, including learning rate selection, transfer learning, and data augmentation. Special focus on making deep learning accessible while maintaining state-of-the-art performance. Includes extensive hands-on projects implementing real-world applications and best practices for model deployment.",
+      "source": "Course",
+      "tags": ["Deep Learning", "Practical AI", "Machine Learning"]
     },
     {
       "id": "course6",
       "title": "MIT 6.S191: Introduction to Deep Learning",
       "link": "http://introtodeeplearning.com/",
-      "description": "MIT's introductory course to deep learning methods. Includes lectures, labs, and software tutorials with real-world applications.",
-      "source": "Course"
+      "description": "MIT's foundational course introducing deep learning concepts and applications. The curriculum provides a strong theoretical foundation while emphasizing practical implementation skills. You will learn essential neural network architectures, training techniques, and application domains including computer vision and natural language processing. The course includes hands-on labs implementing various deep learning models using TensorFlow. Special focus on understanding the mathematics behind deep learning while building practical applications. Includes projects exploring cutting-edge applications like style transfer, music generation, and autonomous navigation.",
+      "source": "Course",
+      "tags": ["Deep Learning", "Neural Networks", "TensorFlow"]
     },
     {
       "id": "course7",
       "title": "Berkeley CS 182: Deep Learning",
       "link": "https://cs182sp21.github.io/",
-      "description": "Berkeley's deep learning course covering advanced topics like GANs, VAEs, and modern architectures with practical applications.",
-      "source": "Course"
+      "description": "Berkeley's advanced deep learning course covering cutting-edge architectures and techniques. The curriculum explores modern deep learning approaches including GANs, VAEs, and transformer models. You will gain deep understanding of theoretical foundations while implementing state-of-the-art models. The course emphasizes both the mathematical principles and practical considerations in deep learning research. Special focus on advanced topics like adversarial training, meta-learning, and self-supervised learning. Includes challenging programming assignments and research projects implementing recent deep learning innovations.",
+      "source": "Course",
+      "tags": ["Deep Learning", "Advanced AI", "Neural Architectures"]
     },
     {
       "id": "course8",
       "title": "ML Production Engineering",
       "link": "https://madewithml.com/",
-      "description": "End-to-end course on building production ML systems. Covers data pipelines, model serving, and monitoring with modern tools.",
-      "source": "Course"
+      "description": "Comprehensive course on building production-ready machine learning systems. You will learn the complete ML engineering lifecycle, from data pipeline construction to model deployment and monitoring. The curriculum covers essential topics including feature engineering, model versioning, A/B testing, and production system architecture. Special emphasis on building scalable, maintainable, and reliable ML services. Includes hands-on projects implementing production ML systems using modern tools and best practices. The course focuses on practical skills needed for deploying and maintaining ML systems in real-world environments.",
+      "source": "Course",
+      "tags": ["MLOps", "Production ML", "Software Engineering"]
     },
     {
       "id": "course9",
       "title": "Advanced Computer Architecture",
       "link": "https://www.coursera.org/learn/comparch",
-      "description": "Deep dive into modern processor design, memory hierarchies, and parallel architectures. Includes hands-on projects with hardware description languages.",
-      "source": "Course"
+      "description": "In-depth exploration of modern computer architecture principles and design. The course covers advanced topics including pipelining, out-of-order execution, memory hierarchies, and parallel architectures. You will learn processor design techniques, cache optimization strategies, and interconnection networks. Practical projects involve implementing architectural components using hardware description languages. Special focus on understanding performance analysis, power efficiency, and modern architectural innovations. Includes hands-on experience with architecture simulation tools and case studies of commercial processor designs.",
+      "source": "Course",
+      "tags": ["Computer Architecture", "Hardware Design", "Processor Design"]
     },
     {
       "id": "course10",
       "title": "Blockchain Development",
       "link": "https://www.udacity.com/course/blockchain-developer-nanodegree--nd1309",
-      "description": "Comprehensive course on blockchain development. Covers Ethereum, smart contracts, and decentralized application architecture.",
-      "source": "Course"
+      "description": "Comprehensive course on blockchain technology and decentralized application development. You will learn fundamental concepts including distributed consensus, smart contracts, and blockchain architecture. The curriculum covers Ethereum development, Solidity programming, and Web3 integration. Practical projects involve building decentralized applications and implementing smart contracts. Special emphasis on security considerations, gas optimization, and best practices in blockchain development. Includes hands-on experience with popular blockchain development tools and frameworks.",
+      "source": "Course",
+      "tags": ["Blockchain", "Smart Contracts", "Ethereum"]
     },
     {
       "id": "course11",
       "title": "Cloud Computing Specialization",
       "link": "https://www.coursera.org/specializations/cloud-computing",
-      "description": "In-depth study of cloud computing concepts. Covers AWS, Azure, and Google Cloud platforms with hands-on projects.",
-      "source": "Course"
+      "description": "Comprehensive exploration of modern cloud computing platforms and architectures. The course covers essential concepts across major cloud providers including AWS, Azure, and Google Cloud. You will learn cloud infrastructure design, scalability patterns, and security best practices. The curriculum includes hands-on experience with container orchestration, serverless computing, and cloud-native applications. Special emphasis on cost optimization, high availability, and disaster recovery strategies. Includes practical projects implementing distributed systems and microservices architectures in cloud environments.",
+      "source": "Course",
+      "tags": ["Cloud Computing", "AWS", "Distributed Systems"]
     },
     {
       "id": "course12",
       "title": "Compiler Construction",
       "link": "https://www.edx.org/course/compilers",
-      "description": "Stanford's compiler course. Build a complete compiler from scratch, covering lexing, parsing, and code generation.",
-      "source": "Course"
+      "description": "Stanford's intensive course on building modern compilers from the ground up. You will learn the complete compilation pipeline, from lexical analysis and parsing to optimization and code generation. The curriculum covers advanced topics including static analysis, intermediate representations, and program optimization techniques. Practical projects involve implementing a fully functional compiler for a subset of a modern programming language. Special focus on applying theory to practical compiler implementation challenges. Includes hands-on experience with compiler development tools and frameworks.",
+      "source": "Course",
+      "tags": ["Compilers", "Programming Languages", "Static Analysis"]
     },
     {
       "id": "course13",
       "title": "Cryptography I",
       "link": "https://www.coursera.org/learn/crypto",
-      "description": "Stanford's cryptography course. Covers encryption, authentication, and cryptographic protocols with mathematical foundations.",
-      "source": "Course"
+      "description": "Stanford's foundational course in modern cryptography and security protocols. The curriculum covers essential concepts including symmetric and public-key cryptography, message authentication, and digital signatures. You will learn the mathematical foundations of cryptographic primitives and their practical applications. Special emphasis on understanding security definitions, proof techniques, and common vulnerabilities. The course includes programming assignments implementing various cryptographic protocols and analyzing their security properties. Includes real-world case studies of cryptographic system failures and attacks.",
+      "source": "Course",
+      "tags": ["Cryptography", "Security", "Mathematics"]
     },
     {
       "id": "course14",
       "title": "Data Engineering with Python",
       "link": "https://www.datacamp.com/courses/data-engineering-for-everyone",
-      "description": "Comprehensive data engineering course. Covers ETL pipelines, data warehousing, and big data processing frameworks.",
-      "source": "Course"
+      "description": "Comprehensive course on modern data engineering practices and tools. You will learn to design and implement robust data pipelines, from data extraction and transformation to loading and warehousing. The curriculum covers essential technologies including Apache Spark, Airflow, and modern data warehouses. Special focus on building scalable, maintainable data infrastructure and implementing data quality controls. Includes hands-on projects working with real-world datasets and implementing production-grade data pipelines. The course emphasizes best practices for handling large-scale data processing and storage.",
+      "source": "Course",
+      "tags": ["Data Engineering", "Python", "Big Data"]
     },
     {
       "id": "course15",
       "title": "Embedded Systems Design",
       "link": "https://www.edx.org/course/embedded-systems-shape-the-world",
-      "description": "Hands-on course in embedded systems programming. Covers microcontrollers, real-time operating systems, and IoT applications.",
-      "source": "Course"
+      "description": "Practical course on designing and implementing embedded systems for real-world applications. You will learn microcontroller programming, real-time operating systems, and hardware interfacing techniques. The curriculum covers sensor integration, interrupt handling, and power management strategies. Hands-on projects involve building complete embedded systems from scratch. Special emphasis on real-time constraints, reliability, and resource optimization. Includes experience with popular microcontroller platforms and debugging tools. The course focuses on both theoretical foundations and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Embedded Systems", "Microcontrollers", "Real-time Systems"]
     },
     {
       "id": "course16",
       "title": "Functional Programming in Scala",
       "link": "https://www.coursera.org/specializations/scala",
-      "description": "EPFL's Scala programming course. Covers functional programming principles, parallel programming, and big data processing.",
-      "source": "Course"
+      "description": "EPFL's comprehensive course on functional programming principles using Scala. You will learn advanced functional concepts including type classes, monads, and category theory applications. The curriculum covers parallel programming, property-based testing, and functional design patterns. Special focus on writing pure, composable functions and understanding functional abstractions. Includes challenging assignments implementing complex systems using functional approaches. The course emphasizes practical applications of functional programming in large-scale software development.",
+      "source": "Course",
+      "tags": ["Functional Programming", "Scala", "Type Theory"]
     },
     {
       "id": "course17",
       "title": "Game Engine Development",
-      "link": "https://www.udemy.com/course/game-engine-development/",
-      "description": "Build a game engine from scratch. Covers graphics programming, physics simulation, and game architecture design.",
-      "source": "Course"
+      "link": "https://www.udacity.com/course/game-engine",
+      "description": "Comprehensive course on building modern game engines from scratch. You will learn rendering systems, physics simulation, and game architecture design. The curriculum covers 3D mathematics, collision detection, and scene management. Special focus on implementing efficient and maintainable game engine components. Includes hands-on projects developing various engine subsystems. The course emphasizes both theoretical principles and practical implementation techniques in game engine development.",
+      "source": "Course",
+      "tags": ["Game Engines", "Graphics Programming", "Physics Simulation"]
     },
     {
       "id": "course18",
       "title": "High Performance Computing",
-      "link": "https://www.coursera.org/learn/high-performance-computing",
-      "description": "Advanced course in parallel computing. Covers MPI, OpenMP, and GPU programming for scientific applications.",
-      "source": "Course"
+      "link": "https://www.coursera.org/learn/high-performance",
+      "description": "Advanced course on parallel and distributed computing systems. You will learn parallel programming models, cluster computing, and performance optimization techniques. The curriculum covers MPI, OpenMP, and GPU programming with CUDA. Special emphasis on implementing efficient parallel algorithms and applications. Includes practical projects using supercomputing resources and cluster environments. The course focuses on both theoretical foundations and practical skills in high-performance computing.",
+      "source": "Course",
+      "tags": ["HPC", "Parallel Computing", "GPU Programming"]
     },
     {
       "id": "course19",
       "title": "Information Security",
       "link": "https://www.cybrary.it/course/information-security-certification-training",
-      "description": "Comprehensive information security course. Covers risk management, security policies, and incident response.",
-      "source": "Course"
+      "description": "Comprehensive course on modern information security principles and practices. You will learn risk management frameworks, security policies, and incident response procedures. The curriculum covers network security, cryptography, and security architecture design. Special emphasis on practical security assessment techniques and implementing security controls. Includes hands-on labs simulating real-world security scenarios and attack mitigation. The course focuses on developing both theoretical understanding and practical skills in protecting information systems and responding to security incidents.",
+      "source": "Course",
+      "tags": ["Information Security", "Cybersecurity", "Risk Management"]
     },
     {
       "id": "course20",
       "title": "JavaScript Performance",
       "link": "https://frontendmasters.com/courses/web-performance/",
-      "description": "Advanced JavaScript performance optimization. Covers memory management, rendering performance, and network optimization.",
-      "source": "Course"
+      "description": "Advanced course on optimizing JavaScript applications for maximum performance. You will learn browser rendering pipelines, memory management, and network optimization techniques. The curriculum covers performance profiling, debugging memory leaks, and implementing efficient algorithms. Special focus on modern JavaScript features and their performance implications. Includes practical projects optimizing real-world web applications and measuring performance improvements. The course emphasizes best practices for building fast, responsive web applications while maintaining code quality.",
+      "source": "Course",
+      "tags": ["JavaScript", "Web Performance", "Optimization"]
     },
     {
       "id": "course21",
       "title": "Kubernetes for Developers",
       "link": "https://www.udacity.com/course/kubernetes-for-developers--ud615",
-      "description": "Practical Kubernetes course for developers. Covers container orchestration, deployment strategies, and microservices architecture.",
-      "source": "Course"
+      "description": "Comprehensive course on container orchestration and microservices deployment using Kubernetes. You will learn essential concepts including pod management, service discovery, and deployment strategies. The curriculum covers advanced topics such as custom controllers, operators, and service mesh implementation. Special emphasis on security best practices and production deployment patterns. Includes hands-on projects deploying and managing complex microservices architectures. The course focuses on real-world scenarios and common challenges in Kubernetes environments.",
+      "source": "Course",
+      "tags": ["Kubernetes", "Container Orchestration", "DevOps"]
     },
     {
       "id": "course22",
       "title": "Machine Learning Operations",
       "link": "https://www.deeplearning.ai/machine-learning-engineering-for-production-mlops/",
-      "description": "End-to-end MLOps course. Covers model deployment, monitoring, and maintenance in production environments.",
-      "source": "Course"
+      "description": "Advanced course on implementing and managing machine learning systems in production. You will learn the complete MLOps lifecycle, from data validation to model monitoring and maintenance. The curriculum covers feature stores, model versioning, A/B testing frameworks, and automated retraining pipelines. Special focus on building reliable, scalable ML infrastructure and ensuring reproducible deployments. Includes practical projects implementing end-to-end ML pipelines and monitoring systems. The course emphasizes best practices for managing ML systems at scale.",
+      "source": "Course",
+      "tags": ["MLOps", "Production ML", "Machine Learning"]
     },
     {
       "id": "course23",
       "title": "Network Security",
       "link": "https://www.offensive-security.com/pwk-oscp/",
-      "description": "Offensive Security's penetration testing course. Covers network attacks, exploitation, and security assessments.",
-      "source": "Course"
+      "description": "Intensive course on network security assessment and penetration testing. You will learn advanced security concepts including vulnerability analysis, exploitation techniques, and post-exploitation methods. The curriculum covers network protocols, wireless security, and web application security. Special emphasis on hands-on experience with security tools and methodologies. Includes extensive lab exercises simulating real-world attack scenarios. The course focuses on developing practical skills in identifying and exploiting security vulnerabilities while maintaining ethical standards.",
+      "source": "Course",
+      "tags": ["Network Security", "Penetration Testing", "Cybersecurity"]
     },
     {
       "id": "course24",
       "title": "Operating System Engineering",
       "link": "https://pdos.csail.mit.edu/6.S081/2020/",
-      "description": "MIT's operating system course. Build an operating system from scratch using the xv6 teaching operating system.",
-      "source": "Course"
+      "description": "MIT's comprehensive course on operating system design and implementation. You will build a complete operating system using the xv6 teaching OS as a foundation. The curriculum covers process management, virtual memory, file systems, and device drivers. Special focus on understanding OS internals through hands-on kernel programming. Includes challenging projects implementing various OS components from scratch. The course emphasizes both theoretical principles and practical implementation skills in operating system development.",
+      "source": "Course",
+      "tags": ["Operating Systems", "Systems Programming", "Kernel Development"]
     },
     {
       "id": "course25",
       "title": "Programming Language Theory",
       "link": "https://www.cs.cmu.edu/~rwh/courses/ppl/",
-      "description": "Advanced course in programming language design. Covers type theory, semantics, and language implementation.",
-      "source": "Course"
+      "description": "Advanced course exploring the theoretical foundations of programming languages. You will learn type theory, operational semantics, and language design principles. The curriculum covers lambda calculus, type systems, and program verification techniques. Special emphasis on understanding formal methods in language design and implementation. Includes projects implementing interpreters and type checkers for various language features. The course focuses on both mathematical foundations and practical applications in programming language development.",
+      "source": "Course",
+      "tags": ["Programming Languages", "Type Theory", "Formal Methods"]
     },
     {
       "id": "course26",
       "title": "Quantum Computing",
       "link": "https://www.edx.org/course/quantum-computing",
-      "description": "MIT's quantum computing course. Covers quantum mechanics, quantum algorithms, and quantum programming frameworks.",
-      "source": "Course"
+      "description": "MIT's foundational course in quantum computing principles and applications. You will learn quantum mechanics basics, quantum algorithms, and quantum programming frameworks. The curriculum covers quantum circuits, error correction, and quantum cryptography. Special focus on understanding both theoretical concepts and practical implementation challenges. Includes hands-on projects using quantum simulators and real quantum computers through cloud platforms. The course emphasizes the potential and limitations of current quantum computing technology.",
+      "source": "Course",
+      "tags": ["Quantum Computing", "Quantum Mechanics", "Quantum Programming"]
     },
     {
       "id": "course27",
       "title": "Robotics: Computational Motion Planning",
       "link": "https://www.coursera.org/learn/robotics-motion-planning",
-      "description": "Advanced robotics course. Covers path planning algorithms, manipulation planning, and motion control.",
-      "source": "Course"
+      "description": "Advanced course on robot motion planning and control algorithms. You will learn path planning techniques, manipulation planning, and motion control strategies. The curriculum covers configuration spaces, sampling-based planning, and optimization methods. Special emphasis on implementing practical solutions for robot navigation and manipulation. Includes projects using both simulated and real robotic systems. The course focuses on both theoretical foundations and practical applications in modern robotics.",
+      "source": "Course",
+      "tags": ["Robotics", "Motion Planning", "Control Systems"]
     },
     {
       "id": "course28",
       "title": "Software Architecture & Design",
       "link": "https://www.udacity.com/course/software-architecture-design--ud821",
-      "description": "Comprehensive software architecture course. Covers design patterns, architectural styles, and system design principles.",
-      "source": "Course"
+      "description": "Comprehensive course on modern software architecture principles and patterns. You will learn system design strategies, architectural styles, and design patterns. The curriculum covers microservices architecture, event-driven systems, and distributed system design. Special focus on making architectural decisions and evaluating trade-offs. Includes practical projects designing and implementing large-scale software systems. The course emphasizes both theoretical principles and real-world applications in software architecture.",
+      "source": "Course",
+      "tags": ["Software Architecture", "System Design", "Design Patterns"]
     },
     {
       "id": "course29",
       "title": "Advanced Computer Networks",
       "link": "https://www.coursera.org/learn/advanced-computer-networks",
-      "description": "Deep dive into modern networking protocols and architectures. Covers SDN, NFV, and network virtualization.",
-      "source": "Course"
+      "description": "In-depth exploration of modern networking protocols and architectures. You will learn software-defined networking, network function virtualization, and advanced routing protocols. The curriculum covers network virtualization, data center networking, and network security. Special emphasis on understanding emerging networking technologies and their applications. Includes hands-on projects implementing various networking protocols and services. The course focuses on both theoretical concepts and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Computer Networks", "SDN", "Network Architecture"]
     },
     {
       "id": "course30",
       "title": "Bioinformatics Algorithms",
       "link": "https://www.edx.org/course/bioinformatics-algorithms",
-      "description": "Computational methods for analyzing biological data. Covers sequence alignment, phylogenetics, and structural analysis.",
-      "source": "Course"
+      "description": "Comprehensive course on computational methods for biological data analysis. You will learn sequence alignment algorithms, phylogenetic tree construction, and protein structure prediction. The curriculum covers genome assembly, motif finding, and regulatory network analysis. Special focus on implementing efficient algorithms for processing biological data. Includes practical projects working with real genomic datasets and biological databases. The course emphasizes both algorithmic techniques and their applications in biological research.",
+      "source": "Course",
+      "tags": ["Bioinformatics", "Algorithms", "Computational Biology"]
     },
     {
       "id": "course31",
       "title": "Cloud Security Architecture",
       "link": "https://www.udacity.com/course/cloud-security",
-      "description": "Security design patterns for cloud systems. Covers identity management, encryption, and compliance.",
-      "source": "Course"
+      "description": "Advanced course on designing and implementing secure cloud architectures. You will learn cloud security patterns, identity management systems, and compliance frameworks. The curriculum covers encryption strategies, security automation, and threat detection in cloud environments. Special emphasis on implementing zero-trust architectures and securing microservices. Includes hands-on projects implementing security controls across major cloud platforms. The course focuses on both theoretical security principles and practical implementation techniques.",
+      "source": "Course",
+      "tags": ["Cloud Security", "Security Architecture", "DevSecOps"]
     },
     {
       "id": "course32",
       "title": "Distributed Database Systems",
       "link": "https://www.coursera.org/learn/distributed-database",
-      "description": "Design and implementation of distributed databases. Covers sharding, replication, and consistency models.",
-      "source": "Course"
+      "description": "Comprehensive exploration of distributed database design and implementation. You will learn distributed query processing, transaction management, and consistency models. The curriculum covers database partitioning, replication strategies, and distributed consensus protocols. Special focus on building scalable and reliable distributed database systems. Includes practical projects implementing distributed database components and analyzing performance characteristics. The course emphasizes both theoretical foundations and real-world applications.",
+      "source": "Course",
+      "tags": ["Distributed Systems", "Databases", "Consistency Models"]
     },
     {
       "id": "course33",
       "title": "Edge Computing and IoT",
       "link": "https://www.edx.org/course/edge-computing",
-      "description": "Building edge computing applications. Covers sensor networks, real-time processing, and edge AI.",
-      "source": "Course"
+      "description": "In-depth course on edge computing architectures and IoT systems. You will learn edge deployment patterns, real-time processing techniques, and IoT protocols. The curriculum covers sensor networks, edge AI deployment, and data synchronization strategies. Special emphasis on optimizing performance and managing resources in edge environments. Includes hands-on projects implementing edge computing solutions for IoT applications. The course focuses on both theoretical concepts and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Edge Computing", "IoT", "Distributed Systems"]
     },
     {
       "id": "course34",
       "title": "Formal Methods in Software Engineering",
       "link": "https://www.coursera.org/learn/formal-methods",
-      "description": "Applying formal methods to software development. Covers specification languages, verification, and validation.",
-      "source": "Course"
+      "description": "Advanced course on applying formal methods to software development. You will learn specification languages, model checking, and automated verification techniques. The curriculum covers formal verification, theorem proving, and property-based testing. Special focus on using formal methods to ensure software correctness and reliability. Includes practical projects applying formal methods to real-world software systems. The course emphasizes both theoretical foundations and practical applications in software verification.",
+      "source": "Course",
+      "tags": ["Formal Methods", "Software Verification", "Theorem Proving"]
     },
     {
       "id": "course35",
       "title": "GPU Computing",
       "link": "https://www.udacity.com/course/gpu-programming",
-      "description": "Parallel programming with GPUs. Covers CUDA, OpenCL, and parallel algorithms optimization.",
-      "source": "Course"
+      "description": "Comprehensive course on GPU programming and parallel computing optimization. You will learn CUDA programming, memory hierarchy optimization, and parallel algorithm design. The curriculum covers GPU architecture, thread management, and performance tuning techniques. Special emphasis on implementing efficient parallel solutions on GPU hardware. Includes hands-on projects developing high-performance GPU applications. The course focuses on both theoretical understanding and practical skills in GPU programming.",
+      "source": "Course",
+      "tags": ["GPU Programming", "CUDA", "Parallel Computing"]
     },
     {
       "id": "course36",
       "title": "Hardware Security",
       "link": "https://www.coursera.org/learn/hardware-security",
-      "description": "Security aspects of hardware design. Covers side-channel attacks, secure boot, and hardware trojans.",
-      "source": "Course"
+      "description": "Advanced course on hardware security principles and implementation. You will learn side-channel attack techniques, hardware trojans, and secure boot mechanisms. The curriculum covers hardware security modules, trusted execution environments, and physical attack prevention. Special focus on implementing secure hardware designs and analyzing security vulnerabilities. Includes practical projects assessing and implementing hardware security features. The course emphasizes both theoretical security concepts and practical protection measures.",
+      "source": "Course",
+      "tags": ["Hardware Security", "Side Channel Attacks", "Trusted Computing"]
     },
     {
       "id": "course37",
       "title": "Information Theory and Coding",
       "link": "https://www.edx.org/course/information-theory",
-      "description": "Fundamentals of information theory. Covers entropy, source coding, and error correction.",
-      "source": "Course"
+      "description": "Comprehensive course on information theory fundamentals and applications. You will learn entropy concepts, source coding techniques, and channel capacity analysis. The curriculum covers error-correcting codes, data compression, and information measures. Special emphasis on practical applications in communication systems and data storage. Includes projects implementing various coding schemes and analyzing their performance. The course focuses on both mathematical foundations and practical implementations of information theory concepts.",
+      "source": "Course",
+      "tags": ["Information Theory", "Coding Theory", "Data Compression"]
     },
     {
       "id": "course38",
       "title": "Julia for Scientific Computing",
       "link": "https://www.coursera.org/learn/julia-programming",
-      "description": "Scientific computing with Julia. Covers numerical methods, parallel computing, and performance optimization.",
-      "source": "Course"
+      "description": "Advanced course on scientific computing using the Julia programming language. You will learn high-performance numerical methods, parallel computing techniques, and optimization algorithms. The curriculum covers Julia's type system, multiple dispatch, and metaprogramming features. Special focus on implementing efficient scientific algorithms and numerical simulations. Includes practical projects solving complex scientific computing problems. The course emphasizes both language features and their applications in scientific research.",
+      "source": "Course",
+      "tags": ["Julia", "Scientific Computing", "Numerical Methods"]
     },
     {
       "id": "course39",
       "title": "Knowledge Graphs and Semantic Web",
       "link": "https://www.udacity.com/course/knowledge-graphs",
-      "description": "Building and querying knowledge graphs. Covers RDF, SPARQL, and ontology engineering.",
-      "source": "Course"
+      "description": "Comprehensive course on building and querying knowledge graphs. You will learn RDF data models, SPARQL query language, and ontology engineering principles. The curriculum covers knowledge graph construction, reasoning systems, and semantic integration. Special emphasis on implementing practical knowledge graph applications. Includes projects working with real-world knowledge graphs and semantic web technologies. The course focuses on both theoretical foundations and practical applications in semantic web development.",
+      "source": "Course",
+      "tags": ["Knowledge Graphs", "Semantic Web", "Ontology Engineering"]
     },
     {
       "id": "course40",
       "title": "Low Latency Trading Systems",
       "link": "https://www.coursera.org/learn/low-latency-trading",
-      "description": "Building high-frequency trading systems. Covers market microstructure, order matching, and risk management.",
-      "source": "Course"
+      "description": "Advanced course on building high-frequency trading systems. You will learn low-latency architecture design, market data processing, and order management systems. The curriculum covers network optimization, hardware acceleration, and real-time risk management. Special focus on implementing ultra-low latency trading strategies and systems. Includes practical projects building components of high-frequency trading platforms. The course emphasizes both theoretical principles and real-world implementation techniques.",
+      "source": "Course",
+      "tags": ["Low Latency", "Trading Systems", "High Frequency Trading"]
     },
     {
       "id": "course41",
       "title": "Machine Learning Compilers",
       "link": "https://www.edx.org/course/ml-compilers",
-      "description": "Optimizing ML models for hardware. Covers TVM, MLIR, and hardware acceleration.",
-      "source": "Course"
+      "description": "Advanced course on building and optimizing machine learning compilers. You will learn TVM architecture, MLIR framework, and hardware acceleration techniques. The curriculum covers automatic optimization, tensor computation scheduling, and hardware-specific code generation. Special focus on implementing efficient ML model deployment across different hardware targets. Includes practical projects optimizing deep learning models for various hardware platforms. The course emphasizes both compiler theory and practical implementation skills.",
+      "source": "Course",
+      "tags": ["ML Compilers", "Hardware Acceleration", "Optimization"]
     },
     {
       "id": "course42",
       "title": "Network Protocol Engineering",
       "link": "https://www.coursera.org/learn/protocol-engineering",
-      "description": "Designing and implementing network protocols. Covers protocol verification and performance analysis.",
-      "source": "Course"
+      "description": "Comprehensive course on designing and implementing network protocols. You will learn protocol specification methods, verification techniques, and performance analysis. The curriculum covers state machine design, protocol security, and testing methodologies. Special emphasis on building robust and efficient network protocols. Includes hands-on projects implementing and analyzing various network protocols. The course focuses on both theoretical principles and practical protocol development skills.",
+      "source": "Course",
+      "tags": ["Network Protocols", "Protocol Design", "Network Engineering"]
     },
     {
       "id": "course43",
       "title": "Operating System Security",
       "link": "https://www.udacity.com/course/os-security",
-      "description": "Security mechanisms in operating systems. Covers access control, isolation, and secure boot.",
-      "source": "Course"
+      "description": "Advanced course on implementing security mechanisms in operating systems. You will learn access control systems, secure boot processes, and kernel hardening techniques. The curriculum covers memory protection, process isolation, and security policy enforcement. Special focus on implementing secure OS features and analyzing security vulnerabilities. Includes practical projects hardening operating system components and implementing security controls. The course emphasizes both theoretical security principles and practical implementation.",
+      "source": "Course",
+      "tags": ["OS Security", "Kernel Security", "System Hardening"]
     },
     {
       "id": "course44",
       "title": "Program Analysis and Verification",
       "link": "https://www.coursera.org/learn/program-analysis",
-      "description": "Static and dynamic program analysis. Covers abstract interpretation, symbolic execution, and verification.",
-      "source": "Course"
+      "description": "In-depth course on program analysis techniques and software verification. You will learn static analysis methods, symbolic execution, and automated theorem proving. The curriculum covers abstract interpretation, type systems, and program verification tools. Special emphasis on implementing practical program analysis techniques. Includes projects developing various program analysis tools and verifying real-world software. The course focuses on both theoretical foundations and practical applications in software analysis.",
+      "source": "Course",
+      "tags": ["Program Analysis", "Software Verification", "Static Analysis"]
     },
     {
       "id": "course45",
       "title": "Quantum Computing Fundamentals",
       "link": "https://www.edx.org/course/quantum-computing",
-      "description": "Introduction to quantum computing. Covers quantum mechanics, algorithms, and programming.",
-      "source": "Course"
+      "description": "Comprehensive introduction to quantum computing principles and programming. You will learn quantum mechanics basics, quantum algorithms, and quantum circuit design. The curriculum covers quantum gates, entanglement, and quantum error correction. Special focus on implementing quantum algorithms using modern frameworks. Includes hands-on projects using quantum simulators and real quantum computers. The course emphasizes both theoretical understanding and practical quantum programming skills.",
+      "source": "Course",
+      "tags": ["Quantum Computing", "Quantum Algorithms", "Quantum Programming"]
     },
     {
       "id": "course46",
       "title": "Real-time Systems",
       "link": "https://www.coursera.org/learn/real-time-systems",
-      "description": "Design and implementation of real-time systems. Covers scheduling, timing analysis, and RTOS.",
-      "source": "Course"
+      "description": "Advanced course on real-time system design and implementation. You will learn scheduling algorithms, timing analysis, and resource management techniques. The curriculum covers real-time operating systems, interrupt handling, and deterministic execution. Special emphasis on building reliable real-time applications. Includes practical projects implementing various real-time system components. The course focuses on both theoretical principles and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Real-time Systems", "RTOS", "Embedded Systems"]
     },
     {
       "id": "course47",
       "title": "Secure Hardware Design",
       "link": "https://www.udacity.com/course/secure-hardware",
-      "description": "Designing secure hardware systems. Covers trusted execution environments and secure processors.",
-      "source": "Course"
+      "description": "Comprehensive course on designing secure hardware systems. You will learn trusted execution environments, secure processor architectures, and hardware security modules. The curriculum covers side-channel attack prevention, secure boot implementation, and hardware authentication. Special focus on implementing secure hardware features and analyzing security vulnerabilities. Includes practical projects designing and implementing secure hardware components. The course emphasizes both security principles and practical design skills.",
+      "source": "Course",
+      "tags": ["Hardware Security", "Secure Design", "Trusted Computing"]
     },
     {
       "id": "course48",
       "title": "Tensor Methods in Machine Learning",
       "link": "https://www.coursera.org/learn/tensor-methods",
-      "description": "Advanced tensor computation techniques. Covers tensor networks and decomposition methods.",
-      "source": "Course"
+      "description": "Advanced course on tensor computation techniques in machine learning. You will learn tensor decomposition methods, tensor networks, and optimization algorithms. The curriculum covers dimensionality reduction, feature extraction, and tensor-based neural networks. Special emphasis on implementing efficient tensor computation methods. Includes practical projects applying tensor methods to various machine learning problems. The course focuses on both theoretical foundations and practical applications.",
+      "source": "Course",
+      "tags": ["Tensor Methods", "Machine Learning", "Numerical Computing"]
     },
     {
       "id": "course49",
       "title": "UNIX Systems Programming",
       "link": "https://www.edx.org/course/unix-programming",
-      "description": "Advanced UNIX programming concepts. Covers system calls, IPC, and network programming.",
-      "source": "Course"
+      "description": "Comprehensive course on advanced UNIX programming concepts and techniques. You will learn system calls, interprocess communication, and network programming. The curriculum covers file systems, process management, and signal handling. Special emphasis on writing efficient and reliable UNIX programs. Includes practical projects implementing various UNIX utilities and system tools. The course focuses on both theoretical understanding and practical programming skills.",
+      "source": "Course",
+      "tags": ["UNIX", "Systems Programming", "Operating Systems"]
     },
     {
       "id": "course50",
       "title": "Virtual Machine Design",
       "link": "https://www.coursera.org/learn/vm-design",
-      "description": "Building virtual machines. Covers bytecode interpretation, JIT compilation, and optimization.",
-      "source": "Course"
+      "description": "Advanced course on designing and implementing virtual machines. You will learn bytecode interpretation, just-in-time compilation, and garbage collection algorithms. The curriculum covers memory management, optimization techniques, and runtime systems. Special focus on building efficient virtual machines for programming languages. Includes practical projects implementing various VM components and optimizations. The course emphasizes both theoretical principles and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Virtual Machines", "JIT Compilation", "Runtime Systems"]
     },
     {
       "id": "course51",
       "title": "WebAssembly Systems Programming",
       "link": "https://www.udacity.com/course/webassembly",
-      "description": "Systems programming with WebAssembly. Covers memory model, threading, and optimization.",
-      "source": "Course"
+      "description": "Advanced course on systems programming with WebAssembly. You will learn Wasm binary format, memory model, and threading capabilities. The curriculum covers performance optimization, browser integration, and low-level programming techniques. Special focus on building high-performance web applications using WebAssembly. Includes practical projects implementing complex systems in WebAssembly. The course emphasizes both theoretical understanding and practical implementation skills.",
+      "source": "Course",
+      "tags": ["WebAssembly", "Systems Programming", "Web Performance"]
     },
     {
       "id": "course52",
       "title": "XR Development",
       "link": "https://www.coursera.org/learn/xr-development",
-      "description": "Extended reality application development. Covers AR/VR systems and spatial computing.",
-      "source": "Course"
+      "description": "Comprehensive course on extended reality application development. You will learn AR/VR development techniques, spatial computing, and 3D interaction design. The curriculum covers tracking systems, rendering optimization, and immersive experience design. Special emphasis on creating engaging and responsive XR applications. Includes hands-on projects developing applications for various XR platforms. The course focuses on both technical implementation and user experience design.",
+      "source": "Course",
+      "tags": ["XR Development", "Virtual Reality", "Augmented Reality"]
     },
     {
       "id": "course53",
       "title": "YAML and Infrastructure as Code",
       "link": "https://www.edx.org/course/infrastructure-as-code",
-      "description": "Infrastructure automation with YAML. Covers configuration management and deployment.",
-      "source": "Course"
+      "description": "In-depth course on infrastructure automation using YAML and modern tools. You will learn configuration management, infrastructure as code principles, and deployment automation. The curriculum covers YAML syntax, templating systems, and validation techniques. Special focus on implementing reliable and maintainable infrastructure configurations. Includes practical projects automating complex infrastructure deployments. The course emphasizes both theoretical concepts and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Infrastructure as Code", "YAML", "DevOps"]
     },
     {
       "id": "course54",
       "title": "Zero Knowledge Proofs",
       "link": "https://www.coursera.org/learn/zero-knowledge",
-      "description": "Theory and implementation of zero-knowledge proofs. Covers SNARKs and privacy protocols.",
-      "source": "Course"
+      "description": "Advanced course on zero-knowledge proof systems and applications. You will learn fundamental concepts of zero-knowledge proofs, including SNARKs and STARKs. The curriculum covers proof construction, verification protocols, and privacy-preserving computation. Special emphasis on implementing practical zero-knowledge applications. Includes projects developing various zero-knowledge protocols and systems. The course focuses on both theoretical foundations and practical implementations.",
+      "source": "Course",
+      "tags": ["Zero Knowledge Proofs", "Cryptography", "Privacy"]
     },
     {
       "id": "course55",
       "title": "Advanced Algorithms",
       "link": "https://www.edx.org/course/advanced-algorithms",
-      "description": "Complex algorithmic techniques. Covers approximation algorithms and randomized algorithms.",
-      "source": "Course"
+      "description": "Comprehensive course on advanced algorithmic techniques and analysis. You will learn approximation algorithms, randomized algorithms, and online algorithms. The curriculum covers computational geometry, network flows, and advanced data structures. Special focus on analyzing algorithm complexity and optimality. Includes challenging programming assignments implementing sophisticated algorithms. The course emphasizes both theoretical understanding and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Algorithms", "Computational Theory", "Optimization"]
     },
     {
       "id": "course56",
       "title": "Blockchain Technology",
       "link": "https://www.coursera.org/learn/blockchain-tech",
-      "description": "Advanced blockchain concepts. Covers consensus mechanisms and smart contracts.",
-      "source": "Course"
+      "description": "Advanced course on blockchain technology and distributed systems. You will learn consensus mechanisms, smart contract development, and blockchain scalability solutions. The curriculum covers cryptographic primitives, distributed consensus, and network protocols. Special emphasis on implementing secure and efficient blockchain systems. Includes practical projects developing blockchain applications and protocols. The course focuses on both theoretical principles and practical implementation techniques.",
+      "source": "Course",
+      "tags": ["Blockchain", "Distributed Systems", "Cryptography"]
     },
     {
       "id": "course57",
       "title": "Computer Graphics Programming",
       "link": "https://www.udacity.com/course/computer-graphics",
-      "description": "Modern graphics programming. Covers ray tracing, shaders, and real-time rendering.",
-      "source": "Course"
+      "description": "Comprehensive course on modern computer graphics programming. You will learn ray tracing, shader programming, and real-time rendering techniques. The curriculum covers 3D mathematics, lighting models, and graphics pipeline optimization. Special focus on implementing efficient graphics algorithms and effects. Includes hands-on projects developing various graphics applications. The course emphasizes both theoretical foundations and practical graphics programming skills.",
+      "source": "Course",
+      "tags": ["Computer Graphics", "Rendering", "GPU Programming"]
     },
     {
       "id": "course58",
       "title": "Database Internals",
       "link": "https://www.coursera.org/learn/database-internals",
-      "description": "Internal workings of databases. Covers storage engines and query optimization.",
-      "source": "Course"
+      "description": "Advanced course on database system internals and implementation. You will learn storage engine design, query optimization, and transaction processing. The curriculum covers indexing structures, concurrency control, and recovery mechanisms. Special emphasis on implementing efficient database components. Includes practical projects building various database subsystems. The course focuses on both theoretical principles and practical implementation techniques.",
+      "source": "Course",
+      "tags": ["Databases", "Storage Engines", "Query Processing"]
     },
     {
       "id": "course59",
       "title": "Embedded Systems Programming",
       "link": "https://www.edx.org/course/embedded-systems",
-      "description": "Programming for embedded devices. Covers real-time systems and device drivers.",
-      "source": "Course"
+      "description": "Comprehensive course on embedded systems programming and design. You will learn real-time programming, device drivers, and hardware interfacing. The curriculum covers interrupt handling, memory management, and power optimization. Special focus on developing reliable embedded applications. Includes hands-on projects implementing various embedded system components. The course emphasizes both theoretical understanding and practical programming skills.",
+      "source": "Course",
+      "tags": ["Embedded Systems", "Real-time Programming", "Device Drivers"]
     },
     {
       "id": "course60",
       "title": "Functional Programming Design",
       "link": "https://www.coursera.org/learn/fp-design",
-      "description": "Advanced functional programming. Covers type systems and category theory.",
-      "source": "Course"
+      "description": "Advanced course on functional programming design principles. You will learn type theory, category theory, and functional design patterns. The curriculum covers monads, type classes, and functional reactive programming. Special emphasis on applying functional principles to real-world problems. Includes challenging projects implementing complex systems using functional approaches. The course focuses on both theoretical foundations and practical application of functional programming concepts.",
+      "source": "Course",
+      "tags": ["Functional Programming", "Type Theory", "Category Theory"]
     },
     {
       "id": "course61",
       "title": "Game Engine Development",
       "link": "https://www.udacity.com/course/game-engine",
-      "description": "Building game engines from scratch. Covers physics simulation and rendering.",
-      "source": "Course"
+      "description": "Comprehensive course on building modern game engines from scratch. You will learn rendering systems, physics simulation, and game architecture design. The curriculum covers 3D mathematics, collision detection, and scene management. Special focus on implementing efficient and maintainable game engine components. Includes hands-on projects developing various engine subsystems. The course emphasizes both theoretical principles and practical implementation techniques in game engine development.",
+      "source": "Course",
+      "tags": ["Game Engines", "Graphics Programming", "Physics Simulation"]
     },
     {
       "id": "course62",
       "title": "High Performance Computing",
       "link": "https://www.coursera.org/learn/high-performance",
-      "description": "Parallel and distributed computing. Covers MPI, OpenMP, and cluster computing.",
-      "source": "Course"
+      "description": "Advanced course on parallel and distributed computing systems. You will learn parallel programming models, cluster computing, and performance optimization techniques. The curriculum covers MPI, OpenMP, and GPU programming with CUDA. Special emphasis on implementing efficient parallel algorithms and applications. Includes practical projects using supercomputing resources and cluster environments. The course focuses on both theoretical foundations and practical skills in high-performance computing.",
+      "source": "Course",
+      "tags": ["HPC", "Parallel Computing", "GPU Programming"]
     },
     {
       "id": "course63",
       "title": "Internet of Things Security",
       "link": "https://www.edx.org/course/iot-security",
-      "description": "Security in IoT systems. Covers device security and network protocols.",
-      "source": "Course"
+      "description": "In-depth course on securing IoT systems and networks. You will learn device security, secure communication protocols, and threat detection methods. The curriculum covers embedded security, network protection, and privacy preservation in IoT environments. Special focus on implementing secure IoT architectures and applications. Includes hands-on projects securing various IoT systems and devices. The course emphasizes both security principles and practical implementation techniques.",
+      "source": "Course",
+      "tags": ["IoT Security", "Network Security", "Embedded Security"]
     },
     {
       "id": "course64",
       "title": "Just-In-Time Compilation",
       "link": "https://www.coursera.org/learn/jit-compilation",
-      "description": "Building JIT compilers. Covers optimization techniques and code generation.",
-      "source": "Course"
+      "description": "Advanced course on just-in-time compilation techniques and implementation. You will learn dynamic optimization, profiling systems, and code generation strategies. The curriculum covers intermediate representations, optimization passes, and runtime performance analysis. Special focus on building efficient JIT compilers for programming languages. Includes practical projects implementing various JIT compilation techniques. The course focuses on both theoretical principles and practical implementation skills.",
+      "source": "Course",
+      "tags": ["JIT Compilation", "Compiler Design", "Performance Optimization"]
     },
     {
       "id": "course65",
       "title": "Kernel Programming",
       "link": "https://www.udacity.com/course/kernel-programming",
-      "description": "Linux kernel development. Covers device drivers and kernel modules.",
-      "source": "Course"
+      "description": "Comprehensive course on Linux kernel development and system programming. You will learn device driver development, kernel module creation, and debugging techniques. The curriculum covers memory management, process scheduling, and interrupt handling. Special emphasis on writing efficient and reliable kernel code. Includes hands-on projects implementing various kernel subsystems. The course focuses on both theoretical understanding and practical kernel programming skills.",
+      "source": "Course",
+      "tags": ["Kernel Development", "Linux", "Systems Programming"]
     },
     {
       "id": "course66",
       "title": "Language Implementation",
       "link": "https://www.coursera.org/learn/language-implementation",
-      "description": "Implementing programming languages. Covers parsers and virtual machines.",
-      "source": "Course"
+      "description": "Advanced course on implementing programming languages. You will learn parser design, type checking, and code generation techniques. The curriculum covers virtual machines, runtime systems, and optimization strategies. Special focus on building practical programming language implementations. Includes projects developing interpreters and compilers for various language features. The course emphasizes both theoretical foundations and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Programming Languages", "Compiler Design", "Language Implementation"]
     },
     {
       "id": "course67",
       "title": "Machine Learning Infrastructure",
       "link": "https://www.edx.org/course/ml-infrastructure",
-      "description": "Building ML infrastructure. Covers model serving and monitoring.",
-      "source": "Course"
+      "description": "Comprehensive course on building production machine learning infrastructure. You will learn feature stores, model serving systems, and monitoring frameworks. The curriculum covers data pipelines, model deployment, and scaling strategies. Special emphasis on implementing reliable and efficient ML systems. Includes practical projects developing various ML infrastructure components. The course focuses on both architectural principles and practical implementation techniques.",
+      "source": "Course",
+      "tags": ["MLOps", "Infrastructure", "Machine Learning"]
     },
     {
       "id": "course68",
       "title": "Network Security",
       "link": "https://www.coursera.org/learn/network-security",
-      "description": "Advanced network security. Covers firewalls and intrusion detection.",
-      "source": "Course"
+      "description": "Advanced course on network security principles and implementation. You will learn firewall design, intrusion detection systems, and security protocols. The curriculum covers threat analysis, attack mitigation, and security architecture. Special focus on implementing secure network systems and services. Includes hands-on projects securing various network environments. The course emphasizes both theoretical security concepts and practical protection measures.",
+      "source": "Course",
+      "tags": ["Network Security", "Cybersecurity", "Security Architecture"]
     },
     {
       "id": "course69",
       "title": "Operating Systems Implementation",
       "link": "https://www.udacity.com/course/os-implementation",
-      "description": "Building an operating system. Covers process management and file systems.",
-      "source": "Course"
+      "description": "In-depth course on operating system implementation from first principles. You will learn process management, memory systems, and file system design. The curriculum covers scheduling algorithms, virtual memory, and I/O subsystems. Special focus on building a working operating system from scratch. Includes challenging projects implementing various OS components. The course focuses on both theoretical principles and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Operating Systems", "Systems Programming", "Kernel Development"]
     },
     {
       "id": "course70",
       "title": "Parallel Computing",
       "link": "https://www.coursera.org/learn/parallel-computing",
-      "description": "Parallel programming concepts. Covers threading models and synchronization.",
-      "source": "Course"
+      "description": "Comprehensive course on parallel programming concepts and techniques. You will learn threading models, synchronization mechanisms, and parallel algorithm design. The curriculum covers shared memory programming, message passing, and performance analysis. Special emphasis on implementing efficient parallel applications. Includes practical projects using various parallel programming frameworks. The course focuses on both theoretical foundations and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Parallel Computing", "Concurrency", "High Performance Computing"]
     },
     {
       "id": "course71",
       "title": "Quantum Algorithms",
       "link": "https://www.edx.org/course/quantum-algorithms",
-      "description": "Advanced quantum computing algorithms. Covers quantum circuits and optimization.",
-      "source": "Course"
+      "description": "Advanced course on quantum computing algorithms and implementation. You will learn quantum circuit design, quantum optimization techniques, and quantum simulation methods. The curriculum covers Shor's algorithm, Grover's algorithm, and quantum machine learning approaches. Special focus on implementing practical quantum algorithms using current hardware. Includes hands-on projects using quantum computing frameworks and simulators. The course emphasizes both theoretical foundations and practical quantum programming skills.",
+      "source": "Course",
+      "tags": ["Quantum Computing", "Quantum Algorithms", "Quantum Programming"]
     },
     {
       "id": "course72",
       "title": "Reverse Engineering Techniques",
       "link": "https://www.coursera.org/learn/reverse-engineering",
-      "description": "Software reverse engineering. Covers disassembly and debugging techniques.",
-      "source": "Course"
+      "description": "Comprehensive course on software reverse engineering methodologies. You will learn disassembly techniques, debugging tools, and binary analysis methods. The curriculum covers code analysis, malware detection, and protection mechanism bypass. Special emphasis on understanding complex software systems through reverse engineering. Includes practical projects analyzing various software types and architectures. The course focuses on both theoretical principles and hands-on reverse engineering skills.",
+      "source": "Course",
+      "tags": ["Reverse Engineering", "Binary Analysis", "Security"]
     },
     {
       "id": "course73",
       "title": "Secure Software Engineering",
       "link": "https://www.udacity.com/course/secure-software",
-      "description": "Building secure software. Covers security testing and vulnerability analysis.",
-      "source": "Course"
+      "description": "Advanced course on building secure software systems from the ground up. You will learn secure coding practices, vulnerability assessment, and security testing methodologies. The curriculum covers threat modeling, secure design patterns, and code review techniques. Special focus on implementing security controls and preventing common vulnerabilities. Includes hands-on projects securing various applications and systems. The course emphasizes both security principles and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Security", "Software Engineering", "Secure Coding"]
     },
     {
       "id": "course74",
       "title": "System Design and Architecture",
       "link": "https://www.coursera.org/learn/system-design",
-      "description": "Large-scale system design. Covers scalability and distributed systems.",
-      "source": "Course"
+      "description": "Comprehensive course on designing large-scale distributed systems. You will learn scalability patterns, fault tolerance strategies, and system architecture principles. The curriculum covers microservices design, data storage solutions, and load balancing techniques. Special emphasis on making architectural decisions for complex systems. Includes practical projects designing various distributed system architectures. The course focuses on both theoretical concepts and real-world implementation approaches.",
+      "source": "Course",
+      "tags": ["System Design", "Distributed Systems", "Architecture"]
     },
     {
       "id": "course75",
       "title": "Type Systems",
       "link": "https://www.edx.org/course/type-systems",
-      "description": "Advanced type theory. Covers type inference and dependent types.",
-      "source": "Course"
+      "description": "Advanced course on type theory and type system implementation. You will learn type inference algorithms, dependent type theory, and gradual typing systems. The curriculum covers type checking, subtyping, and polymorphism mechanisms. Special focus on implementing practical type systems for programming languages. Includes projects developing various type system features and analyses. The course emphasizes both theoretical foundations and practical implementation techniques.",
+      "source": "Course",
+      "tags": ["Type Theory", "Programming Languages", "Formal Methods"]
     },
     {
       "id": "course76",
       "title": "UI/UX Engineering",
       "link": "https://www.coursera.org/learn/uiux-engineering",
-      "description": "Modern UI/UX development. Covers accessibility and responsive design.",
-      "source": "Course"
+      "description": "Comprehensive course on modern user interface and experience engineering. You will learn accessibility standards, responsive design techniques, and interaction patterns. The curriculum covers component architecture, state management, and performance optimization. Special emphasis on creating inclusive and user-friendly interfaces. Includes hands-on projects implementing various UI/UX patterns and systems. The course focuses on both design principles and technical implementation skills.",
+      "source": "Course",
+      "tags": ["UI/UX", "Frontend Engineering", "Accessibility"]
     },
     {
       "id": "course77",
       "title": "Virtual Reality Systems",
       "link": "https://www.udacity.com/course/vr-systems",
-      "description": "VR system development. Covers 3D graphics and interaction design.",
-      "source": "Course"
+      "description": "Advanced course on virtual reality system development and optimization. You will learn 3D graphics programming, spatial tracking systems, and VR interaction design. The curriculum covers rendering pipelines, physics simulation, and performance optimization for VR. Special focus on creating immersive and responsive VR experiences. Includes practical projects developing various VR applications and systems. The course emphasizes both technical foundations and implementation skills.",
+      "source": "Course",
+      "tags": ["Virtual Reality", "Graphics Programming", "Interactive Systems"]
     },
     {
       "id": "course78",
       "title": "Web Security Engineering",
       "link": "https://www.coursera.org/learn/web-security",
-      "description": "Advanced web security. Covers common vulnerabilities and secure architecture.",
-      "source": "Course"
+      "description": "In-depth course on web application security and secure architecture. You will learn vulnerability assessment, secure coding practices, and attack mitigation techniques. The curriculum covers common web vulnerabilities, security headers, and authentication systems. Special emphasis on implementing secure web applications and services. Includes hands-on projects securing various web platforms and frameworks. The course focuses on both security principles and practical protection measures.",
+      "source": "Course",
+      "tags": ["Web Security", "Application Security", "Secure Architecture"]
     },
     {
       "id": "course79",
       "title": "Advanced Algorithmic Trading",
       "link": "https://www.coursera.org/learn/algorithmic-trading",
-      "description": "Building high-frequency trading systems. Covers market microstructure and execution algorithms.",
-      "source": "Course"
+      "description": "Advanced course on building high-frequency trading systems and algorithms. You will learn market microstructure, execution algorithms, and risk management systems. The curriculum covers order book analysis, trading strategy implementation, and backtesting frameworks. Special focus on developing efficient and profitable trading systems. Includes practical projects implementing various trading strategies and analysis tools. The course emphasizes both theoretical principles and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Algorithmic Trading", "Financial Engineering", "Quantitative Finance"]
     },
     {
       "id": "course80",
       "title": "Biometric Systems",
       "link": "https://www.edx.org/course/biometric-systems",
-      "description": "Design and implementation of biometric systems. Covers authentication and identification methods.",
-      "source": "Course"
+      "description": "Comprehensive course on biometric system design and implementation. You will learn authentication methods, identification algorithms, and security protocols for biometric data. The curriculum covers fingerprint analysis, facial recognition, and multimodal biometric systems. Special emphasis on implementing accurate and secure biometric solutions. Includes hands-on projects developing various biometric authentication systems. The course focuses on both theoretical foundations and practical implementation techniques.",
+      "source": "Course",
+      "tags": ["Biometrics", "Security Systems", "Pattern Recognition"]
     },
     {
       "id": "course81",
       "title": "Cloud Security Operations",
       "link": "https://www.udacity.com/course/cloud-security-ops",
-      "description": "Security operations in cloud environments. Covers threat detection and incident response.",
-      "source": "Course"
+      "description": "Advanced course on cloud security operations and incident response. You will learn threat detection strategies, security monitoring, and incident management in cloud environments. The curriculum covers security automation, compliance monitoring, and cloud-native security tools. Special focus on implementing effective security operations centers for cloud infrastructure. Includes hands-on projects implementing security monitoring and response systems. The course emphasizes both theoretical principles and practical operational skills.",
+      "source": "Course",
+      "tags": ["Cloud Security", "Security Operations", "Incident Response"]
     },
     {
       "id": "course82",
       "title": "Digital Signal Processing",
       "link": "https://www.coursera.org/learn/dsp-engineering",
-      "description": "Advanced DSP implementation. Covers filter design and real-time processing systems.",
-      "source": "Course"
+      "description": "Comprehensive course on digital signal processing implementation and optimization. You will learn filter design techniques, real-time processing algorithms, and DSP hardware architecture. The curriculum covers frequency analysis, adaptive filtering, and signal transformation methods. Special emphasis on implementing efficient DSP solutions for real-world applications. Includes practical projects developing various signal processing systems. The course focuses on both theoretical foundations and practical implementation skills.",
+      "source": "Course",
+      "tags": ["DSP", "Signal Processing", "Real-time Systems"]
     },
     {
       "id": "course83",
       "title": "Embedded Security",
       "link": "https://www.edx.org/course/embedded-security",
-      "description": "Security in embedded systems. Covers secure boot and trusted execution environments.",
-      "source": "Course"
+      "description": "Advanced course on security implementation in embedded systems. You will learn secure boot mechanisms, trusted execution environments, and hardware security features. The curriculum covers secure storage, cryptographic acceleration, and secure firmware updates. Special focus on implementing robust security measures in resource-constrained environments. Includes hands-on projects securing various embedded platforms. The course emphasizes both security principles and practical implementation techniques.",
+      "source": "Course",
+      "tags": ["Embedded Security", "Hardware Security", "Trusted Computing"]
     },
     {
       "id": "course84",
       "title": "FPGA Design",
       "link": "https://www.udacity.com/course/fpga-design",
-      "description": "Hardware design with FPGAs. Covers VHDL, Verilog, and hardware acceleration.",
-      "source": "Course"
+      "description": "In-depth course on FPGA design and hardware acceleration. You will learn hardware description languages (VHDL/Verilog), digital design principles, and FPGA architecture. The curriculum covers synthesis tools, timing analysis, and hardware optimization techniques. Special emphasis on implementing efficient hardware designs on FPGA platforms. Includes practical projects developing various digital systems. The course focuses on both theoretical concepts and practical implementation skills.",
+      "source": "Course",
+      "tags": ["FPGA", "Hardware Design", "Digital Systems"]
     },
     {
       "id": "course85",
       "title": "Game Physics",
       "link": "https://www.coursera.org/learn/game-physics",
-      "description": "Physics simulation for games. Covers collision detection and rigid body dynamics.",
-      "source": "Course"
+      "description": "Comprehensive course on physics simulation for game development. You will learn collision detection algorithms, rigid body dynamics, and constraint solving methods. The curriculum covers numerical integration, continuous collision detection, and physics engine architecture. Special focus on implementing efficient and stable physics simulations. Includes hands-on projects developing various physics systems for games. The course emphasizes both theoretical principles and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Game Physics", "Physics Simulation", "Game Development"]
     },
     {
       "id": "course86",
       "title": "Hardware Verification",
       "link": "https://www.edx.org/course/hardware-verification",
-      "description": "Formal verification of hardware designs. Covers model checking and theorem proving.",
-      "source": "Course"
+      "description": "Advanced course on formal verification of hardware designs. You will learn model checking techniques, theorem proving methods, and verification methodologies. The curriculum covers property specification, verification planning, and coverage analysis. Special emphasis on verifying complex hardware designs using formal methods. Includes practical projects verifying various digital systems. The course focuses on both theoretical foundations and practical verification skills.",
+      "source": "Course",
+      "tags": ["Hardware Verification", "Formal Methods", "Digital Design"]
     },
     {
       "id": "course87",
       "title": "Information Retrieval",
       "link": "https://www.coursera.org/learn/information-retrieval",
-      "description": "Building search engines. Covers indexing, ranking, and query processing systems.",
-      "source": "Course"
+      "description": "Comprehensive course on building modern search engine systems. You will learn indexing techniques, ranking algorithms, and query processing methods. The curriculum covers text processing, relevance scoring, and search optimization. Special focus on implementing efficient and scalable information retrieval systems. Includes hands-on projects developing various search components. The course emphasizes both theoretical principles and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Information Retrieval", "Search Engines", "Text Processing"]
     },
     {
       "id": "course88",
       "title": "Kernel Internals",
       "link": "https://www.udacity.com/course/kernel-internals",
-      "description": "Deep dive into Linux kernel. Covers memory management and process scheduling.",
-      "source": "Course"
+      "description": "Advanced course on Linux kernel internals and implementation. You will learn memory management subsystems, process scheduling algorithms, and kernel synchronization methods. The curriculum covers virtual memory, system calls, and kernel debugging techniques. Special emphasis on understanding and modifying kernel internals. Includes practical projects exploring and extending kernel functionality. The course focuses on both theoretical concepts and practical kernel development skills.",
+      "source": "Course",
+      "tags": ["Kernel Development", "Operating Systems", "Systems Programming"]
     },
     {
       "id": "course89",
       "title": "Low Latency Systems",
       "link": "https://www.coursera.org/learn/low-latency",
-      "description": "Building ultra-low latency systems. Covers network optimization and hardware acceleration.",
-      "source": "Course"
+      "description": "In-depth course on building ultra-low latency systems. You will learn network optimization techniques, hardware acceleration methods, and high-performance system design. The curriculum covers RDMA networking, kernel bypass, and CPU architecture considerations. Special focus on implementing microsecond-scale response times. Includes practical projects developing various low-latency components. The course emphasizes both theoretical principles and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Low Latency", "High Performance", "System Design"]
     },
     {
       "id": "course90",
       "title": "ML Infrastructure",
       "link": "https://www.edx.org/course/ml-infrastructure",
-      "description": "Building ML infrastructure. Covers feature stores and model serving systems.",
-      "source": "Course"
+      "description": "Comprehensive course on building machine learning infrastructure at scale. You will learn feature store design, model serving architectures, and ML pipeline automation. The curriculum covers data versioning, experiment tracking, and model monitoring systems. Special emphasis on implementing reliable and scalable ML platforms. Includes hands-on projects developing various ML infrastructure components. The course focuses on both architectural principles and practical implementation techniques.",
+      "source": "Course",
+      "tags": ["MLOps", "Infrastructure", "Machine Learning"]
     },
     {
       "id": "course91",
       "title": "Network Functions",
       "link": "https://www.udacity.com/course/network-functions",
-      "description": "Network function virtualization. Covers virtual network functions and service chaining.",
-      "source": "Course"
+      "description": "Advanced course on network function virtualization and service architecture. You will learn virtual network function design, service chaining, and NFV infrastructure. The curriculum covers network orchestration, performance optimization, and scalability patterns. Special focus on implementing efficient virtualized network services. Includes hands-on projects developing various network functions. The course emphasizes both theoretical principles and practical implementation skills.",
+      "source": "Course",
+      "tags": ["NFV", "Network Architecture", "Virtualization"]
     },
     {
       "id": "course92",
       "title": "OS Development",
       "link": "https://www.coursera.org/learn/os-development",
-      "description": "Operating system development from scratch. Covers bootloaders and kernel development.",
-      "source": "Course"
+      "description": "Comprehensive course on operating system development from first principles. You will learn bootloader implementation, kernel development, and system initialization. The curriculum covers memory management, process scheduling, and file system implementation. Special emphasis on building a working operating system from scratch. Includes challenging projects implementing various OS components. The course focuses on both theoretical foundations and practical development skills.",
+      "source": "Course",
+      "tags": ["Operating Systems", "Kernel Development", "Systems Programming"]
     },
     {
       "id": "course93",
       "title": "Processor Design",
       "link": "https://www.edx.org/course/processor-design",
-      "description": "CPU architecture and implementation. Covers pipelining and out-of-order execution.",
-      "source": "Course"
+      "description": "Advanced course on CPU architecture and implementation. You will learn pipelining techniques, out-of-order execution, and processor microarchitecture. The curriculum covers instruction set design, cache hierarchies, and branch prediction. Special focus on implementing efficient and high-performance processor designs. Includes practical projects developing various processor components. The course emphasizes both theoretical principles and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Computer Architecture", "Processor Design", "Digital Systems"]
     },
     {
       "id": "course94",
       "title": "Quantum Hardware",
       "link": "https://www.coursera.org/learn/quantum-hardware",
-      "description": "Quantum computer hardware. Covers qubit design and quantum control systems.",
-      "source": "Course"
+      "description": "In-depth course on quantum computer hardware implementation. You will learn qubit design principles, quantum control systems, and error correction methods. The curriculum covers quantum circuits, noise characterization, and quantum measurement techniques. Special emphasis on understanding practical quantum hardware constraints. Includes hands-on projects with quantum computing platforms. The course focuses on both theoretical concepts and practical implementation challenges.",
+      "source": "Course",
+      "tags": ["Quantum Computing", "Hardware Design", "Quantum Control"]
     },
     {
       "id": "course95",
       "title": "RTOS Design",
       "link": "https://www.udacity.com/course/rtos-design",
-      "description": "Real-time operating system design. Covers scheduling and interrupt handling.",
-      "source": "Course"
+      "description": "Comprehensive course on real-time operating system design and implementation. You will learn scheduling algorithms, interrupt handling, and task management. The curriculum covers deterministic execution, resource management, and timing analysis. Special focus on building reliable real-time systems. Includes practical projects implementing various RTOS components. The course emphasizes both theoretical principles and practical implementation skills.",
+      "source": "Course",
+      "tags": ["RTOS", "Real-time Systems", "Embedded Systems"]
     },
     {
       "id": "course96",
       "title": "Software Radio",
       "link": "https://www.coursera.org/learn/software-radio",
-      "description": "Software defined radio implementation. Covers signal processing and protocols.",
-      "source": "Course"
+      "description": "Advanced course on software-defined radio implementation. You will learn digital signal processing, radio protocols, and wireless communication systems. The curriculum covers modulation techniques, protocol implementation, and RF front-end integration. Special emphasis on building flexible radio systems in software. Includes hands-on projects developing various radio applications. The course focuses on both theoretical foundations and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Software Radio", "Signal Processing", "Wireless Communications"]
     },
     {
       "id": "course97",
       "title": "TPM Programming",
       "link": "https://www.edx.org/course/tpm-programming",
-      "description": "Trusted Platform Module programming. Covers secure storage and attestation.",
-      "source": "Course"
+      "description": "Comprehensive course on Trusted Platform Module programming and security. You will learn secure storage mechanisms, attestation protocols, and key management. The curriculum covers TPM architecture, security features, and integration patterns. Special focus on implementing secure systems using TPM capabilities. Includes practical projects developing various TPM-based security solutions. The course emphasizes both security principles and practical implementation techniques.",
+      "source": "Course",
+      "tags": ["TPM", "Hardware Security", "Trusted Computing"]
     },
     {
       "id": "course98",
       "title": "UEFI Programming",
       "link": "https://www.udacity.com/course/uefi-programming",
-      "description": "UEFI firmware development. Covers boot services and runtime services.",
-      "source": "Course"
+      "description": "Advanced course on UEFI firmware development and implementation. You will learn boot service programming, runtime services, and UEFI protocols. The curriculum covers firmware architecture, driver development, and secure boot implementation. Special emphasis on developing reliable firmware components. Includes hands-on projects implementing various UEFI modules. The course focuses on both theoretical principles and practical firmware development skills.",
+      "source": "Course",
+      "tags": ["UEFI", "Firmware", "System Programming"]
     },
     {
       "id": "course99",
       "title": "VR Development",
       "link": "https://www.coursera.org/learn/vr-development",
-      "description": "Virtual reality system development. Covers tracking and rendering optimization.",
-      "source": "Course"
+      "description": "Comprehensive course on virtual reality system development. You will learn VR tracking systems, rendering optimization, and interaction design. The curriculum covers spatial computing, performance profiling, and VR best practices. Special focus on creating immersive and responsive VR experiences. Includes practical projects developing various VR applications. The course emphasizes both technical implementation and user experience design.",
+      "source": "Course",
+      "tags": ["Virtual Reality", "Graphics", "Interactive Systems"]
     },
     {
       "id": "course100",
       "title": "Zero Knowledge Proofs",
       "link": "https://www.edx.org/course/zero-knowledge-proofs",
-      "description": "Implementation of zero-knowledge systems. Covers SNARKs and privacy protocols.",
-      "source": "Course"
+      "description": "Advanced course on zero-knowledge proof systems and implementation. You will learn ZK-SNARK construction, proof generation, and verification protocols. The curriculum covers cryptographic primitives, circuit compilation, and privacy preservation techniques. Special focus on implementing practical zero-knowledge applications. Includes hands-on projects developing various ZK proof systems. The course emphasizes both theoretical foundations and practical implementation skills.",
+      "source": "Course",
+      "tags": ["Zero Knowledge Proofs", "Cryptography", "Privacy"]
     }
   ]
 } 

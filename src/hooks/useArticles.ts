@@ -11,6 +11,7 @@ export interface Article {
   link: string;
   description: string;
   source: string;
+  tags?: string[];
 }
 
 // const BATCH_SIZE = 10;

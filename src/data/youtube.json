@@ -4,701 +4,802 @@
       "id": "yt1",
       "title": "Natural Language Processing with Transformers",
       "link": "https://www.youtube.com/watch?v=_eSGWNqKeeY",
-      "description": "Practical guide to using transformers for NLP tasks. Covers BERT, GPT, and their variants with code examples.",
-      "source": "YouTube"
+      "description": "Comprehensive tutorial on implementing transformer models for natural language processing tasks. The guide covers the fundamental architecture of transformers, including self-attention mechanisms, positional encodings, and multi-head attention. Each lecture combines theoretical foundations with practical PyTorch implementations, exploring BERT, GPT, and their variants. Special focus on fine-tuning pre-trained models, handling different NLP tasks, and optimizing transformer models for production deployment. Includes hands-on demonstrations of text classification, named entity recognition, and question answering systems.",
+      "source": "YouTube",
+      "tags": ["NLP", "Transformers", "Deep Learning"]
     },
     {
       "id": "yt2",
       "title": "MIT Deep Learning Basics: Introduction and Overview",
       "link": "https://www.youtube.com/watch?v=O5xeyoRL95U",
-      "description": "Comprehensive introduction to deep learning fundamentals by MIT researchers. Covers neural networks, optimization, and modern architectures with practical examples.",
-      "source": "YouTube"
+      "description": "Foundational guide in deep learning principles from MIT's renowned AI program. The lectures systematically build understanding from basic neural networks to advanced architectures, covering essential concepts like backpropagation, optimization algorithms, and regularization techniques. Each session combines mathematical theory with practical implementations, featuring interactive demonstrations and real-world applications. Special emphasis on intuitive explanations of complex concepts, complemented by coding exercises and case studies. Includes discussions of current research directions and industry applications.",
+      "source": "YouTube",
+      "tags": ["Deep Learning", "Neural Networks", "Machine Learning"]
     },
     {
       "id": "yt3",
       "title": "Deep Learning for Computer Vision",
       "link": "https://www.youtube.com/watch?v=dJYGatp4SvA",
-      "description": "Comprehensive tutorial on computer vision with deep learning. Covers CNNs, object detection, segmentation, and modern architectures.",
-      "source": "YouTube"
+      "description": "Advanced exploration of computer vision techniques using deep learning approaches. The guide covers convolutional neural networks, object detection frameworks, and image segmentation methods in detail. Each lecture combines theoretical foundations with practical implementations in PyTorch or TensorFlow, featuring real-world applications and state-of-the-art architectures. Special focus on transfer learning, data augmentation, and model optimization for production deployment. Includes hands-on projects implementing YOLO, Mask R-CNN, and other modern architectures.",
+      "source": "YouTube",
+      "tags": ["Computer Vision", "Deep Learning", "CNN"]
     },
     {
       "id": "yt4",
       "title": "Deep Learning State of the Art",
       "link": "https://www.youtube.com/watch?v=0VH1Lim8gL8",
-      "description": "Annual review of the latest breakthroughs in deep learning research and applications. Covers major trends and future directions.",
-      "source": "YouTube"
+      "description": "Comprehensive review of cutting-edge developments in deep learning research and applications. The lecture series analyzes breakthrough papers, emerging architectures, and novel training methods that define current AI capabilities. Each session examines key innovations in various domains, from natural language processing to computer vision, highlighting practical implications and future directions. Special focus on understanding the theoretical foundations behind recent advances and their potential impact on industry applications. Includes discussions of limitations and ethical considerations.",
+      "source": "YouTube",
+      "tags": ["Deep Learning", "AI Research", "State of the Art"]
     },
     {
       "id": "yt5",
       "title": "Quantum Machine Learning",
       "link": "https://www.youtube.com/watch?v=Lbndu5EIWvI",
-      "description": "Introduction to quantum computing applications in machine learning. Explores quantum algorithms, hardware, and potential advantages over classical methods.",
-      "source": "YouTube"
+      "description": "Exploration of quantum computing applications in machine learning algorithms and systems. The guide covers fundamental quantum computing concepts, quantum circuits, and their integration with classical machine learning approaches. Each lecture examines quantum algorithms for optimization, classification, and simulation tasks, with practical examples using current quantum hardware platforms. Special emphasis on understanding quantum advantage in specific ML applications and limitations of current quantum devices. Includes demonstrations using Qiskit and other quantum programming frameworks.",
+      "source": "YouTube",
+      "tags": ["Quantum Computing", "Machine Learning", "Quantum Algorithms"]
     },
     {
       "id": "yt6",
       "title": "Deep Reinforcement Learning",
       "link": "https://www.youtube.com/watch?v=2pWv7GOvuf0",
-      "description": "David Silver's renowned course on deep reinforcement learning. Covers policy gradients, Q-learning, and advanced RL algorithms.",
-      "source": "YouTube"
+      "description": "David Silver's authoritative guide on modern reinforcement learning using deep learning approaches. The lectures systematically develop RL concepts from fundamental principles to advanced algorithms, covering value iteration, policy gradients, and actor-critic methods. Each session combines theoretical frameworks with practical implementations, featuring case studies from games and robotics. Special focus on understanding DQN, PPO, and other state-of-the-art algorithms. Includes detailed analysis of AlphaGo and other breakthrough applications.",
+      "source": "YouTube",
+      "tags": ["Reinforcement Learning", "Deep Learning", "AI"]
     },
     {
       "id": "yt7",
       "title": "Graph Neural Networks",
       "link": "https://www.youtube.com/watch?v=uF53xsT7mjc",
-      "description": "Comprehensive introduction to graph neural networks. Covers message passing, graph convolutions, and applications in various domains.",
-      "source": "YouTube"
+      "description": "In-depth exploration of graph neural network architectures and their applications in various domains. The guide covers message passing frameworks, graph convolution operations, and attention mechanisms for graph-structured data. Each lecture combines theoretical foundations with practical implementations, featuring applications in molecular property prediction, social network analysis, and recommendation systems. Special focus on different GNN architectures like GraphSAGE, GAT, and GIN. Includes hands-on tutorials using PyTorch Geometric.",
+      "source": "YouTube",
+      "tags": ["Graph Neural Networks", "Deep Learning", "Graph Processing"]
     },
     {
       "id": "yt8",
       "title": "Deep Learning for Audio",
       "link": "https://www.youtube.com/watch?v=fMqL5vckiU0",
-      "description": "Comprehensive tutorial on applying deep learning to audio processing. Covers spectrograms, audio classification, and speech recognition.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to applying deep learning techniques to audio processing tasks. The guide covers fundamental concepts in digital signal processing, spectrogram analysis, and neural network architectures for audio. Each lecture explores different applications including speech recognition, music generation, and audio classification. Special emphasis on practical implementations using libraries like librosa and torchaudio. Includes case studies of state-of-the-art audio models and real-world deployment considerations.",
+      "source": "YouTube",
+      "tags": ["Audio Processing", "Deep Learning", "Signal Processing"]
     },
     {
       "id": "yt9",
       "title": "System Design Interview Series",
       "link": "https://www.youtube.com/watch?v=bUHFg8CZFws",
-      "description": "Comprehensive series on system design interviews. Covers real-world examples like designing Twitter, Netflix, and other large-scale systems.",
-      "source": "YouTube"
+      "description": "Expert-led series on designing large-scale distributed systems for technical interviews. Each episode tackles a different system design challenge, from social networks to video streaming platforms, providing detailed analysis of requirements, architecture decisions, and trade-offs. The series covers essential concepts like load balancing, caching strategies, database sharding, and microservices architecture. Special focus on practical considerations, scalability patterns, and real-world constraints. Includes interactive problem-solving sessions and best practices.",
+      "source": "YouTube",
+      "tags": ["System Design", "Distributed Systems", "Architecture"]
     },
     {
       "id": "yt10",
       "title": "Advanced Algorithms (COMPSCI 224)",
       "link": "https://www.youtube.com/watch?v=0JUN9aDxVmI",
-      "description": "Harvard's advanced algorithms course. Covers dynamic programming, network flow, and computational complexity theory.",
-      "source": "YouTube"
+      "description": "Harvard's rigorous guide on advanced algorithmic techniques and analysis. The lectures cover sophisticated algorithms for optimization, graph theory, and computational geometry. Each session provides detailed mathematical proofs, complexity analysis, and practical implementations. Special emphasis on understanding algorithmic paradigms like dynamic programming, network flows, and approximation algorithms. Includes challenging problem sets and discussions of recent algorithmic research developments.",
+      "source": "YouTube",
+      "tags": ["Algorithms", "Computer Science", "Optimization"]
     },
     {
       "id": "yt11",
       "title": "Blockchain Technology Explained",
       "link": "https://www.youtube.com/watch?v=SSo_EIwHSd4",
-      "description": "Deep dive into blockchain technology fundamentals. Covers consensus mechanisms, smart contracts, and decentralized applications.",
-      "source": "YouTube"
+      "description": "Comprehensive introduction to blockchain technology fundamentals and implementation details. The guide explores distributed ledger architecture, consensus mechanisms, and smart contract development. Each lecture combines theoretical concepts with practical demonstrations using popular blockchain platforms like Ethereum. Special focus on cryptographic principles, network protocols, and security considerations in blockchain systems. Includes hands-on tutorials for developing decentralized applications and understanding blockchain scalability solutions.",
+      "source": "YouTube",
+      "tags": ["Blockchain", "Cryptocurrency", "Smart Contracts"]
     },
     {
       "id": "yt12",
       "title": "Computer Graphics from Scratch",
       "link": "https://www.youtube.com/watch?v=ih20l3pJoeU",
-      "description": "Building a 3D renderer from scratch. Covers ray tracing, rasterization, and computer graphics fundamentals.",
-      "source": "YouTube"
+      "description": "Ground-up approach to understanding and implementing computer graphics algorithms. The guide covers fundamental concepts like rasterization, ray tracing, and 3D transformations. Each lecture provides detailed mathematical foundations and practical C++ implementations of graphics primitives and rendering techniques. Special emphasis on building a software renderer without external libraries. Includes projects implementing realistic lighting, texture mapping, and basic animation systems.",
+      "source": "YouTube",
+      "tags": ["Computer Graphics", "Rendering", "3D Graphics"]
     },
     {
       "id": "yt13",
-      "title": "Database Systems Course",
+      "title": "Database Systems guide",
       "link": "https://www.youtube.com/watch?v=4cWkVbC2bNE",
-      "description": "CMU's database systems course. Covers query optimization, transaction processing, and distributed databases.",
-      "source": "YouTube"
+      "description": "Carnegie Mellon's comprehensive guide on modern database system design and implementation. The lectures cover advanced topics in query optimization, transaction processing, and distributed database architecture. Each session explores internal components of database systems, including storage engines, indexing structures, and concurrency control mechanisms. Special focus on practical aspects of building and maintaining large-scale database systems. Includes case studies of real-world database deployments and performance optimization techniques.",
+      "source": "YouTube",
+      "tags": ["Databases", "System Design", "Query Optimization"]
     },
     {
       "id": "yt14",
-      "title": "Ethical Hacking Full Course",
+      "title": "Ethical Hacking Full guide",
       "link": "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
-      "description": "Comprehensive guide to ethical hacking. Covers penetration testing, vulnerability assessment, and security tools.",
-      "source": "YouTube"
+      "description": "In-depth exploration of ethical hacking methodologies and security assessment techniques. The guide covers penetration testing tools, vulnerability assessment frameworks, and security auditing procedures. Each lecture demonstrates practical attack scenarios and defense strategies, using industry-standard tools and methodologies. Special emphasis on responsible disclosure and legal compliance in security testing. Includes hands-on labs covering network security, web application testing, and wireless network assessment.",
+      "source": "YouTube",
+      "tags": ["Security", "Penetration Testing", "Ethical Hacking"]
     },
     {
       "id": "yt15",
       "title": "Functional Programming in Haskell",
       "link": "https://www.youtube.com/watch?v=Vgu82wiiZ90",
-      "description": "Introduction to functional programming using Haskell. Covers monads, type systems, and functional design patterns.",
-      "source": "YouTube"
+      "description": "Comprehensive introduction to functional programming paradigms using Haskell. The guide explores advanced concepts like monads, type classes, and lazy evaluation. Each lecture combines theoretical foundations with practical coding examples, demonstrating functional solutions to common programming challenges. Special focus on understanding category theory concepts and their practical applications. Includes projects implementing functional data structures and pure computational patterns.",
+      "source": "YouTube",
+      "tags": ["Functional Programming", "Haskell", "Type Theory"]
     },
     {
       "id": "yt16",
       "title": "Game Development with Unity",
       "link": "https://www.youtube.com/watch?v=pwZpJzpE2lQ",
-      "description": "Complete game development course using Unity. Covers 3D modeling, physics, and game mechanics implementation.",
-      "source": "YouTube"
+      "description": "Extensive tutorial series on game development using the Unity engine. The guide covers essential aspects of game creation, including 3D modeling, physics simulation, and game mechanics implementation. Each session provides hands-on guidance for building game systems, from player controllers to AI behavior. Special emphasis on optimization techniques and best practices for professional game development. Includes complete project implementations and asset management strategies.",
+      "source": "YouTube",
+      "tags": ["Game Development", "Unity", "3D Graphics"]
     },
     {
       "id": "yt17",
       "title": "Hardware Architecture Design",
       "link": "https://www.youtube.com/watch?v=zLP_X4wyHbY",
-      "description": "Advanced computer architecture course. Covers pipelining, cache design, and processor architecture.",
-      "source": "YouTube"
+      "description": "Advanced guide on computer hardware architecture and processor design principles. The lectures examine modern CPU architectures, pipelining techniques, and memory hierarchy design. Each session covers crucial concepts in digital design, including instruction set architecture, cache coherence protocols, and branch prediction. Special focus on performance optimization and power efficiency in processor design. Includes practical examples using hardware description languages and simulation tools.",
+      "source": "YouTube",
+      "tags": ["Computer Architecture", "Hardware Design", "Digital Systems"]
     },
     {
       "id": "yt18",
       "title": "iOS App Development",
       "link": "https://www.youtube.com/watch?v=jbtqIBpUG7g",
-      "description": "Stanford's iOS development course. Covers Swift programming, UIKit, and iOS app architecture.",
-      "source": "YouTube"
+      "description": "Stanford's comprehensive guide on iOS application development using Swift and UIKit. The lectures cover fundamental concepts in mobile app architecture, user interface design, and iOS frameworks. Each session provides practical demonstrations of building real-world applications, including networking, data persistence, and animation. Special emphasis on Apple's design guidelines and best practices for App Store deployment. Includes hands-on projects implementing common iOS app patterns.",
+      "source": "YouTube",
+      "tags": ["iOS Development", "Swift", "Mobile Apps"]
     },
     {
       "id": "yt19",
       "title": "JavaScript Engine Internals",
       "link": "https://www.youtube.com/watch?v=p-iiEDtpy6I",
-      "description": "Deep dive into V8 JavaScript engine. Covers JIT compilation, garbage collection, and optimization techniques.",
-      "source": "YouTube"
+      "description": "Deep exploration of V8 JavaScript engine architecture and optimization techniques. The guide examines JIT compilation strategies, garbage collection algorithms, and internal object representation. Each lecture provides detailed analysis of JavaScript performance optimization, including hidden classes and inline caching. Special focus on understanding how modern JavaScript engines optimize code execution. Includes examples of writing performance-optimized JavaScript code.",
+      "source": "YouTube",
+      "tags": ["JavaScript", "Compiler Design", "Performance"]
     },
     {
       "id": "yt20",
       "title": "Kubernetes Master Class",
       "link": "https://www.youtube.com/watch?v=PH-2FfFD2PU",
-      "description": "Advanced Kubernetes concepts and patterns. Covers service mesh, operators, and custom controllers.",
-      "source": "YouTube"
+      "description": "Advanced tutorial series on Kubernetes container orchestration and cloud-native application deployment. The guide covers complex topics including service mesh implementation, custom controller development, and advanced scheduling techniques. Each session provides practical examples of managing large-scale container deployments and microservices architectures. Special emphasis on security, monitoring, and troubleshooting in production environments. Includes real-world case studies of Kubernetes implementations.",
+      "source": "YouTube",
+      "tags": ["Kubernetes", "DevOps", "Container Orchestration"]
     },
     {
       "id": "yt21",
       "title": "Linux Kernel Programming",
       "link": "https://www.youtube.com/watch?v=LLBrBBImJt4",
-      "description": "Guide to Linux kernel development. Covers device drivers, kernel modules, and system calls.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to Linux kernel development and system programming. The guide covers essential concepts including device driver development, kernel module creation, and system call implementation. Each lecture provides hands-on examples of kernel programming, debugging techniques, and best practices for kernel development. Special focus on understanding the Linux kernel architecture and internal APIs. Includes practical projects implementing various kernel subsystems and device drivers.",
+      "source": "YouTube",
+      "tags": ["Linux Kernel", "Systems Programming", "Device Drivers"]
     },
     {
       "id": "yt22",
       "title": "Machine Learning Engineering",
       "link": "https://www.youtube.com/watch?v=fu_jxBQQ3g4",
-      "description": "Best practices for deploying ML models in production. Covers model serving, monitoring, and scaling.",
-      "source": "YouTube"
+      "description": "Professional guide to deploying machine learning models in production environments. The guide explores MLOps practices, including model serving architectures, monitoring systems, and scaling strategies. Each lecture covers crucial aspects of production ML systems, from feature stores to model versioning and A/B testing frameworks. Special emphasis on building reliable and scalable ML infrastructure. Includes case studies of real-world ML system deployments and best practices for model maintenance.",
+      "source": "YouTube",
+      "tags": ["MLOps", "Machine Learning", "Production Systems"]
     },
     {
       "id": "yt23",
       "title": "Network Security Fundamentals",
       "link": "https://www.youtube.com/watch?v=E03gh1huvW4",
-      "description": "Comprehensive network security course. Covers firewalls, IDS/IPS, and security protocols.",
-      "source": "YouTube"
+      "description": "In-depth exploration of network security principles and implementation strategies. The guide covers essential security components including firewalls, intrusion detection systems, and security protocols. Each lecture combines theoretical security concepts with practical implementation examples using industry-standard tools. Special focus on threat detection, incident response, and security architecture design. Includes hands-on labs demonstrating network security assessment and defense techniques.",
+      "source": "YouTube",
+      "tags": ["Network Security", "Cybersecurity", "Security Architecture"]
     },
     {
       "id": "yt24",
       "title": "Operating Systems Design",
       "link": "https://www.youtube.com/watch?v=hry_qqXLej8",
-      "description": "Berkeley's operating systems course. Covers process management, file systems, and memory management.",
-      "source": "YouTube"
+      "description": "Berkeley's foundational guide on operating system design and implementation. The lectures cover core OS concepts including process management, memory systems, file systems, and I/O subsystems. Each session provides detailed explanations of OS internals with practical examples and implementation strategies. Special emphasis on modern OS features and real-world system design considerations. Includes programming projects implementing key OS components from scratch.",
+      "source": "YouTube",
+      "tags": ["Operating Systems", "Systems Programming", "Computer Science"]
     },
     {
       "id": "yt25",
       "title": "Python for Data Science",
       "link": "https://www.youtube.com/watch?v=WFr2WgN9_xE",
-      "description": "Advanced Python techniques for data science. Covers NumPy, Pandas, and scientific computing.",
-      "source": "YouTube"
+      "description": "Comprehensive guide on using Python for data science and scientific computing. The lectures cover advanced topics in NumPy, Pandas, and scientific computing libraries. Each session provides practical examples of data manipulation, analysis, and visualization techniques. Special focus on optimization strategies and best practices for handling large datasets. Includes real-world projects implementing data processing pipelines and machine learning workflows.",
+      "source": "YouTube",
+      "tags": ["Python", "Data Science", "Scientific Computing"]
     },
     {
       "id": "yt26",
       "title": "Quantum Computing Lectures",
       "link": "https://www.youtube.com/watch?v=F_Riqjdh2oM",
-      "description": "Introduction to quantum computing principles. Covers quantum circuits, algorithms, and programming.",
-      "source": "YouTube"
+      "description": "Foundational guide in quantum computing principles and programming. The lectures cover quantum mechanics basics, quantum circuits, and quantum algorithms. Each session combines theoretical concepts with practical implementations using quantum computing frameworks. Special emphasis on understanding quantum advantages and current hardware limitations. Includes hands-on exercises using quantum simulators and real quantum computers through cloud platforms.",
+      "source": "YouTube",
+      "tags": ["Quantum Computing", "Quantum Mechanics", "Quantum Programming"]
     },
     {
       "id": "yt27",
       "title": "Rust Programming Language",
       "link": "https://www.youtube.com/watch?v=5C_HPTJg5ek",
-      "description": "Comprehensive Rust programming course. Covers ownership, concurrency, and systems programming.",
-      "source": "YouTube"
+      "description": "In-depth exploration of the Rust programming language and its systems programming capabilities. The guide covers Rust's unique features including ownership system, borrowing rules, and zero-cost abstractions. Each lecture provides practical examples of writing safe and efficient systems code in Rust. Special focus on memory safety without garbage collection and concurrent programming patterns. Includes projects implementing low-level system components and high-performance applications.",
+      "source": "YouTube",
+      "tags": ["Rust", "Systems Programming", "Memory Safety"]
     },
     {
       "id": "yt28",
       "title": "Web Security Academy",
       "link": "https://www.youtube.com/watch?v=HGaFCcWM57U",
-      "description": "Advanced web security concepts. Covers XSS, CSRF, and other common web vulnerabilities.",
-      "source": "YouTube"
+      "description": "Comprehensive guide on web application security testing and vulnerability assessment. The lectures cover common web vulnerabilities including XSS, CSRF, and injection attacks. Each session provides hands-on demonstrations of security testing techniques and mitigation strategies. Special emphasis on modern web security best practices and defense mechanisms. Includes practical labs for identifying and exploiting web application vulnerabilities safely.",
+      "source": "YouTube",
+      "tags": ["Web Security", "Penetration Testing", "Application Security"]
     },
     {
       "id": "yt29",
       "title": "Advanced Algorithms and Data Structures",
       "link": "https://www.youtube.com/watch?v=0JUN9aDxVmI",
-      "description": "MIT's advanced algorithms course. Covers complex data structures, graph algorithms, and optimization techniques.",
-      "source": "YouTube"
+      "description": "MIT's advanced guide on complex algorithms and specialized data structures. The lectures cover sophisticated algorithmic techniques including advanced graph algorithms, computational geometry, and optimization methods. Each session provides rigorous mathematical analysis and practical implementation strategies. Special focus on algorithm design paradigms and complexity analysis. Includes challenging problem sets and programming assignments implementing advanced algorithms.",
+      "source": "YouTube",
+      "tags": ["Algorithms", "Data Structures", "Computer Science"]
     },
     {
       "id": "yt30",
       "title": "Bioinformatics Programming",
       "link": "https://www.youtube.com/watch?v=P2TtQYK4eN4",
-      "description": "Programming for biological data analysis. Covers sequence analysis, phylogenetics, and structural bioinformatics.",
-      "source": "YouTube"
+      "description": "Comprehensive introduction to programming for biological data analysis. The guide covers essential bioinformatics algorithms including sequence alignment, phylogenetic analysis, and structural bioinformatics. Each lecture combines biological concepts with computational methods and practical implementations. Special emphasis on handling large-scale biological datasets and optimization techniques. Includes projects working with real genomic data and biological databases.",
+      "source": "YouTube",
+      "tags": ["Bioinformatics", "Computational Biology", "Data Analysis"]
     },
     {
       "id": "yt31",
       "title": "Cloud Native Architecture",
       "link": "https://www.youtube.com/watch?v=3UL1gppFMkg",
-      "description": "Design patterns for cloud-native applications. Covers microservices, containerization, and service mesh.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to designing and implementing cloud-native applications. The guide covers microservices architecture, containerization strategies, and service mesh implementations. Each lecture explores essential patterns for building scalable and resilient cloud applications, including distributed tracing, circuit breakers, and API gateways. Special focus on cloud-native development practices and tools. Includes real-world case studies of successful cloud-native transformations.",
+      "source": "YouTube",
+      "tags": ["Cloud Native", "Microservices", "DevOps"]
     },
     {
       "id": "yt32",
       "title": "Distributed Systems Engineering",
       "link": "https://www.youtube.com/watch?v=cQP8WApzIQQ",
-      "description": "MIT's distributed systems course. Covers consensus algorithms, fault tolerance, and distributed storage.",
-      "source": "YouTube"
+      "description": "MIT's advanced guide on distributed systems theory and implementation. The lectures cover fundamental concepts including consensus algorithms, distributed storage, and fault tolerance mechanisms. Each session combines theoretical principles with practical system design considerations. Special emphasis on building reliable distributed systems at scale. Includes implementation projects for distributed algorithms and analysis of real-world distributed systems.",
+      "source": "YouTube",
+      "tags": ["Distributed Systems", "System Design", "Fault Tolerance"]
     },
     {
       "id": "yt33",
       "title": "Embedded Linux Development",
       "link": "https://www.youtube.com/watch?v=9vsu67uMcko",
-      "description": "Building embedded Linux systems. Covers bootloaders, device drivers, and real-time extensions.",
-      "source": "YouTube"
+      "description": "Practical guide to developing embedded Linux systems from the ground up. The guide covers bootloader configuration, kernel customization, and root filesystem creation. Each lecture provides hands-on examples of building embedded Linux components and debugging techniques. Special focus on optimizing Linux for resource-constrained environments. Includes projects implementing custom embedded Linux distributions and device drivers.",
+      "source": "YouTube",
+      "tags": ["Embedded Systems", "Linux", "System Programming"]
     },
     {
       "id": "yt34",
       "title": "Formal Verification Methods",
       "link": "https://www.youtube.com/watch?v=dqwGwxHZKVg",
-      "description": "Introduction to formal verification. Covers model checking, theorem proving, and program verification.",
-      "source": "YouTube"
+      "description": "Advanced guide on formal methods for software and hardware verification. The lectures cover model checking, theorem proving, and automated verification techniques. Each session explores different formal verification approaches with practical examples using popular verification tools. Special emphasis on applying formal methods to real-world systems. Includes case studies of formal verification in critical systems and protocol verification.",
+      "source": "YouTube",
+      "tags": ["Formal Methods", "Verification", "Program Analysis"]
     },
     {
       "id": "yt35",
       "title": "GPU Architecture and Programming",
       "link": "https://www.youtube.com/watch?v=7mCk_d5HF_A",
-      "description": "Advanced GPU programming concepts. Covers CUDA optimization, memory hierarchy, and parallel patterns.",
-      "source": "YouTube"
+      "description": "In-depth exploration of GPU architecture and parallel programming techniques. The guide covers CUDA programming, memory hierarchy optimization, and parallel algorithm design for GPUs. Each lecture provides detailed analysis of GPU hardware features and programming patterns. Special focus on achieving maximum performance through efficient GPU utilization. Includes practical projects implementing various parallel algorithms on modern GPU architectures.",
+      "source": "YouTube",
+      "tags": ["GPU Programming", "CUDA", "Parallel Computing"]
     },
     {
       "id": "yt36",
       "title": "Hardware Security",
       "link": "https://www.youtube.com/watch?v=sL1I4OkP9e8",
-      "description": "Security aspects of hardware design. Covers side-channel attacks, secure boot, and hardware trojans.",
-      "source": "YouTube"
+      "description": "Comprehensive analysis of hardware security principles and attack vectors. The guide covers side-channel attacks, hardware trojans, and secure boot implementations. Each lecture examines different aspects of hardware security, including threat modeling and countermeasure design. Special emphasis on practical security assessment techniques for hardware systems. Includes hands-on labs demonstrating hardware security vulnerabilities and protections.",
+      "source": "YouTube",
+      "tags": ["Hardware Security", "Side Channel Attacks", "Secure Boot"]
     },
     {
       "id": "yt37",
       "title": "Information Theory",
       "link": "https://www.youtube.com/watch?v=UrefKMSEuAI",
-      "description": "Stanford's information theory course. Covers entropy, coding theory, and data compression.",
-      "source": "YouTube"
+      "description": "Stanford's foundational guide on information theory and its applications. The lectures cover fundamental concepts including entropy, channel capacity, and error-correcting codes. Each session provides mathematical foundations and practical applications in communications and compression. Special focus on modern applications of information theory in machine learning and cryptography. Includes problem sets exploring theoretical concepts and practical coding techniques.",
+      "source": "YouTube",
+      "tags": ["Information Theory", "Coding Theory", "Communication Systems"]
     },
     {
       "id": "yt38",
       "title": "Julia Programming Language",
       "link": "https://www.youtube.com/watch?v=4igzy3bGVkQ",
-      "description": "Advanced Julia programming techniques. Covers multiple dispatch, metaprogramming, and performance optimization.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to advanced Julia programming techniques and scientific computing. The guide explores Julia's unique features including multiple dispatch, metaprogramming, and performance optimization. Each lecture provides practical examples of scientific computing and numerical analysis in Julia. Special emphasis on writing high-performance scientific code. Includes projects implementing numerical algorithms and scientific simulations.",
+      "source": "YouTube",
+      "tags": ["Julia", "Scientific Computing", "High Performance Computing"]
     },
     {
       "id": "yt39",
       "title": "Knowledge Graph Construction",
       "link": "https://www.youtube.com/watch?v=pCq7g2pVgdY",
-      "description": "Building and querying knowledge graphs. Covers RDF, SPARQL, and ontology design.",
-      "source": "YouTube"
+      "description": "Practical guide to building and maintaining knowledge graphs for various applications. The guide covers RDF data models, SPARQL query language, and ontology design principles. Each lecture provides hands-on examples of knowledge graph construction and querying techniques. Special focus on semantic web technologies and graph database systems. Includes projects implementing knowledge graphs for real-world applications.",
+      "source": "YouTube",
+      "tags": ["Knowledge Graphs", "Semantic Web", "Graph Databases"]
     },
     {
       "id": "yt40",
       "title": "Low Latency Systems",
       "link": "https://www.youtube.com/watch?v=NH1Tta7purM",
-      "description": "Design and implementation of low latency systems. Covers FPGA programming, network optimization, and real-time processing.",
-      "source": "YouTube"
+      "description": "Advanced guide on designing and implementing low latency computing systems. The lectures cover FPGA programming, network optimization, and real-time processing techniques. Each session explores different aspects of minimizing latency in hardware and software systems. Special emphasis on high-frequency trading systems and real-time data processing. Includes practical examples of building ultra-low latency applications.",
+      "source": "YouTube",
+      "tags": ["Low Latency", "High Frequency Trading", "FPGA"]
     },
     {
       "id": "yt41",
       "title": "Machine Learning Compilers",
       "link": "https://www.youtube.com/watch?v=qTHGDGwcxWY",
-      "description": "Building ML compilers and optimizers. Covers TVM, MLIR, and hardware acceleration.",
-      "source": "YouTube"
+      "description": "Advanced guide on building and optimizing machine learning compilers. The lectures cover TVM architecture, MLIR framework, and hardware acceleration strategies. Each session explores different aspects of ML compilation, including automatic optimization, hardware targeting, and deployment pipelines. Special focus on optimizing deep learning models for various hardware platforms. Includes hands-on examples using popular ML compiler frameworks.",
+      "source": "YouTube",
+      "tags": ["Machine Learning", "Compiler Design", "Hardware Acceleration"]
     },
     {
       "id": "yt42",
       "title": "Network Protocol Design",
       "link": "https://www.youtube.com/watch?v=QOtA76ga_fY",
-      "description": "Designing network protocols. Covers protocol verification, performance analysis, and implementation.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to designing and implementing network protocols. The guide covers protocol specification methods, verification techniques, and performance analysis. Each lecture examines different aspects of protocol design, including state machines, error handling, and security considerations. Special emphasis on building robust and efficient network protocols. Includes case studies of successful protocol implementations and common pitfalls.",
+      "source": "YouTube",
+      "tags": ["Networking", "Protocol Design", "Distributed Systems"]
     },
     {
       "id": "yt43",
       "title": "Operating System Security",
       "link": "https://www.youtube.com/watch?v=fqUy118FVZI",
-      "description": "Security aspects of operating systems. Covers access control, isolation mechanisms, and secure boot.",
-      "source": "YouTube"
+      "description": "In-depth exploration of operating system security mechanisms and implementation. The guide covers access control systems, isolation techniques, and secure boot processes. Each lecture provides detailed analysis of OS security features and their implementation. Special focus on kernel hardening and security policy enforcement. Includes practical examples of implementing secure OS components and analyzing security vulnerabilities.",
+      "source": "YouTube",
+      "tags": ["Operating Systems", "Security", "Kernel Security"]
     },
     {
       "id": "yt44",
       "title": "Program Synthesis",
       "link": "https://www.youtube.com/watch?v=_O7FSgyQ1AY",
-      "description": "Automated program synthesis techniques. Covers sketching, verification, and program repair.",
-      "source": "YouTube"
+      "description": "Advanced guide on automated program synthesis techniques and applications. The lectures cover sketching algorithms, verification-based synthesis, and program repair methods. Each session explores different approaches to generating correct programs automatically. Special emphasis on practical applications of program synthesis in software development. Includes implementations of synthesis algorithms and case studies of real-world applications.",
+      "source": "YouTube",
+      "tags": ["Program Synthesis", "Formal Methods", "Software Engineering"]
     },
     {
       "id": "yt45",
       "title": "Quantum Error Correction",
       "link": "https://www.youtube.com/watch?v=LKmBxYHs2Tc",
-      "description": "Error correction in quantum computing. Covers stabilizer codes, surface codes, and fault tolerance.",
-      "source": "YouTube"
+      "description": "Comprehensive study of error correction techniques in quantum computing systems. The guide covers quantum error correction codes, fault-tolerant quantum computation, and noise mitigation strategies. Each lecture examines different approaches to protecting quantum information and implementing reliable quantum computations. Special focus on practical implementation of error correction schemes. Includes simulations of quantum error correction protocols.",
+      "source": "YouTube",
+      "tags": ["Quantum Computing", "Error Correction", "Quantum Information"]
     },
     {
       "id": "yt46",
       "title": "Real-time Operating Systems",
       "link": "https://www.youtube.com/watch?v=F321087yYy4",
-      "description": "Design and implementation of RTOS. Covers scheduling, interrupt handling, and resource management.",
-      "source": "YouTube"
+      "description": "Detailed exploration of real-time operating system design and implementation. The guide covers scheduling algorithms, interrupt handling, and resource management in RTOS environments. Each lecture provides practical examples of RTOS development and optimization techniques. Special emphasis on meeting hard real-time constraints and deterministic behavior. Includes hands-on projects implementing RTOS components and real-time applications.",
+      "source": "YouTube",
+      "tags": ["RTOS", "Embedded Systems", "Real-time Computing"]
     },
     {
       "id": "yt47",
       "title": "Secure Hardware Design",
       "link": "https://www.youtube.com/watch?v=YzPky5hKHIM",
-      "description": "Hardware security architecture. Covers trusted execution environments, secure enclaves, and hardware attacks.",
-      "source": "YouTube"
+      "description": "Advanced guide on designing secure hardware architectures and trusted computing platforms. The lectures cover trusted execution environments, secure enclaves, and hardware security modules. Each session examines different aspects of hardware security architecture and implementation. Special focus on protecting against hardware-level attacks and ensuring system integrity. Includes case studies of secure hardware designs and security analysis techniques.",
+      "source": "YouTube",
+      "tags": ["Hardware Security", "Trusted Computing", "Security Architecture"]
     },
     {
       "id": "yt48",
       "title": "Tensor Computation",
       "link": "https://www.youtube.com/watch?v=kjBOesZCoqc",
-      "description": "Advanced tensor computation methods. Covers tensor networks, automatic differentiation, and optimization.",
-      "source": "YouTube"
+      "description": "In-depth study of tensor computation methods and optimization techniques. The guide covers tensor networks, automatic differentiation, and high-performance tensor operations. Each lecture explores different aspects of tensor manipulation and computation in machine learning contexts. Special emphasis on efficient implementation of tensor operations. Includes practical examples using modern tensor computation frameworks.",
+      "source": "YouTube",
+      "tags": ["Tensor Computing", "Machine Learning", "Scientific Computing"]
     },
     {
       "id": "yt49",
       "title": "UNIX System Programming",
       "link": "https://www.youtube.com/watch?v=fS0aw2kXXyg",
-      "description": "Advanced UNIX programming. Covers system calls, signals, and interprocess communication.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to advanced UNIX programming concepts and techniques. The guide covers system calls, signals, and interprocess communication mechanisms. Each lecture provides detailed examples of UNIX programming patterns and best practices. Special focus on writing efficient and reliable system-level code. Includes practical projects implementing various UNIX utilities and system tools.",
+      "source": "YouTube",
+      "tags": ["UNIX", "Systems Programming", "Operating Systems"]
     },
     {
       "id": "yt50",
       "title": "Virtual Machine Implementation",
       "link": "https://www.youtube.com/watch?v=FnGCDLhaxKU",
-      "description": "Building virtual machines from scratch. Covers bytecode interpretation, JIT compilation, and garbage collection.",
-      "source": "YouTube"
+      "description": "Advanced guide on implementing virtual machines and runtime systems. The lectures cover bytecode interpretation, JIT compilation, and garbage collection algorithms. Each session explores different aspects of VM design and optimization techniques. Special emphasis on building efficient and maintainable virtual machines. Includes projects implementing various VM components and optimization strategies.",
+      "source": "YouTube",
+      "tags": ["Virtual Machines", "Compiler Design", "Runtime Systems"]
     },
     {
       "id": "yt51",
       "title": "WebAssembly Deep Dive",
       "link": "https://www.youtube.com/watch?v=HktWin_LPf4",
-      "description": "Advanced WebAssembly concepts. Covers memory model, threading, and performance optimization.",
-      "source": "YouTube"
+      "description": "Comprehensive exploration of WebAssembly architecture and programming techniques. The guide covers Wasm binary format, memory model, and threading capabilities. Each lecture provides detailed analysis of WebAssembly features and optimization strategies. Special focus on building high-performance web applications using WebAssembly. Includes practical projects implementing complex applications with multiple language integrations.",
+      "source": "YouTube",
+      "tags": ["WebAssembly", "Web Performance", "Systems Programming"]
     },
     {
       "id": "yt52",
       "title": "XR Development Fundamentals",
       "link": "https://www.youtube.com/watch?v=2IeMxfnzgZ4",
-      "description": "Extended reality development. Covers AR/VR systems, spatial computing, and interaction design.",
-      "source": "YouTube"
+      "description": "In-depth guide to extended reality development across VR, AR, and mixed reality platforms. The guide covers spatial computing concepts, interaction design, and performance optimization for XR applications. Each lecture explores different aspects of XR development, including 3D graphics, input handling, and spatial tracking. Special emphasis on creating immersive user experiences. Includes hands-on projects building XR applications using modern frameworks.",
+      "source": "YouTube",
+      "tags": ["XR Development", "Virtual Reality", "Augmented Reality"]
     },
     {
       "id": "yt53",
       "title": "YAML and Configuration",
       "link": "https://www.youtube.com/watch?v=cdLNKUoMc6c",
-      "description": "Advanced YAML usage and configuration management. Covers schema validation and infrastructure as code.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to advanced YAML usage and configuration management in modern systems. The guide covers schema validation, templating systems, and infrastructure as code practices. Each lecture examines different aspects of configuration management, including version control and automation. Special focus on best practices for managing complex system configurations. Includes practical examples of implementing configuration management systems.",
+      "source": "YouTube",
+      "tags": ["YAML", "Configuration Management", "DevOps"]
     },
     {
       "id": "yt54",
       "title": "Zero Knowledge Protocols",
       "link": "https://www.youtube.com/watch?v=HUs1bH85X9I",
-      "description": "Implementation of zero-knowledge protocols. Covers SNARKs, STARKs, and privacy-preserving systems.",
-      "source": "YouTube"
+      "description": "Advanced guide on zero-knowledge proof systems and their applications. The lectures cover fundamental concepts of zero-knowledge proofs, including SNARKs, STARKs, and interactive proof systems. Each session explores different aspects of privacy-preserving computation and verification. Special emphasis on implementing practical zero-knowledge protocols. Includes examples of zero-knowledge applications in blockchain and privacy systems.",
+      "source": "YouTube",
+      "tags": ["Zero Knowledge Proofs", "Cryptography", "Privacy"]
     },
     {
       "id": "yt55",
       "title": "Advanced Computer Graphics",
       "link": "https://www.youtube.com/watch?v=8u5j5vphPXY",
-      "description": "Modern computer graphics techniques. Covers ray tracing, global illumination, and real-time rendering.",
-      "source": "YouTube"
+      "description": "In-depth exploration of modern computer graphics techniques and algorithms. The guide covers advanced topics in ray tracing, global illumination, and real-time rendering. Each lecture provides detailed mathematical foundations and practical implementations. Special focus on implementing cutting-edge graphics features and optimization techniques. Includes projects building advanced rendering systems and graphics pipelines.",
+      "source": "YouTube",
+      "tags": ["Computer Graphics", "Ray Tracing", "Rendering"]
     },
     {
       "id": "yt56",
       "title": "Blockchain Scalability",
       "link": "https://www.youtube.com/watch?v=9PyBBoDnMs",
-      "description": "Scaling solutions for blockchain systems. Covers layer 2 protocols, sharding, and state channels.",
-      "source": "YouTube"
+      "description": "Comprehensive analysis of blockchain scaling solutions and implementation strategies. The guide covers layer 2 protocols, sharding techniques, and state channel designs. Each lecture examines different approaches to improving blockchain performance and throughput. Special focus on practical implementation of scaling solutions. Includes case studies of successful blockchain scaling projects and their architectures.",
+      "source": "YouTube",
+      "tags": ["Blockchain", "Scalability", "Distributed Systems"]
     },
     {
       "id": "yt57",
       "title": "Compiler Optimization",
       "link": "https://www.youtube.com/watch?v=5_Y3kc_lfXc",
-      "description": "Advanced compiler optimization techniques. Covers SSA form, loop optimization, and vectorization.",
-      "source": "YouTube"
+      "description": "Advanced exploration of compiler optimization techniques and implementation strategies. The guide covers SSA form, loop optimization, and vectorization techniques. Each lecture provides detailed analysis of different optimization passes and their interactions. Special emphasis on implementing efficient optimization algorithms. Includes practical examples using LLVM and other compiler frameworks.",
+      "source": "YouTube",
+      "tags": ["Compilers", "Optimization", "Program Analysis"]
     },
     {
       "id": "yt58",
       "title": "Database Engine Design",
       "link": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
-      "description": "Building a database engine from scratch. Covers storage engines, query optimization, and concurrency control.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to building database engines from the ground up. The guide covers storage engines, query optimization, and transaction processing systems. Each lecture examines different components of database implementation, including indexing structures and concurrency control. Special focus on designing efficient and scalable database systems. Includes projects implementing core database engine components.",
+      "source": "YouTube",
+      "tags": ["Databases", "Storage Engines", "Query Processing"]
     },
     {
       "id": "yt59",
       "title": "Edge Computing Systems",
       "link": "https://www.youtube.com/watch?v=cEOUeJR4m4s",
-      "description": "Design and implementation of edge computing systems. Covers distributed processing and edge AI.",
-      "source": "YouTube"
+      "description": "In-depth exploration of edge computing architectures and implementation strategies. The guide covers distributed processing, edge AI deployment, and resource optimization techniques. Each lecture examines different aspects of edge computing systems, including data processing and network optimization. Special focus on building efficient edge computing applications. Includes practical examples of edge computing solutions.",
+      "source": "YouTube",
+      "tags": ["Edge Computing", "Distributed Systems", "IoT"]
     },
     {
       "id": "yt60",
       "title": "Functional Language Implementation",
       "link": "https://www.youtube.com/watch?v=8_U1yWr3xa0",
-      "description": "Implementing functional programming languages. Covers lambda calculus, type systems, and runtime systems.",
-      "source": "YouTube"
+      "description": "Advanced guide on implementing functional programming languages. The lectures cover lambda calculus, type systems, and runtime implementation techniques. Each session explores different aspects of functional language design and optimization. Special emphasis on building efficient implementations of functional features. Includes projects implementing key components of a functional language compiler.",
+      "source": "YouTube",
+      "tags": ["Programming Languages", "Functional Programming", "Compiler Design"]
     },
     {
       "id": "yt61",
       "title": "Game Engine Architecture",
       "link": "https://www.youtube.com/watch?v=JxI3Eu5DPwE",
-      "description": "Modern game engine design. Covers rendering systems, physics engines, and asset management.",
-      "source": "YouTube"
+      "description": "Comprehensive exploration of modern game engine design and implementation. The guide covers rendering systems, physics engines, and asset management pipelines. Each lecture examines different components of game engine architecture, including scene graphs, animation systems, and audio processing. Special focus on building efficient and maintainable game engine systems. Includes practical projects implementing core engine features.",
+      "source": "YouTube",
+      "tags": ["Game Development", "Engine Architecture", "Graphics Programming"]
     },
     {
       "id": "yt62",
       "title": "High Performance Computing",
       "link": "https://www.youtube.com/watch?v=eDmaJsXK_qs",
-      "description": "Advanced HPC concepts. Covers parallel algorithms, cluster computing, and performance optimization.",
-      "source": "YouTube"
+      "description": "Advanced guide on high-performance computing techniques and parallel programming. The lectures cover parallel algorithms, cluster computing architectures, and performance optimization strategies. Each session explores different aspects of HPC system design and implementation. Special emphasis on scaling applications across large computing clusters. Includes hands-on examples using popular HPC frameworks and tools.",
+      "source": "YouTube",
+      "tags": ["HPC", "Parallel Computing", "Performance Optimization"]
     },
     {
       "id": "yt63",
       "title": "IoT Systems Design",
       "link": "https://www.youtube.com/watch?v=h0gWfVCSGQQ",
-      "description": "Building IoT systems. Covers sensor networks, data collection, and edge processing.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to designing and implementing Internet of Things systems. The guide covers sensor networks, data collection architectures, and edge processing strategies. Each lecture examines different aspects of IoT system design, including connectivity, power management, and security. Special focus on building scalable and reliable IoT solutions. Includes practical projects implementing end-to-end IoT systems.",
+      "source": "YouTube",
+      "tags": ["IoT", "Embedded Systems", "Sensor Networks"]
     },
     {
       "id": "yt64",
       "title": "Just-In-Time Compilation",
       "link": "https://www.youtube.com/watch?v=d8kCdLCi6Lk",
-      "description": "JIT compiler implementation. Covers dynamic optimization, profiling, and code generation.",
-      "source": "YouTube"
+      "description": "In-depth exploration of just-in-time compilation techniques and implementation strategies. The guide covers dynamic optimization, profiling systems, and code generation approaches. Each lecture examines different aspects of JIT compiler design, including intermediate representations and optimization passes. Special focus on building efficient JIT compilation systems. Includes examples implementing various JIT compilation techniques.",
+      "source": "YouTube",
+      "tags": ["JIT Compilation", "Compiler Design", "Performance"]
     },
     {
       "id": "yt65",
       "title": "Kernel Development",
       "link": "https://www.youtube.com/watch?v=LVQd22tTgTU",
-      "description": "Linux kernel development. Covers device drivers, kernel modules, and debugging techniques.",
-      "source": "YouTube"
+      "description": "Advanced guide on Linux kernel development and system programming. The lectures cover device drivers, kernel modules, and debugging techniques in detail. Each session provides hands-on examples of kernel programming and system optimization. Special emphasis on understanding kernel internals and writing efficient kernel code. Includes practical projects implementing various kernel subsystems.",
+      "source": "YouTube",
+      "tags": ["Linux Kernel", "Systems Programming", "Device Drivers"]
     },
     {
       "id": "yt66",
       "title": "Language Virtual Machines",
       "link": "https://www.youtube.com/watch?v=UJPdhx5zTaw",
-      "description": "Building language VMs. Covers bytecode interpretation, memory management, and optimization.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to building language virtual machines and runtime systems. The guide covers bytecode interpretation, memory management, and optimization techniques. Each lecture examines different aspects of VM implementation, including garbage collection and JIT compilation. Special focus on designing efficient and maintainable virtual machines. Includes projects implementing core VM components.",
+      "source": "YouTube",
+      "tags": ["Virtual Machines", "Language Implementation", "Runtime Systems"]
     },
     {
       "id": "yt67",
       "title": "Machine Learning Systems",
       "link": "https://www.youtube.com/watch?v=uapdILWYTzE",
-      "description": "Building production ML systems. Covers model serving, monitoring, and scaling.",
-      "source": "YouTube"
+      "description": "Advanced exploration of production machine learning system design and implementation. The guide covers model serving architectures, monitoring systems, and scaling strategies. Each lecture examines different aspects of ML infrastructure, including feature stores and model deployment pipelines. Special focus on building reliable and scalable ML systems. Includes case studies of real-world ML system implementations.",
+      "source": "YouTube",
+      "tags": ["Machine Learning", "MLOps", "System Design"]
     },
     {
       "id": "yt68",
       "title": "Network Programming",
       "link": "https://www.youtube.com/watch?v=FGdiSJakIS4",
-      "description": "Advanced network programming. Covers socket programming, protocols, and network security.",
-      "source": "YouTube"
+      "description": "In-depth guide to network programming and protocol implementation. The guide covers socket programming, network protocols, and security considerations in detail. Each lecture provides practical examples of implementing networking components and protocols. Special emphasis on building efficient and secure networked applications. Includes projects implementing various networking protocols and services.",
+      "source": "YouTube",
+      "tags": ["Networking", "Socket Programming", "Protocol Implementation"]
     },
     {
       "id": "yt69",
       "title": "Operating System Design",
       "link": "https://www.youtube.com/watch?v=HfzAuAp1TuI",
-      "description": "Building an operating system. Covers process management, memory management, and file systems.",
-      "source": "YouTube"
+      "description": "Comprehensive guide on operating system design and implementation from first principles. The lectures cover process management, memory systems, and file system design in detail. Each session provides hands-on examples of implementing OS components and subsystems. Special focus on modern OS features and design considerations. Includes projects building essential operating system components.",
+      "source": "YouTube",
+      "tags": ["Operating Systems", "Systems Programming", "OS Design"]
     },
     {
       "id": "yt70",
       "title": "Parallel Programming",
       "link": "https://www.youtube.com/watch?v=F6Ipn7gCOsY",
-      "description": "Advanced parallel programming concepts. Covers threading models, synchronization, and parallel algorithms.",
-      "source": "YouTube"
+      "description": "Advanced guide on parallel programming concepts and implementation techniques. The lectures cover threading models, synchronization mechanisms, and parallel algorithm design. Each session explores different aspects of parallel programming, including performance analysis and optimization. Special emphasis on writing efficient parallel code. Includes practical examples using various parallel programming frameworks.",
+      "source": "YouTube",
+      "tags": ["Parallel Programming", "Concurrency", "Performance"]
     },
+
     {
       "id": "yt71",
-      "title": "Quantum Computing Basics",
-      "link": "https://www.youtube.com/watch?v=F_Riqjdh2oM",
-      "description": "Introduction to quantum computing. Covers quantum circuits, algorithms, and programming frameworks.",
-      "source": "YouTube"
+      "title": "Quantum Computing Fundamentals",
+      "link": "https://www.youtube.com/watch?v=QipkpqgMNnU",
+      "description": "Comprehensive introduction to quantum computing principles and programming. The guide covers quantum mechanics fundamentals, qubit operations, and quantum algorithms. Each lecture explores different aspects of quantum computation, including quantum gates and circuit design. Special focus on implementing quantum algorithms using modern frameworks. Includes hands-on examples using quantum simulators and real quantum computers.",
+      "source": "YouTube",
+      "tags": ["Quantum Computing", "Quantum Algorithms", "Quantum Mechanics"]
     },
     {
       "id": "yt72",
-      "title": "Reverse Engineering",
-      "link": "https://www.youtube.com/watch?v=75gBFiFtAb8",
-      "description": "Software reverse engineering techniques. Covers disassembly, debugging, and malware analysis.",
-      "source": "YouTube"
+      "title": "Real-time Systems",
+      "link": "https://www.youtube.com/watch?v=ReiYPYrRgL4",
+      "description": "Advanced exploration of real-time system design and implementation. The guide covers scheduling algorithms, timing analysis, and resource management in real-time environments. Each lecture examines different aspects of real-time systems, including interrupt handling and task scheduling. Special focus on building reliable and predictable real-time applications. Includes practical projects implementing real-time system components.",
+      "source": "YouTube",
+      "tags": ["Real-time Systems", "Embedded Systems", "System Design"]
     },
     {
       "id": "yt73",
-      "title": "Secure Coding Practices",
-      "link": "https://www.youtube.com/watch?v=2RmDyXUEgZw",
-      "description": "Writing secure code. Covers common vulnerabilities, secure design patterns, and testing.",
-      "source": "YouTube"
+      "title": "Secure System Design",
+      "link": "https://www.youtube.com/watch?v=YJJUmTvXVhg",
+      "description": "Comprehensive guide to designing and implementing secure systems. The guide covers threat modeling, security architecture, and defensive programming techniques. Each lecture examines different aspects of system security, including access control and secure communication. Special focus on building systems resistant to common attack vectors. Includes case studies of real-world security implementations.",
+      "source": "YouTube",
+      "tags": ["Security", "System Design", "Threat Modeling"]
     },
     {
       "id": "yt74",
-      "title": "System Design",
-      "link": "https://www.youtube.com/watch?v=ZgdS0EUmn70",
-      "description": "Large-scale system design. Covers scalability, reliability, and distributed systems.",
-      "source": "YouTube"
+      "title": "Tensor Programming",
+      "link": "https://www.youtube.com/watch?v=wZsd5YMM9VE",
+      "description": "In-depth exploration of tensor computation and programming techniques. The guide covers tensor algebra, automatic differentiation, and optimization methods. Each lecture examines different aspects of tensor programming, including hardware acceleration and memory management. Special focus on implementing efficient tensor operations. Includes practical examples using modern tensor computation frameworks.",
+      "source": "YouTube",
+      "tags": ["Tensor Computing", "Scientific Computing", "Machine Learning"]
     },
     {
       "id": "yt75",
-      "title": "Type Theory",
-      "link": "https://www.youtube.com/watch?v=zmYnZDzn8Fg",
-      "description": "Advanced type theory concepts. Covers type systems, dependent types, and formal verification.",
-      "source": "YouTube"
+      "title": "UNIX Programming",
+      "link": "https://www.youtube.com/watch?v=vLZTJqiz-KM",
+      "description": "Advanced guide on UNIX system programming and shell scripting. The lectures cover process management, file operations, and inter-process communication in detail. Each session provides hands-on examples of UNIX programming techniques and system calls. Special emphasis on writing efficient and portable UNIX programs. Includes projects implementing various UNIX utilities and tools.",
+      "source": "YouTube",
+      "tags": ["UNIX", "Systems Programming", "Shell Scripting"]
     },
     {
       "id": "yt76",
-      "title": "UI/UX Design Patterns",
-      "link": "https://www.youtube.com/watch?v=Nj6F4EQnVh8",
-      "description": "Modern UI/UX design patterns. Covers accessibility, responsive design, and user testing.",
-      "source": "YouTube"
+      "title": "Virtual Reality Development",
+      "link": "https://www.youtube.com/watch?v=kTJH_WvgBgw",
+      "description": "Comprehensive guide to virtual reality application development and design. The guide covers 3D graphics, interaction design, and performance optimization for VR. Each lecture examines different aspects of VR development, including motion tracking and spatial audio. Special focus on creating immersive and comfortable VR experiences. Includes practical projects implementing VR applications.",
+      "source": "YouTube",
+      "tags": ["Virtual Reality", "Graphics Programming", "Interaction Design"]
     },
     {
       "id": "yt77",
-      "title": "Virtual Reality Development",
-      "link": "https://www.youtube.com/watch?v=2IeMxfnzgZ4",
-      "description": "VR application development. Covers 3D graphics, interaction design, and performance optimization.",
-      "source": "YouTube"
+      "title": "WebAssembly Systems",
+      "link": "https://www.youtube.com/watch?v=pWUEkQliDcc",
+      "description": "Advanced exploration of WebAssembly development and optimization techniques. The guide covers Wasm module design, memory management, and performance tuning. Each lecture examines different aspects of WebAssembly systems, including compilation pipelines and runtime integration. Special focus on building high-performance web applications. Includes examples implementing complex systems in WebAssembly.",
+      "source": "YouTube",
+      "tags": ["WebAssembly", "Web Performance", "Systems Programming"]
     },
     {
       "id": "yt78",
-      "title": "Web Security",
-      "link": "https://www.youtube.com/watch?v=HGaFCcWM57U",
-      "description": "Advanced web security concepts. Covers common vulnerabilities, secure architecture, and testing.",
-      "source": "YouTube"
+      "title": "XR Development",
+      "link": "https://www.youtube.com/watch?v=hHnTIMjd1Y8",
+      "description": "Comprehensive guide to extended reality (XR) development across platforms. The guide covers AR/VR/MR development techniques, spatial computing, and user interaction design. Each lecture explores different aspects of XR development, including tracking systems and rendering optimization. Special focus on creating engaging and responsive XR applications. Includes practical projects implementing various XR experiences.",
+      "source": "YouTube",
+      "tags": ["XR Development", "Augmented Reality", "Mixed Reality"]
     },
     {
       "id": "yt79",
-      "title": "Advanced Algorithmic Trading",
-      "link": "https://www.youtube.com/watch?v=u5jw5jS3znA",
-      "description": "Building algorithmic trading systems. Covers market microstructure and execution algorithms.",
-      "source": "YouTube"
+      "title": "YAML and Configuration",
+      "link": "https://www.youtube.com/watch?v=o9pT9cWzbnI",
+      "description": "In-depth guide to YAML configuration and automation systems. The guide covers YAML syntax, schema validation, and configuration management best practices. Each lecture examines different aspects of configuration systems, including templating and validation pipelines. Special focus on building maintainable configuration systems. Includes practical examples implementing configuration automation tools.",
+      "source": "YouTube",
+      "tags": ["YAML", "Configuration Management", "DevOps"]
     },
     {
       "id": "yt80",
-      "title": "Biometric Security Systems",
-      "link": "https://www.youtube.com/watch?v=k8P2PK_wsjk",
-      "description": "Implementation of biometric authentication. Covers fingerprint, facial recognition, and iris scanning.",
-      "source": "YouTube"
+      "title": "Zero Knowledge Proofs",
+      "link": "https://www.youtube.com/watch?v=HUs1bH85X9I",
+      "description": "Advanced guide on zero-knowledge proof systems and their applications. The lectures cover ZK-SNARK construction, proof systems, and practical implementations. Each session explores different aspects of zero-knowledge protocols, including efficiency and security considerations. Special emphasis on implementing privacy-preserving systems. Includes examples using modern zero-knowledge frameworks.",
+      "source": "YouTube",
+      "tags": ["Zero Knowledge Proofs", "Cryptography", "Privacy"]
     },
     {
       "id": "yt81",
       "title": "Cloud Native Security",
       "link": "https://www.youtube.com/watch?v=n9n2yQjZ9Nk",
-      "description": "Security in cloud-native applications. Covers container security and service mesh protection.",
-      "source": "YouTube"
+      "description": "In-depth guide to securing cloud native applications and infrastructure. The guide covers container security, service mesh protection, and cloud security posture management. Each lecture examines different aspects of cloud security, including threat detection and incident response. Special focus on implementing zero-trust architecture. Includes case studies of real-world cloud security implementations.",
+      "source": "YouTube",
+      "tags": ["Cloud Security", "DevSecOps", "Container Security"]
     },
     {
       "id": "yt82",
       "title": "Digital Signal Processing",
       "link": "https://www.youtube.com/watch?v=rF2Yb_a9bTw",
-      "description": "Advanced DSP concepts. Covers filter design, spectral analysis, and real-time processing.",
-      "source": "YouTube"
+      "description": "Comprehensive exploration of digital signal processing techniques and applications. The guide covers filter design, spectral analysis, and signal transformation methods. Each lecture examines different aspects of DSP, including real-time processing and hardware implementation. Special focus on practical DSP applications and optimization. Includes hands-on examples using modern DSP frameworks.",
+      "source": "YouTube",
+      "tags": ["Signal Processing", "DSP", "Filter Design"]
     },
     {
       "id": "yt83",
       "title": "Embedded Systems Security",
       "link": "https://www.youtube.com/watch?v=pK_dj2mRzrk",
-      "description": "Security in embedded systems. Covers secure boot, trusted execution, and side-channel protection.",
-      "source": "YouTube"
+      "description": "Advanced guide to securing embedded systems and IoT devices. The guide covers hardware security modules, secure boot processes, and firmware protection. Each lecture examines different aspects of embedded security, including side-channel attacks and countermeasures. Special focus on implementing secure embedded systems. Includes practical examples of security implementations.",
+      "source": "YouTube",
+      "tags": ["Embedded Security", "IoT Security", "Hardware Security"]
     },
     {
       "id": "yt84",
       "title": "FPGA Programming",
       "link": "https://www.youtube.com/watch?v=lLg1AgA2Xoo",
-      "description": "Hardware design with FPGAs. Covers VHDL, Verilog, and hardware acceleration.",
-      "source": "YouTube"
+      "description": "Comprehensive guide on FPGA design and programming techniques. The lectures cover hardware description languages, synthesis tools, and verification methods. Each session explores different aspects of FPGA development, including timing analysis and resource optimization. Special focus on implementing efficient hardware designs. Includes practical projects using modern FPGA platforms.",
+      "source": "YouTube",
+      "tags": ["FPGA", "Hardware Design", "Digital Logic"]
     },
     {
       "id": "yt85",
       "title": "Game Physics Engine",
       "link": "https://www.youtube.com/watch?v=3Oay1YxkP5c",
-      "description": "Building a physics engine for games. Covers collision detection and rigid body dynamics.",
-      "source": "YouTube"
+      "description": "In-depth exploration of game physics engine design and implementation. The guide covers rigid body dynamics, collision detection, and constraint solving. Each lecture examines different aspects of physics simulation, including numerical integration and optimization techniques. Special focus on building efficient and stable physics engines. Includes practical examples implementing physics systems.",
+      "source": "YouTube",
+      "tags": ["Game Physics", "Physics Simulation", "Game Development"]
     },
     {
       "id": "yt86",
       "title": "Hardware Verification",
       "link": "https://www.youtube.com/watch?v=q7C0_m5L8Zs",
-      "description": "Verification of hardware designs. Covers formal methods and simulation-based testing.",
-      "source": "YouTube"
+      "description": "Advanced guide on hardware verification methodologies and tools. The lectures cover formal verification, simulation-based testing, and coverage analysis. Each session explores different aspects of hardware verification, including assertion-based verification and test planning. Special focus on verifying complex digital designs. Includes practical examples using modern verification frameworks.",
+      "source": "YouTube",
+      "tags": ["Hardware Verification", "ASIC Design", "Digital Design"]
     },
     {
       "id": "yt87",
       "title": "Information Retrieval Systems",
       "link": "https://www.youtube.com/watch?v=kNkCwEg3qX4",
-      "description": "Building search engines. Covers indexing, ranking, and query processing.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to building modern information retrieval systems. The guide covers search algorithms, indexing techniques, and ranking methods. Each lecture examines different aspects of IR systems, including relevance feedback and query optimization. Special focus on implementing efficient search engines. Includes practical projects building search system components.",
+      "source": "YouTube",
+      "tags": ["Information Retrieval", "Search Engines", "Text Processing"]
     },
     {
       "id": "yt88",
       "title": "Kernel Development Advanced",
       "link": "https://www.youtube.com/watch?v=tJ0f_B5SYiw",
-      "description": "Advanced Linux kernel development. Covers memory management and device drivers.",
-      "source": "YouTube"
+      "description": "Advanced exploration of kernel development and system programming. The guide covers memory management, scheduling algorithms, and device driver development. Each lecture examines different aspects of kernel internals, including performance optimization and debugging techniques. Special focus on implementing kernel subsystems. Includes practical examples of kernel module development.",
+      "source": "YouTube",
+      "tags": ["Kernel Development", "Systems Programming", "Device Drivers"]
     },
     {
       "id": "yt89",
       "title": "Low Latency Networking",
       "link": "https://www.youtube.com/watch?v=6w_E5MZj0pY",
-      "description": "High-performance networking. Covers kernel bypass and network stack optimization.",
-      "source": "YouTube"
+      "description": "Advanced guide on high-performance networking and low latency systems. The lectures cover kernel bypass techniques, network stack optimization, and hardware acceleration. Each session explores different aspects of low latency networking, including RDMA and zero-copy protocols. Special focus on building ultra-low latency applications. Includes practical examples using modern networking frameworks.",
+      "source": "YouTube",
+      "tags": ["Low Latency", "Networking", "Performance Optimization"]
     },
     {
       "id": "yt90",
       "title": "Machine Learning Systems Design",
       "link": "https://www.youtube.com/watch?v=c_AUuTuPA5k",
-      "description": "Designing production ML systems. Covers feature stores and model serving infrastructure.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to designing and implementing production machine learning systems. The guide covers feature engineering pipelines, model serving architectures, and monitoring systems. Each lecture examines different aspects of ML infrastructure, including feature stores and model deployment. Special focus on building scalable and reliable ML systems. Includes case studies of real-world implementations.",
+      "source": "YouTube",
+      "tags": ["Machine Learning", "MLOps", "System Design"]
     },
     {
       "id": "yt91",
       "title": "Network Function Virtualization",
       "link": "https://www.youtube.com/watch?v=Vm_H7Jl8Rcw",
-      "description": "NFV architecture and implementation. Covers virtual network functions and service chaining.",
-      "source": "YouTube"
+      "description": "In-depth exploration of network function virtualization architecture and implementation. The guide covers virtual network functions, service chaining, and NFV infrastructure. Each lecture examines different aspects of NFV systems, including orchestration and management. Special focus on building efficient virtualized network services. Includes practical examples implementing NFV components.",
+      "source": "YouTube",
+      "tags": ["NFV", "Network Virtualization", "SDN"]
     },
     {
       "id": "yt92",
       "title": "Operating System Boot Process",
       "link": "https://www.youtube.com/watch?v=3eexVq1q3vY",
-      "description": "Deep dive into OS boot sequence. Covers bootloaders and kernel initialization.",
-      "source": "YouTube"
+      "description": "Comprehensive analysis of operating system boot sequence and initialization. The guide covers bootloader design, kernel initialization, and early boot process. Each lecture examines different aspects of system startup, including firmware interaction and device initialization. Special focus on implementing secure boot processes. Includes practical examples of bootloader development.",
+      "source": "YouTube",
+      "tags": ["Operating Systems", "Boot Process", "System Initialization"]
     },
     {
       "id": "yt93",
       "title": "Processor Architecture Design",
       "link": "https://www.youtube.com/watch?v=zLP_X4wyHbY",
-      "description": "CPU architecture and design. Covers pipelining, out-of-order execution, and cache systems.",
-      "source": "YouTube"
+      "description": "Advanced guide on CPU architecture design and implementation. The lectures cover pipelining techniques, out-of-order execution, and cache hierarchy design. Each session explores different aspects of processor architecture, including branch prediction and speculation. Special focus on designing high-performance processors. Includes practical projects using hardware description languages.",
+      "source": "YouTube",
+      "tags": ["Computer Architecture", "Processor Design", "Hardware Engineering"]
     },
     {
       "id": "yt94",
       "title": "Quantum Computing Hardware",
       "link": "https://www.youtube.com/watch?v=Lbndu5EIWvI",
-      "description": "Hardware implementation of quantum computers. Covers qubit design and control systems.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to quantum computing hardware implementation. The guide covers qubit design, quantum control systems, and error correction. Each lecture examines different aspects of quantum hardware, including superconducting circuits and ion traps. Special focus on building practical quantum computers. Includes case studies of current quantum hardware platforms.",
+      "source": "YouTube",
+      "tags": ["Quantum Computing", "Hardware Design", "Quantum Control"]
     },
     {
       "id": "yt95",
       "title": "Real-time Operating Systems",
       "link": "https://www.youtube.com/watch?v=F321087yYy4",
-      "description": "RTOS implementation details. Covers scheduling and interrupt handling.",
-      "source": "YouTube"
+      "description": "In-depth exploration of real-time operating system implementation. The guide covers scheduling algorithms, interrupt handling, and deterministic execution. Each lecture examines different aspects of RTOS design, including task management and resource allocation. Special focus on building reliable real-time systems. Includes practical examples implementing RTOS components.",
+      "source": "YouTube",
+      "tags": ["RTOS", "Embedded Systems", "Real-time Computing"]
     },
     {
       "id": "yt96",
       "title": "Software Defined Radio",
       "link": "https://www.youtube.com/watch?v=tG8JaNzqVxE",
-      "description": "Building SDR applications. Covers signal processing and protocol implementation.",
-      "source": "YouTube"
+      "description": "Advanced guide on software defined radio implementation and applications. The lectures cover signal processing, protocol implementation, and RF front-end design. Each session explores different aspects of SDR systems, including digital signal processing and protocol stacks. Special focus on building flexible radio systems. Includes practical projects using SDR hardware.",
+      "source": "YouTube",
+      "tags": ["SDR", "Signal Processing", "Radio Communications"]
     },
     {
       "id": "yt97",
       "title": "Trusted Platform Modules",
       "link": "https://www.youtube.com/watch?v=7sJw6eo0Jk8",
-      "description": "TPM implementation and usage. Covers secure storage and remote attestation.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to TPM implementation and security applications. The guide covers secure storage, remote attestation, and key management. Each lecture examines different aspects of trusted computing, including measured boot and sealed storage. Special focus on implementing secure systems using TPMs. Includes practical examples of TPM-based security solutions.",
+      "source": "YouTube",
+      "tags": ["TPM", "Hardware Security", "Trusted Computing"]
     },
     {
       "id": "yt98",
       "title": "UEFI Development",
       "link": "https://www.youtube.com/watch?v=V2QMiGn7DnE",
-      "description": "UEFI firmware development. Covers boot services and runtime services.",
-      "source": "YouTube"
+      "description": "Advanced exploration of UEFI firmware development and implementation. The guide covers boot services, runtime services, and UEFI drivers. Each lecture examines different aspects of UEFI development, including secure boot and platform initialization. Special focus on building modern firmware solutions. Includes practical projects implementing UEFI applications.",
+      "source": "YouTube",
+      "tags": ["UEFI", "Firmware", "Boot Services"]
     },
     {
       "id": "yt99",
       "title": "Virtual Reality Systems",
       "link": "https://www.youtube.com/watch?v=2IeMxfnzgZ4",
-      "description": "VR system architecture. Covers tracking systems and rendering optimization.",
-      "source": "YouTube"
+      "description": "Comprehensive guide to virtual reality system architecture and implementation. The guide covers tracking systems, rendering pipelines, and performance optimization. Each lecture examines different aspects of VR systems, including motion prediction and latency reduction. Special focus on building immersive and responsive VR experiences. Includes practical projects implementing VR system components.",
+      "source": "YouTube",
+      "tags": ["Virtual Reality", "Graphics", "System Architecture"]
     },
     {
       "id": "yt100",
       "title": "Zero Knowledge Systems",
       "link": "https://www.youtube.com/watch?v=HUs1bH85X9I",
-      "description": "Building zero-knowledge systems. Covers ZK-SNARKs and privacy protocols.",
-      "source": "YouTube"
+      "description": "Advanced exploration of zero-knowledge proof systems and applications. The guide covers ZK-SNARK implementation, privacy protocols, and cryptographic primitives. Each lecture examines different aspects of zero-knowledge systems, including proof construction and verification. Special focus on building privacy-preserving applications. Includes practical examples using modern ZK frameworks.",
+      "source": "YouTube",
+      "tags": ["Zero Knowledge Proofs", "Cryptography", "Privacy"]
     }
   ]
 } 

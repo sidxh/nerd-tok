@@ -320,10 +320,12 @@ function App() {
               >
                 <X className="w-5 h-5 text-white/70 hover:text-white" />
               </button>
-              <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">About NerdTok</h2>
-              <p className="text-lg text-white/90 leading-relaxed">
-                A TikTok-style interface for exploring arXiv research papers. Swipe through papers, save your favorites, and discover new research in an engaging way.
+              <h2 className="text-2xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">About NerdTok</h2>
+              <p className="text-lg text-white/90 leading-relaxed mb-6">
+              🧠 A TikTok-style interface for exploring Computer Science Research Papers and Interesting Articles (Blogs + Youtube Videos)
               </p>
+              <p className="text-lg text-white/90 leading-relaxed mb-6">👆🏻 Swipe through the papers, save your favorites, and discover new research in an engaging way</p>
+              <p className="text-lg text-white/90 leading-relaxed mb-6">🔄 You can always refresh the entire feed by clicking on the NerdTok icon in the leftmost corner.</p>
             </div>
           </div>
         )}

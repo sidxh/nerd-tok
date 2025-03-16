@@ -104,7 +104,7 @@ export function useArxivPapers() {
 
       const papers = Array.from(entries)
         .map(entry => ({
-          id: entry.querySelector("id")?.textContent || "",
+          id: `${entry.querySelector("id")?.textContent || ""}_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
           title: entry.querySelector("title")?.textContent || "",
           abstract: entry.querySelector("summary")?.textContent || "",
           authors: Array.from(entry.getElementsByTagName("author"))
