@@ -6,4 +6,5 @@ export interface ArxivPaper {
   pdfUrl: string;
   publishedDate: string;
   categories: { term: string; id: string; }[];
+  source?: string;  // Optional source field for articles
 } 

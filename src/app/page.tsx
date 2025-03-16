@@ -334,25 +334,29 @@ function App() {
         {showLikes && (
           <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
             <div className="bg-gray-900/90 p-6 rounded-2xl w-full max-w-2xl h-[80vh] flex flex-col relative border border-white/10 shadow-2xl modal-animation">
-              <button
-                onClick={() => setShowLikes(false)}
-                className="absolute top-4 right-4 p-2 rounded-full hover:bg-white/10 transition-all"
-              >
-                <X className="w-5 h-5 text-white/70 hover:text-white" />
-              </button>
-
-              <div className="flex justify-between items-center mb-6">
-                <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Liked Papers</h2>
-                {likedPapers.length > 0 && (
-                  <button
-                    onClick={handleExport}
-                    className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-all"
-                    title="Export liked papers"
-                  >
-                    <Download className="w-4 h-4" />
-                    Export
-                  </button>
-                )}
+              <div className="flex items-center justify-between mb-6">
+                <div className="flex items-center gap-4">
+                  <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+                    Liked Items
+                  </h2>
+                  {likedPapers.length > 0 && (
+                    <button
+                      onClick={handleExport}
+                      className="flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-all text-sm"
+                      title="Export liked items"
+                    >
+                      <Download className="w-4 h-4" />
+                      Export
+                    </button>
+                  )}
+                </div>
+                <button
+                  onClick={() => setShowLikes(false)}
+                  className="p-2 rounded-full hover:bg-white/10 transition-all"
+                  aria-label="Close modal"
+                >
+                  <X className="w-5 h-5 text-white/70 hover:text-white" />
+                </button>
               </div>
 
               <div className="relative mb-4">
@@ -360,7 +364,7 @@ function App() {
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Search liked papers..."
+                  placeholder="Search liked items..."
                   className="w-full bg-white/5 text-white px-4 py-3 pl-11 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/50 border border-white/10 transition-all"
                 />
                 <Search className="w-5 h-5 text-white/50 absolute left-4 top-1/2 transform -translate-y-1/2" />
@@ -370,42 +374,68 @@ function App() {
                 {filteredLikedPapers.length === 0 ? (
                   <div className="flex flex-col items-center justify-center h-full text-center">
                     <p className="text-white/70 text-lg">
-                      {searchQuery ? "No matches found." : "No liked papers yet."}
+                      {searchQuery ? "No matches found." : "No liked items yet."}
                     </p>
                     {!searchQuery && (
                       <p className="text-white/50 mt-2">
-                        Start exploring and like some papers!
+                        Start exploring and like some items!
                       </p>
                     )}
                   </div>
                 ) : (
                   <div className="space-y-4">
-                    {filteredLikedPapers.map((paper) => (
-                      <div key={paper.id} className="flex gap-4 items-start group p-4 rounded-xl hover:bg-white/5 transition-all">
-                        <div className="flex-1">
-                          <div className="flex justify-between items-start">
-                            <a
-                              href={paper.pdfUrl}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="font-bold hover:text-blue-400 transition-colors"
-                            >
-                              {paper.title}
-                            </a>
-                            <button
-                              onClick={() => toggleLike(paper)}
-                              className="text-white/50 hover:text-white/90 p-2 rounded-full hover:bg-white/10 transition-all"
-                              aria-label="Remove from likes"
-                            >
-                              <X className="w-4 h-4" />
-                            </button>
+                    {filteredLikedPapers.map((paper) => {
+                      const isArticle = !paper.categories || paper.categories.length === 0;
+                      return (
+                        <div key={paper.id} className="flex gap-4 items-start group p-4 rounded-xl hover:bg-white/5 transition-all">
+                          <div className="flex-1">
+                            <div className="flex justify-between items-start gap-4">
+                              <div className="flex-1">
+                                <div className="flex items-center gap-2 mb-2">
+                                  <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+                                    isArticle ? 'bg-purple-500/20 text-purple-300' : 'bg-blue-500/20 text-blue-300'
+                                  }`}>
+                                    {isArticle ? 'Article' : 'Paper'}
+                                  </span>
+                                  {isArticle ? (
+                                    <span className="px-2 py-1 rounded-full text-xs bg-white/10 text-white/70">
+                                      {paper.source || ''}
+                                    </span>
+                                  ) : (
+                                    paper.categories?.slice(0, 2).map((cat) => (
+                                      <span 
+                                        key={cat.id}
+                                        className="px-2 py-1 rounded-full text-xs bg-white/10 text-white/70"
+                                      >
+                                        {cat.term}
+                                      </span>
+                                    ))
+                                  )}
+                                </div>
+                                <a
+                                  href={paper.pdfUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="font-bold hover:text-blue-400 transition-colors"
+                                >
+                                  {paper.title}
+                                </a>
+                              </div>
+                              <button
+                                onClick={() => toggleLike(paper)}
+                                className="text-white/50 hover:text-white/90 p-2 rounded-full hover:bg-white/10 transition-all flex-shrink-0"
+                                aria-label="Remove from likes"
+                              >
+                                <X className="w-4 h-4" />
+                              </button>
+                            </div>
+                            <p className="text-sm text-white/70 line-clamp-2 mt-2">
+                              {paper.abstract}
+                            </p>
                           </div>
-                          <p className="text-sm text-white/70 line-clamp-2 mt-2">
-                            {paper.abstract}
-                          </p>
                         </div>
-                      </div>
-                    ))}
+                      );
+                    })}
                   </div>
                 )}
               </div>

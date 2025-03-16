@@ -109,7 +109,8 @@ export const ArticleCard = ({ article }: ArticleCardProps) => {
                   pdfUrl: article.link,
                   authors: [],
                   publishedDate: new Date().toISOString(),
-                  categories: []
+                  categories: [],
+                  source: article.source
                 })}
                 className={`p-3 rounded-full backdrop-blur-sm transition-all transform hover:scale-110 
                   ${isLiked(article.id) ? 'bg-red-500 hover:bg-red-600' : 'bg-white/10 hover:bg-white/20'}`}
