@@ -1,5 +1,5 @@
 import { Article } from '@/hooks/useArticles';
-import { ExternalLink, Share2, Heart, FileText, Clock, Calendar, Tag } from 'lucide-react';
+import { Share2, Heart, FileText, Tag } from 'lucide-react';
 import { useLikedPapers } from '@/context/LikedPapersContext';
 
 interface ArticleCardProps {
@@ -30,11 +30,11 @@ export const ArticleCard = ({ article }: ArticleCardProps) => {
   };
 
   // Calculate estimated reading time (1 minute per 200 words)
-  const getReadingTime = (text: string) => {
-    const words = text.split(/\s+/).length;
-    const minutes = Math.ceil(words / 200);
-    return `${minutes} min read`;
-  };
+  // const getReadingTime = (text: string) => {
+  //   const words = text.split(/\s+/).length;
+  //   const minutes = Math.ceil(words / 200);
+  //   return `${minutes} min read`;
+  // };
 
   const handleShare = async () => {
     if (navigator.share) {
