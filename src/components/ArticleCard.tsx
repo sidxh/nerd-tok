@@ -53,7 +53,7 @@ export const ArticleCard = ({ article }: ArticleCardProps) => {
     }
   };
 
-  const readingTime = getReadingTime(article.description);
+  // const readingTime = getReadingTime(article.description);
 
   return (
     <div className="h-screen w-full flex items-center justify-center snap-start relative">
