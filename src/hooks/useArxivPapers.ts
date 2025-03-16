@@ -31,8 +31,9 @@ const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 export function useArxivPapers() {
   const [papers, setPapers] = useState<ArxivPaper[]>([]);
   const [loading, setLoading] = useState(false);
-  const [dateBuffers, setDateBuffers] = useState<Map<string, ArxivPaper[]>>(new Map());
   const [prefetchedBatch, setPrefetchedBatch] = useState<ArxivPaper[]>([]);
+  const [isInitialPhase, setIsInitialPhase] = useState(true);
+  const [hasMore, setHasMore] = useState(true);
   
   // Track shown papers to avoid duplicates
   const shownPapers = useRef(new Set<string>());
@@ -41,6 +42,9 @@ export function useArxivPapers() {
   const isFetching = useRef(false);
   const isPrefetching = useRef(false);
   const fetchAttempts = useRef(0);
+
+  // Maximum number of papers to fetch (3 batches of 20)
+  const MAX_PAPERS = 60;
 
   const getRandomDateWindow = () => {
     // Sort date windows by usage count (prefer less used windows)
@@ -64,10 +68,10 @@ export function useArxivPapers() {
   };
 
   const fetchSubBatch = async (dateWindow: typeof DATE_WINDOWS[0]) => {
-    console.log(`[ArXiv] Fetching sub-batch for date window: ${dateWindow.start}-${dateWindow.end}`);
+    // console.log(`[ArXiv] Fetching sub-batch for date window: ${dateWindow.start}-${dateWindow.end}`);
     
     const categories = CATEGORY_GROUPS[Math.floor(Math.random() * CATEGORY_GROUPS.length)];
-    console.log(`[ArXiv] Selected categories:`, categories);
+    // console.log(`[ArXiv] Selected categories:`, categories);
     
     const dateQuery = `submittedDate:[${dateWindow.start} TO ${dateWindow.end}]`;
     const categoryQuery = categories.map(cat => `cat:${cat}`).join(' OR ');
@@ -81,12 +85,12 @@ export function useArxivPapers() {
       start: Math.floor(Math.random() * 1000).toString()
     });
 
-    console.log(`[ArXiv] Making API request with query:`, searchQuery);
+    // console.log(`[ArXiv] Making API request with query:`, searchQuery);
     
     try {
       const response = await fetch(`${baseUrl}?${params}`);
-      console.log(`[ArXiv] Response status:`, response.status);
-      console.log(`[ArXiv] Response headers:`, Object.fromEntries(response.headers.entries()));
+      // console.log(`[ArXiv] Response status:`, response.status);
+      // console.log(`[ArXiv] Response headers:`, Object.fromEntries(response.headers.entries()));
       
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -96,7 +100,7 @@ export function useArxivPapers() {
       const parser = new DOMParser();
       const xmlDoc = parser.parseFromString(data, "text/xml");
       const entries = xmlDoc.getElementsByTagName("entry");
-      console.log(`[ArXiv] Found ${entries.length} entries in response`);
+      // console.log(`[ArXiv] Found ${entries.length} entries in response`);
 
       const papers = Array.from(entries)
         .map(entry => ({
@@ -115,19 +119,19 @@ export function useArxivPapers() {
         }))
         .filter(paper => {
           if (shownPapers.current.has(paper.id)) {
-            console.log(`[ArXiv] Skipping duplicate paper:`, paper.id);
+            // console.log(`[ArXiv] Skipping duplicate paper:`, paper.id);
             return false;
           }
           if (paper.abstract.length < 500) {
-            console.log(`[ArXiv] Skipping paper with short abstract:`, paper.id);
+            // console.log(`[ArXiv] Skipping paper with short abstract:`, paper.id);
             return false;
           }
           if (!paper.pdfUrl) {
-            console.log(`[ArXiv] Skipping paper without PDF:`, paper.id);
+            // console.log(`[ArXiv] Skipping paper without PDF:`, paper.id);
             return false;
           }
           if (paper.authors.length < 2) {
-            console.log(`[ArXiv] Skipping paper with too few authors:`, paper.id);
+            // console.log(`[ArXiv] Skipping paper with too few authors:`, paper.id);
             return false;
           }
           
@@ -135,23 +139,23 @@ export function useArxivPapers() {
           return true;
         });
 
-      console.log(`[ArXiv] Filtered to ${papers.length} valid papers`);
+      // console.log(`[ArXiv] Filtered to ${papers.length} valid papers`);
       return papers;
       
     } catch (error) {
-      console.error(`[ArXiv] Error in fetchSubBatch:`, error);
-      console.error(`[ArXiv] Failed request URL:`, `${baseUrl}?${params}`);
+      // console.error(`[ArXiv] Error in fetchSubBatch:`, error);
+      // console.error(`[ArXiv] Failed request URL:`, `${baseUrl}?${params}`);
       throw error;
     }
   };
 
-  const fetchPapers = useCallback(async (forBuffer = false) => {
-    if (isFetching.current) {
-      console.log('[ArXiv] Fetch already in progress, skipping...');
+  const fetchPapers = useCallback(async () => {
+    if (isFetching.current || papers.length >= MAX_PAPERS) {
+      // console.log('[ArXiv] Fetch skipped - either in progress or reached max papers');
       return;
     }
     
-    console.log(`[ArXiv] Starting paper fetch. Attempt ${fetchAttempts.current + 1}`);
+    // console.log(`[ArXiv] Starting paper fetch. Attempt ${fetchAttempts.current + 1}`);
     isFetching.current = true;
     setLoading(true);
     fetchAttempts.current++;
@@ -160,7 +164,7 @@ export function useArxivPapers() {
       const newBatch: ArxivPaper[] = [];
       const usedWindows = new Set();
       
-      console.log('[ArXiv] Beginning batch collection...');
+      // console.log('[ArXiv] Beginning batch collection...');
       
       while (newBatch.length < BATCH_SIZE) {
         let dateWindow;
@@ -170,7 +174,7 @@ export function useArxivPapers() {
         
         usedWindows.add(dateWindow.start);
         
-        console.log(`[ArXiv] Waiting ${API_DELAY}ms before next request...`);
+        // console.log(`[ArXiv] Waiting ${API_DELAY}ms before next request...`);
         await delay(API_DELAY);
         
         try {
@@ -179,60 +183,55 @@ export function useArxivPapers() {
             .sort(() => Math.random() - 0.5)
             .slice(0, SUB_BATCH_SIZE);
           
-          console.log(`[ArXiv] Added ${shuffledSubBatch.length} papers from sub-batch`);
+          // console.log(`[ArXiv] Added ${shuffledSubBatch.length} papers from sub-batch`);
           newBatch.push(...shuffledSubBatch);
           
         } catch (subError) {
-          console.error('[ArXiv] Sub-batch fetch failed:', subError);
-          // Continue with next window instead of failing entire batch
+          // console.error('[ArXiv] Sub-batch fetch failed:', subError);
           continue;
         }
       }
 
-      console.log(`[ArXiv] Completed batch collection. Total papers: ${newBatch.length}`);
+      // console.log(`[ArXiv] Completed batch collection. Total papers: ${newBatch.length}`);
       
       const shuffledBatch = newBatch
         .sort(() => Math.random() - 0.5)
         .slice(0, BATCH_SIZE);
 
-      if (forBuffer) {
-        const newBuffers = new Map(dateBuffers);
-        shuffledBatch.forEach(paper => {
-          const year = new Date(paper.publishedDate).getFullYear().toString();
-          const existing = newBuffers.get(year) || [];
-          newBuffers.set(year, [...existing, paper]);
-        });
-        setDateBuffers(newBuffers);
-        console.log('[ArXiv] Updated date buffers');
-      } else {
-        setPapers(prev => {
-          const newPapers = [...prev, ...shuffledBatch];
-          console.log(`[ArXiv] Updated papers. Total count: ${newPapers.length}`);
-          return newPapers;
-        });
-      }
+      setPapers(prev => {
+        const newPapers = [...prev, ...shuffledBatch];
+        // console.log(`[ArXiv] Updated papers. Total count: ${newPapers.length}`);
+        
+        // Check if we've reached the maximum papers
+        if (newPapers.length >= MAX_PAPERS) {
+          // console.log('[ArXiv] Reached maximum papers limit');
+          setHasMore(false);
+        }
+        
+        return newPapers;
+      });
       
       setLoading(false);
       
     } catch (err) {
-      console.error("[ArXiv] Critical error in fetchPapers:", err);
-      // Reset loading state regardless of paper count to prevent UI lock
+      // console.error("[ArXiv] Critical error in fetchPapers:", err);
       setLoading(false);
     } finally {
-      console.log('[ArXiv] Fetch complete. Resetting fetch state...');
+      // console.log('[ArXiv] Fetch complete. Resetting fetch state...');
       isFetching.current = false;
     }
-  }, [loading, dateBuffers]);
+  }, [papers.length]);
 
   const prefetchNextBatch = useCallback(async () => {
-    if (isPrefetching.current) return;
+    if (isPrefetching.current || !isInitialPhase || papers.length >= MAX_PAPERS) return;
     isPrefetching.current = true;
 
     try {
+      // console.log('[ArXiv] Starting initial prefetch...');
       const newBatch: ArxivPaper[] = [];
       const usedWindows = new Set();
       
-      for (let i = 0; i < 4; i++) {
+      while (newBatch.length < BATCH_SIZE) {
         let dateWindow;
         do {
           dateWindow = getRandomDateWindow();
@@ -240,7 +239,7 @@ export function useArxivPapers() {
         
         usedWindows.add(dateWindow.start);
         
-        if (i > 0) await delay(API_DELAY);
+        await delay(API_DELAY);
         const subBatch = await fetchSubBatch(dateWindow);
         const shuffledSubBatch = subBatch
           .sort(() => Math.random() - 0.5)
@@ -254,36 +253,55 @@ export function useArxivPapers() {
         .slice(0, BATCH_SIZE);
 
       setPrefetchedBatch(shuffledBatch);
+      setIsInitialPhase(false);
+      // console.log('[ArXiv] Initial prefetch complete');
     } catch (error) {
-      console.error("Error prefetching papers:", error);
+      // console.error("[ArXiv] Error prefetching papers:", error);
     } finally {
       isPrefetching.current = false;
     }
-  }, []);
+  }, [isInitialPhase, papers.length]);
 
+  // Initial load effect
   useEffect(() => {
-    prefetchNextBatch();
-  }, [prefetchNextBatch]);
+    if (isInitialPhase && papers.length === 0) {
+      // console.log('[ArXiv] Starting initial phase...');
+      fetchPapers().then(() => {
+        if (papers.length < MAX_PAPERS) {
+          // console.log('[ArXiv] Initial fetch complete, starting prefetch...');
+          prefetchNextBatch();
+        }
+      });
+    }
+  }, [isInitialPhase, papers.length, fetchPapers, prefetchNextBatch]);
 
   const getMorePapers = useCallback(() => {
-    if (isFetching.current) return;
-    
-    try {
-      if (prefetchedBatch.length >= BATCH_SIZE) {
-        setPapers(prev => [...prev, ...prefetchedBatch]);
-        setPrefetchedBatch([]);
-        prefetchNextBatch();
-      } else {
-        fetchPapers(false);
-      }
-    } finally {
-      // Loading state is managed in fetchPapers
+    if (isFetching.current || papers.length >= MAX_PAPERS) {
+      // console.log('[ArXiv] Not fetching more papers - either in progress or reached limit');
+      return;
     }
-  }, [prefetchedBatch, prefetchNextBatch, fetchPapers]);
+    
+    if (prefetchedBatch.length >= BATCH_SIZE) {
+      // console.log('[ArXiv] Using prefetched batch');
+      setPapers(prev => {
+        const newPapers = [...prev, ...prefetchedBatch];
+        if (newPapers.length >= MAX_PAPERS) {
+          // console.log('[ArXiv] Reached maximum papers limit');
+          setHasMore(false);
+        }
+        return newPapers;
+      });
+      setPrefetchedBatch([]);
+    } else {
+      // console.log('[ArXiv] No prefetched batch available, fetching new batch');
+      fetchPapers();
+    }
+  }, [prefetchedBatch, papers.length, fetchPapers]);
 
   return { 
     papers, 
     loading, 
-    fetchPapers: getMorePapers 
+    fetchPapers: getMorePapers,
+    hasMore // Will be false after reaching 60 papers
   };
-} 
+}
