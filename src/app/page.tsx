@@ -31,6 +31,20 @@ const scrollbarHideStyles = `
   }
 `;
 
+// Loader configuration for different tabs
+const LOADER_CONFIG = {
+  papers: {
+    title: "Curating the best feed of papers for you",
+    emoji: "📚🛠️",
+    loadingTime: "30 seconds",
+  },
+  articles: {
+    title: "Finding high-quality tech articles for you",
+    emoji: "📱💡",
+    loadingTime: "3 seconds",
+  }
+} as const;
+
 type Tab = 'papers' | 'articles';
 
 function App() {
@@ -43,6 +57,12 @@ function App() {
   const { likedPapers, toggleLike } = useLikedPapers()
   const observerTarget = useRef(null)
   const [searchQuery, setSearchQuery] = useState('')
+
+  // Determine if we're in the initial loading state
+  const isInitialLoading = activeTab === 'papers' ? (arxivLoading && papers.length === 0) : (articlesLoading && articles.length === 0);
+
+  // Get current loader config based on active tab
+  const currentLoader = LOADER_CONFIG[activeTab];
 
   const handleTabChange = useCallback((tab: Tab) => {
     setActiveTab(tab);
@@ -113,8 +133,8 @@ function App() {
   return (
     <>
       <style jsx global>{scrollbarHideStyles}</style>
-      <div className="h-screen w-full bg-black text-white overflow-y-scroll snap-y snap-mandatory relative mx-auto hide-scrollbar">
-        {/* Logo */}
+      <div className="h-screen w-full bg-gradient-to-b from-blue-950 to-black text-white overflow-y-scroll snap-y snap-mandatory relative mx-auto hide-scrollbar">
+        {/* Logo - Always visible */}
         <div className="fixed top-4 left-4 z-50">
           <button
             onClick={() => window.location.reload()}
@@ -124,7 +144,7 @@ function App() {
           </button>
         </div>
 
-        {/* Mobile Menu Button */}
+        {/* Mobile Menu Button - Always visible */}
         <div className="fixed top-4 right-4 z-50 md:hidden">
           <button
             onClick={() => setShowMobileMenu(!showMobileMenu)}
@@ -134,7 +154,7 @@ function App() {
           </button>
         </div>
 
-        {/* Desktop Navigation */}
+        {/* Desktop Navigation - Always visible */}
         <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 hidden md:flex gap-2 bg-black/20 backdrop-blur-sm p-1 rounded-full border border-white/10">
           <button
             onClick={() => handleTabChange('papers')}
@@ -158,7 +178,7 @@ function App() {
           </button>
         </div>
 
-        {/* Desktop Right Navigation */}
+        {/* Desktop Right Navigation - Always visible */}
         <div className="fixed top-4 right-4 z-50 hidden md:flex gap-2 bg-black/20 backdrop-blur-sm p-1 rounded-full border border-white/10">
           <button
             onClick={() => setShowAbout(!showAbout)}
@@ -233,6 +253,61 @@ function App() {
               </button>
             </div>
           </div>
+        )}
+
+        {isInitialLoading ? (
+          <div className="h-screen w-full flex items-center justify-center bg-gray-950 p-4">
+            <div className="bg-gray-900/40 backdrop-blur-lg rounded-xl border border-white/5 p-6 shadow-xl max-w-md w-full transition-all duration-300 hover:shadow-indigo-500/10">
+              
+              {/* Refined, minimal loader */}
+              <div className="relative mb-6 mx-auto w-16 h-16">
+                <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-violet-500 rounded-full opacity-10 animate-pulse"></div>
+                <div className="absolute inset-1 border-2 border-indigo-300/10 border-t-indigo-400/90 rounded-full animate-spin"></div>
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="w-2 h-2 bg-indigo-400 rounded-full animate-pulse"></div>
+                </div>
+              </div>
+              
+              {/* Dynamic text container */}
+              <div className="space-y-3 text-center">
+                <h3 className="text-lg font-medium text-white/90 mb-4">
+                  {currentLoader.title}
+                  <span className="ml-1 opacity-90">{currentLoader.emoji}</span>
+                </h3>
+                
+                {/* Progress indicator */}
+                <div className="w-full bg-white/5 rounded-full h-1 overflow-hidden">
+                  <div className="bg-gradient-to-r from-indigo-500 to-violet-500 h-1 rounded-full animate-progress"></div>
+                </div>
+                
+                <div className="space-y-2">
+                  <p className="text-xs text-white/40">
+                    This might take up to {currentLoader.loadingTime}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <>
+            {activeTab === 'papers' ? (
+              papers.map((paper) => (
+                <ArxivCard key={paper.id} paper={paper} />
+              ))
+            ) : (
+              articles.map((article) => (
+                <ArticleCard key={article.id} article={article} />
+              ))
+            )}
+            
+            <div ref={observerTarget} className="h-10 -mt-1" />
+            {(arxivLoading || articlesLoading) && (
+              <div className="h-screen w-full flex items-center justify-center gap-2">
+                <Loader2 className="h-6 w-6 animate-spin" />
+                <span>Loading...</span>
+              </div>
+            )}
+          </>
         )}
 
         {/* About Modal */}
@@ -333,24 +408,6 @@ function App() {
                 )}
               </div>
             </div>
-          </div>
-        )}
-
-        {activeTab === 'papers' ? (
-          papers.map((paper) => (
-            <ArxivCard key={paper.id} paper={paper} />
-          ))
-        ) : (
-          articles.map((article) => (
-            <ArticleCard key={article.id} article={article} />
-          ))
-        )}
-        
-        <div ref={observerTarget} className="h-10 -mt-1" />
-        {(arxivLoading || articlesLoading) && (
-          <div className="h-screen w-full flex items-center justify-center gap-2">
-            <Loader2 className="h-6 w-6 animate-spin" />
-            <span>Loading...</span>
           </div>
         )}
       </div>

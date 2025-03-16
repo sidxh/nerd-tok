@@ -109,7 +109,8 @@ export function useArxivPapers() {
   };
 
   const fetchPapers = useCallback(async (forBuffer = false) => {
-    if (loading) return;
+    if (isFetching.current) return;
+    isFetching.current = true;
     setLoading(true);
     
     try {
@@ -154,12 +155,16 @@ export function useArxivPapers() {
       } else {
         setPapers(prev => [...prev, ...shuffledBatch]);
       }
-    } catch (error) {
-      console.error("Error fetching papers:", error);
+    } catch (err) {
+      console.error("Error fetching papers:", err);
+      // Only set loading to false if we have papers or if there was an error
+      if (papers.length > 0) {
+        setLoading(false);
+      }
     } finally {
-      setLoading(false);
+      isFetching.current = false;
     }
-  }, [loading]);
+  }, [loading, dateBuffers]);
 
   const prefetchNextBatch = useCallback(async () => {
     if (isPrefetching.current) return;
@@ -204,9 +209,7 @@ export function useArxivPapers() {
 
   const getMorePapers = useCallback(() => {
     if (isFetching.current) return;
-    isFetching.current = true;
-    setLoading(true);
-
+    
     try {
       if (prefetchedBatch.length >= BATCH_SIZE) {
         setPapers(prev => [...prev, ...prefetchedBatch]);
@@ -216,8 +219,7 @@ export function useArxivPapers() {
         fetchPapers(false);
       }
     } finally {
-      isFetching.current = false;
-      setLoading(false);
+      // Loading state is managed in fetchPapers
     }
   }, [prefetchedBatch, prefetchNextBatch, fetchPapers]);
 
