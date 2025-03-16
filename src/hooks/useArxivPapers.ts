@@ -188,6 +188,7 @@ export function useArxivPapers() {
           
         } catch (subError) {
           // console.error('[ArXiv] Sub-batch fetch failed:', subError);
+          console.log(subError)
           continue;
         }
       }
@@ -215,6 +216,7 @@ export function useArxivPapers() {
       
     } catch (err) {
       // console.error("[ArXiv] Critical error in fetchPapers:", err);
+      console.log(err)
       setLoading(false);
     } finally {
       // console.log('[ArXiv] Fetch complete. Resetting fetch state...');
@@ -257,6 +259,7 @@ export function useArxivPapers() {
       // console.log('[ArXiv] Initial prefetch complete');
     } catch (error) {
       // console.error("[ArXiv] Error prefetching papers:", error);
+      console.log(error)
     } finally {
       isPrefetching.current = false;
     }
