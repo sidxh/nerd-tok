@@ -289,7 +289,7 @@ function App() {
             </div>
           </div>
         ) : (
-          <>
+          <div>
             {activeTab === 'papers' ? (
               papers.map((paper) => (
                 <ArxivCard key={paper.id} paper={paper} />
@@ -307,7 +307,7 @@ function App() {
                 <span>Loading...</span>
               </div>
             )}
-          </>
+          </div>
         )}
 
         {/* About Modal */}
