@@ -83,9 +83,13 @@ export function ArxivCard({ paper }: ArxivCardProps) {
                         </div>
                     </div>
                     
-                    <p className="text-gray-100 mb-4 sm:mb-6 drop-shadow-lg line-clamp-6 sm:line-clamp-6 leading-relaxed text-sm sm:text-base">
-                        {paper.abstract}
-                    </p>
+                    {/* Description with enhanced card styling */}
+                    <div className="bg-white/5 rounded-xl p-4 sm:p-6 mb-4 sm:mb-6 backdrop-blur-sm 
+                        shadow-lg hover:bg-white/10 transition-all">
+                        <p className="text-gray-100 drop-shadow-lg line-clamp-6 sm:line-clamp-6 leading-relaxed text-sm sm:text-base">
+                            {paper.abstract}
+                        </p>
+                    </div>
                     
                     <div className="flex items-center gap-3 sm:gap-4">
                         <a
