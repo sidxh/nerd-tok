@@ -132,7 +132,7 @@ export const ArticleCard = ({ article }: ArticleCardProps) => {
           {/* Description with enhanced card styling */}
           <div className="bg-white/5 rounded-xl p-4 sm:p-6 mb-4 sm:mb-6 backdrop-blur-sm 
             shadow-lg hover:bg-white/10 transition-all">
-            <p className="text-gray-100 leading-relaxed text-base sm:text-lg">
+            <p className="text-gray-100 leading-relaxed text-base sm:text-lg line-clamp-8 sm:line-clamp-6">
               {article.description}
             </p>
           </div>
