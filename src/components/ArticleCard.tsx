@@ -63,17 +63,17 @@ export const ArticleCard = ({ article }: ArticleCardProps) => {
         <div className="absolute inset-0 bg-grid-pattern opacity-10" />
         
         {/* Content container with improved spacing and organization */}
-        <div className="absolute inset-0 p-8 flex flex-col justify-center text-white z-10 overflow-y-auto">
-          <div className="flex justify-between items-start mb-6">
+        <div className="absolute inset-0 p-4 sm:p-8 flex flex-col justify-center text-white z-10 overflow-y-auto">
+          <div className="flex justify-between items-start mb-4 sm:mb-6">
             <div className="flex-1">
               {/* Title with enhanced typography */}
-              <h2 className="text-3xl font-bold tracking-tight drop-shadow-lg mb-4 leading-tight">
+              <h2 className="text-2xl sm:text-3xl font-bold tracking-tight drop-shadow-lg mb-3 sm:mb-4 leading-tight">
                 {article.title}
               </h2>
               
               {/* Source badge and metadata with improved styling */}
-              <div className="flex flex-wrap gap-3 mb-6">
-                <span className={`px-4 py-2 rounded-full text-sm font-medium bg-gradient-to-r ${getSourceColor(article.source)} 
+              <div className="flex flex-wrap gap-2 sm:gap-3 mb-4 sm:mb-6">
+                <span className={`px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-medium bg-gradient-to-r ${getSourceColor(article.source)} 
                   flex items-center gap-2 shadow-lg transform hover:scale-105 transition-all`}>
                   {getSourceIcon(article.source)} {article.source}
                 </span>
@@ -83,11 +83,11 @@ export const ArticleCard = ({ article }: ArticleCardProps) => {
                   {readingTime}
                 </span> */}
                 {article.tags && article.tags.length > 0 && (
-                  <div className="flex flex-wrap gap-2">
-                    {article.tags.map((tag, index) => (
+                  <div className="flex flex-wrap gap-1.5 sm:gap-2">
+                    {article.tags.slice(0, 3).map((tag, index) => (
                       <span 
                         key={index}
-                        className="px-3 py-2 rounded-full text-sm bg-white/10 backdrop-blur-sm 
+                        className="px-2 py-1 sm:px-3 sm:py-2 rounded-full text-xs sm:text-sm bg-white/10 backdrop-blur-sm 
                           hover:bg-white/20 transition-all flex items-center gap-1"
                       >
                         <Tag className="w-3 h-3" />
@@ -100,7 +100,7 @@ export const ArticleCard = ({ article }: ArticleCardProps) => {
             </div>
             
             {/* Action buttons with enhanced styling */}
-            <div className="flex gap-3 ml-4">
+            <div className="flex gap-2 sm:gap-3 ml-3 sm:ml-4">
               <button
                 onClick={() => toggleLike({
                   id: article.id,
@@ -112,27 +112,27 @@ export const ArticleCard = ({ article }: ArticleCardProps) => {
                   categories: [],
                   source: article.source
                 })}
-                className={`p-3 rounded-full backdrop-blur-sm transition-all transform hover:scale-110 
+                className={`p-2 sm:p-3 rounded-full backdrop-blur-sm transition-all transform hover:scale-110 
                   ${isLiked(article.id) ? 'bg-red-500 hover:bg-red-600' : 'bg-white/10 hover:bg-white/20'}`}
                 aria-label="Like article"
               >
-                <Heart className={`w-5 h-5 ${isLiked(article.id) ? 'fill-white' : ''}`} />
+                <Heart className={`w-4 h-4 sm:w-5 sm:h-5 ${isLiked(article.id) ? 'fill-white' : ''}`} />
               </button>
               <button
                 onClick={handleShare}
-                className="p-3 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 
+                className="p-2 sm:p-3 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 
                   transition-all transform hover:scale-110"
                 aria-label="Share article"
               >
-                <Share2 className="w-5 h-5" />
+                <Share2 className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
             </div>
           </div>
           
           {/* Description with enhanced card styling */}
-          <div className="bg-white/5 rounded-xl p-6 mb-6 backdrop-blur-sm 
+          <div className="bg-white/5 rounded-xl p-4 sm:p-6 mb-4 sm:mb-6 backdrop-blur-sm 
             shadow-lg hover:bg-white/10 transition-all">
-            <p className="text-gray-100 leading-relaxed text-lg">
+            <p className="text-gray-100 leading-relaxed text-base sm:text-lg">
               {article.description}
             </p>
           </div>
@@ -144,10 +144,10 @@ export const ArticleCard = ({ article }: ArticleCardProps) => {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-blue-600 
-                px-6 py-3 rounded-lg transition-all transform hover:scale-105 hover:from-blue-600 
-                hover:to-blue-700 shadow-lg"
+                px-4 py-2 sm:px-6 sm:py-3 rounded-lg transition-all transform hover:scale-105 hover:from-blue-600 
+                hover:to-blue-700 shadow-lg text-sm sm:text-base"
             >
-              <FileText className="w-5 h-5" />
+              <FileText className="w-4 h-4 sm:w-5 sm:h-5" />
               View {article.source === 'YouTube' ? 'Video' : article.source}
             </a>
           </div>
