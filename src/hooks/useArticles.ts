@@ -1,9 +1,8 @@
 "use client"
 
 import { useState, useCallback } from 'react';
-import youtubeResources from '@/data/youtube.json';
-import blogResources from '@/data/blogs.json';
-import courseResources from '@/data/courses.json';
+import youtubeResources from '@/data/curated_youtube.json';
+import blogResources from '@/data/curated_blog.json';
 
 export interface Article {
   id: string;
@@ -14,10 +13,8 @@ export interface Article {
   tags?: string[];
 }
 
-// const BATCH_SIZE = 10;
-const BLOG_COUNT = 4;
-const YOUTUBE_COUNT = 4;
-const COURSE_COUNT = 2;
+const BLOG_COUNT = 8;
+const YOUTUBE_COUNT = 2;
 const LOADING_DELAY = 1000; // 1 second delay
 
 export const useArticles = () => {
@@ -25,16 +22,14 @@ export const useArticles = () => {
   const [loading, setLoading] = useState(false);
   const [usedIndices, setUsedIndices] = useState({
     youtube: new Set<number>(),
-    blog: new Set<number>(),
-    course: new Set<number>()
+    blog: new Set<number>()
   });
   const [batchCount, setBatchCount] = useState(0);
 
   const resetArticles = useCallback(() => {
     setUsedIndices({
       youtube: new Set<number>(),
-      blog: new Set<number>(),
-      course: new Set<number>()
+      blog: new Set<number>()
     });
     setBatchCount(0);
     setArticles([]);
@@ -59,13 +54,13 @@ export const useArticles = () => {
     
     // Get random blog articles
     const blogIndices = getRandomIndices(
-      blogResources.resources.length,
+      blogResources.length,
       BLOG_COUNT,
       usedIndices.blog
     );
     
     blogIndices.forEach(index => {
-      const article = blogResources.resources[index];
+      const article = blogResources[index];
       newBatch.push({
         ...article,
         id: `blog-${batchCount}-${index}`
@@ -87,27 +82,11 @@ export const useArticles = () => {
       });
     });
 
-    // Get random course articles
-    const courseIndices = getRandomIndices(
-      courseResources.resources.length,
-      COURSE_COUNT,
-      usedIndices.course
-    );
-    
-    courseIndices.forEach(index => {
-      const article = courseResources.resources[index];
-      newBatch.push({
-        ...article,
-        id: `course-${batchCount}-${index}`
-      });
-    });
-
     if (newBatch.length > 0) {
       // Update used indices
       setUsedIndices(prev => ({
         blog: new Set([...prev.blog, ...blogIndices]),
-        youtube: new Set([...prev.youtube, ...youtubeIndices]),
-        course: new Set([...prev.course, ...courseIndices])
+        youtube: new Set([...prev.youtube, ...youtubeIndices])
       }));
       setBatchCount(prev => prev + 1);
     }
@@ -138,9 +117,8 @@ export const useArticles = () => {
   }, [loading, getNextBatchOfArticles]);
 
   const hasMore = useCallback(() => {
-    return usedIndices.blog.size < blogResources.resources.length ||
-           usedIndices.youtube.size < youtubeResources.resources.length ||
-           usedIndices.course.size < courseResources.resources.length;
+    return usedIndices.blog.size < blogResources.length ||
+           usedIndices.youtube.size < youtubeResources.resources.length;
   }, [usedIndices]);
 
   return {

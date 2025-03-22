@@ -10,23 +10,25 @@ export const ArticleCard = ({ article }: ArticleCardProps) => {
   const { toggleLike, isLiked } = useLikedPapers();
   
   const getSourceColor = (source: string) => {
-    const colors: { [key: string]: string } = {
-      'YouTube': 'from-red-500 to-red-600',
-      'Blog': 'from-green-500 to-green-600',
-      'Course': 'from-blue-500 to-blue-600',
-      'Book': 'from-purple-500 to-purple-600'
-    };
-    return colors[source] || 'from-gray-500 to-gray-600';
+    switch (source) {
+      case 'YouTube':
+        return 'from-red-500 to-red-600';
+      case 'Blog':
+        return 'from-green-500 to-green-600';
+      default:
+        return 'from-gray-500 to-gray-600';
+    }
   };
 
   const getSourceIcon = (source: string) => {
-    const icons: { [key: string]: string } = {
-      'YouTube': '🎥',
-      'Blog': '📝',
-      'Course': '📚',
-      'Book': '📖'
-    };
-    return icons[source] || '📄';
+    switch (source) {
+      case 'YouTube':
+        return '🎥';
+      case 'Blog':
+        return '📝';
+      default:
+        return '📄';
+    }
   };
 
   // Calculate estimated reading time (1 minute per 200 words)
@@ -148,7 +150,7 @@ export const ArticleCard = ({ article }: ArticleCardProps) => {
                 hover:to-blue-700 shadow-lg text-sm sm:text-base"
             >
               <FileText className="w-4 h-4 sm:w-5 sm:h-5" />
-              View {article.source === 'YouTube' ? 'Video' : article.source}
+              View {article.source === 'YouTube' ? 'Video' : 'Article'}
             </a>
           </div>
         </div>

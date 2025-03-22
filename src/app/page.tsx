@@ -48,7 +48,7 @@ const LOADER_CONFIG = {
 type Tab = 'papers' | 'articles';
 
 function App() {
-  const [activeTab, setActiveTab] = useState<Tab>('papers');
+  const [activeTab, setActiveTab] = useState<Tab>('articles');
   const [showAbout, setShowAbout] = useState(false)
   const [showLikes, setShowLikes] = useState(false)
   const [showMobileMenu, setShowMobileMenu] = useState(false)

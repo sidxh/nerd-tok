@@ -560,7 +560,6 @@
       "source": "YouTube",
       "tags": ["Parallel Programming", "Concurrency", "Performance"]
     },
-
     {
       "id": "yt71",
       "title": "Quantum Computing Fundamentals",
@@ -800,6 +799,806 @@
       "description": "Advanced exploration of zero-knowledge proof systems and applications. The guide covers ZK-SNARK implementation, privacy protocols, and cryptographic primitives. Each lecture examines different aspects of zero-knowledge systems, including proof construction and verification. Special focus on building privacy-preserving applications. Includes practical examples using modern ZK frameworks.",
       "source": "YouTube",
       "tags": ["Zero Knowledge Proofs", "Cryptography", "Privacy"]
+    },
+    {
+      "id": "yt101",
+      "title": "Distributed Systems in One Lesson",
+      "link": "https://www.youtube.com/watch?v=Y6Ev8GIlbxc",
+      "description": "Comprehensive overview of distributed systems fundamentals by Tim Berglund. The lecture systematically explores core concepts including consistency models, distributed consensus, and failure handling. Key topics cover CAP theorem implications, eventual consistency patterns, and practical system design trade-offs. Special focus on real-world implementation challenges, synchronization mechanisms, and scalability considerations. Includes concrete examples of distributed architectures and common failure scenarios.",
+      "source": "YouTube",
+      "tags": ["Distributed Systems", "System Design", "Fault Tolerance"]
+    },
+    {
+      "id": "yt102",
+      "title": "Building Real Time Infrastructure at Facebook",
+      "link": "https://www.usenix.org/conference/srecon17americas/program/presentation/erlich",
+      "description": "Technical deep dive into Facebook's real-time infrastructure implementation by Jeff Barber and Shie Erlich. The presentation examines scalable event processing systems, custom pub/sub architectures, and latency optimization strategies. Key focus on handling millions of concurrent connections, message routing algorithms, and fault tolerance mechanisms. Includes detailed analysis of production challenges and performance optimization techniques for large-scale real-time data processing.",
+      "source": "YouTube",
+      "tags": ["Real-time Systems", "Infrastructure", "Scalability"]
+    },
+    {
+      "id": "yt103",
+      "title": "Building Reliable Social Infrastructure at Google",
+      "link": "https://www.usenix.org/conference/srecon16/program/presentation/alvidrez",
+      "description": "Comprehensive exploration of Google's social infrastructure reliability practices by Marc Alvidrez. The talk covers distributed system reliability patterns, failure detection mechanisms, and automated recovery strategies. Detailed examination of monitoring systems, alert management, and incident response procedures. Special focus on maintaining high availability while serving billions of users. Includes real-world case studies of infrastructure failures and mitigation strategies.",
+      "source": "YouTube",
+      "tags": ["Infrastructure", "Reliability", "SRE"]
+    },
+    {
+      "id": "yt104",
+      "title": "Building a Distributed Build System at Google Scale",
+      "link": "https://www.youtube.com/watch?v=K8YuavUy6Qc",
+      "description": "Technical analysis of Google's distributed build system architecture by Aysylu Greenberg. The presentation explores build graph optimization, incremental compilation strategies, and caching mechanisms at scale. Key focus on managing massive code repositories, parallel execution optimization, and dependency management. Includes detailed examination of build performance optimization techniques and handling complex build dependencies across large codebases.",
+      "source": "YouTube",
+      "tags": ["Build Systems", "Distributed Systems", "Performance"]
+    },
+    {
+      "id": "yt105",
+      "title": "Site Reliability Engineering at Dropbox",
+      "link": "https://www.youtube.com/watch?v=ggizCjUCCqE",
+      "description": "In-depth examination of Dropbox's SRE practices by Tammy Butow. The talk covers incident management procedures, performance optimization strategies, and reliability measurement techniques. Detailed analysis of monitoring systems, automated remediation, and capacity planning methodologies. Special focus on building and maintaining reliable distributed storage systems. Includes practical examples of SRE tools and processes for large-scale infrastructure.",
+      "source": "YouTube",
+      "tags": ["SRE", "Infrastructure", "Reliability"]
+    },
+    {
+      "id": "yt106",
+      "title": "How Google Does Planet-Scale for Planet-Scale Infra",
+      "link": "https://www.youtube.com/watch?v=H4vMcD7zKM0",
+      "description": "Comprehensive overview of Google's global infrastructure management by Melissa Binde. The presentation examines massive-scale system design, global resource management, and automated operations. Key focus on handling planet-scale workloads, data center automation, and global load balancing strategies. Includes detailed analysis of infrastructure optimization techniques and maintaining consistency across global deployments.",
+      "source": "YouTube",
+      "tags": ["Infrastructure", "Scalability", "Cloud Computing"]
+    },
+    {
+      "id": "yt107",
+      "title": "Netflix Guide to Microservices",
+      "link": "https://www.youtube.com/watch?v=CZ3wIuvmHeM",
+      "description": "Detailed exploration of Netflix's microservices architecture by Josh Evans. The talk covers service design principles, resilience patterns, and deployment strategies. Key focus on fault tolerance mechanisms, service discovery, and inter-service communication protocols. Special emphasis on building reliable distributed systems at scale. Includes practical examples of microservices patterns and anti-patterns from Netflix's production environment.",
+      "source": "YouTube",
+      "tags": ["Microservices", "Architecture", "Distributed Systems"]
+    },
+    {
+      "id": "yt108",
+      "title": "Achieving Rapid Response Times in Large Online Services",
+      "link": "https://www.youtube.com/watch?v=1-3Ahy7Fxsc",
+      "description": "Technical deep dive into latency optimization strategies by Jeff Dean. The presentation examines request processing pipelines, parallel query execution, and caching hierarchies. Detailed analysis of performance optimization techniques, tail latency reduction, and resource utilization strategies. Special focus on achieving consistent low latency at scale. Includes case studies of latency improvements in large-scale distributed systems.",
+      "source": "YouTube",
+      "tags": ["Performance", "Latency", "Distributed Systems"]
+    },
+    {
+      "id": "yt109",
+      "title": "Architecture to Handle 80K RPS Celebrity Sales at Shopify",
+      "link": "https://www.youtube.com/watch?v=N8NWDHgWA28",
+      "description": "Detailed examination of Shopify's high-throughput architecture by Simon Eskildsen. The talk explores traffic management strategies, caching mechanisms, and database optimization techniques. Key focus on handling massive traffic spikes, maintaining data consistency, and ensuring system reliability under extreme load. Includes real-world examples of scaling challenges and solutions during high-profile product launches.",
+      "source": "YouTube",
+      "tags": ["Architecture", "Scalability", "E-commerce"]
+    },
+    {
+      "id": "yt110",
+      "title": "Lessons of Scale at Facebook",
+      "link": "https://www.youtube.com/watch?v=QCHiNEw73AU",
+      "description": "Comprehensive analysis of Facebook's scaling challenges by Bobby Johnson. The presentation covers infrastructure evolution, performance optimization strategies, and reliability engineering practices. Detailed examination of database scaling, caching systems, and traffic management at massive scale. Special focus on handling billions of daily users and maintaining system reliability. Includes practical lessons learned from scaling one of the world's largest social platforms.",
+      "source": "YouTube",
+      "tags": ["Scalability", "Infrastructure", "Performance"]
+    },
+    {
+      "id": "yt111",
+      "title": "Performance Optimization for the Greater China Region at Salesforce",
+      "link": "https://www.salesforce.com/video/1757880/",
+      "description": "Technical deep dive into Salesforce's performance optimization strategies for the Greater China region by Jeff Cheng. The presentation examines network latency reduction, data localization approaches, and CDN optimization techniques. Key focus on handling regional infrastructure challenges, cross-border data flows, and compliance requirements. Includes detailed analysis of performance monitoring systems and regional architecture adaptations.",
+      "source": "YouTube",
+      "tags": ["Performance Optimization", "Global Infrastructure", "CDN"]
+    },
+    {
+      "id": "yt112",
+      "title": "How GIPHY Delivers a GIF to 300 Millions Users",
+      "link": "https://vimeo.com/252367076",
+      "description": "Comprehensive exploration of GIPHY's content delivery infrastructure by Alex Hoang and Nima Khoshini. The talk covers media processing pipelines, CDN optimization strategies, and caching hierarchies. Detailed examination of image format optimization, real-time transcoding, and global distribution techniques. Special focus on handling massive scale media delivery while maintaining low latency. Includes case studies of performance optimizations and architecture evolution.",
+      "source": "YouTube",
+      "tags": ["Content Delivery", "Media Processing", "Scalability"]
+    },
+    {
+      "id": "yt113",
+      "title": "High Performance Packet Processing Platform at Alibaba",
+      "link": "https://www.youtube.com/watch?v=wzsxJqeVIhY",
+      "description": "In-depth analysis of Alibaba's packet processing infrastructure by Haiyong Wang. The presentation explores DPDK implementation, network stack optimization, and hardware acceleration techniques. Key focus on achieving high-throughput packet processing, reducing latency, and scaling network operations. Includes detailed examination of kernel bypass techniques and custom network processing optimizations.",
+      "source": "YouTube",
+      "tags": ["Network Processing", "Performance", "DPDK"]
+    },
+    {
+      "id": "yt114",
+      "title": "Solving Large-scale Data Center and Cloud Interconnection Problems",
+      "link": "https://atscaleconference.com/videos/solving-large-scale-data-center-and-cloud-interconnection-problems/",
+      "description": "Technical exploration of data center interconnection challenges by Ihab Tarazi. The talk examines network fabric design, inter-DC routing strategies, and traffic engineering approaches. Detailed analysis of bandwidth optimization, latency reduction, and reliability improvements in large-scale networks. Special focus on solving connectivity challenges between multiple cloud providers and data centers.",
+      "source": "YouTube",
+      "tags": ["Data Center", "Network Architecture", "Cloud Infrastructure"]
+    },
+    {
+      "id": "yt115",
+      "title": "Scaling Dropbox",
+      "link": "https://www.youtube.com/watch?v=PE4gwstWhmc",
+      "description": "Comprehensive overview of Dropbox's scaling journey by Kevin Modzelewski. The presentation covers storage system evolution, metadata management strategies, and synchronization protocols. Key focus on handling massive user growth, optimizing data transfer mechanisms, and maintaining consistency at scale. Includes detailed analysis of architecture decisions and performance optimization techniques.",
+      "source": "YouTube",
+      "tags": ["Storage Systems", "Scalability", "Distributed Systems"]
+    },
+    {
+      "id": "yt116",
+      "title": "Scaling Reliability at Dropbox",
+      "link": "https://www.youtube.com/watch?v=IhGWOaD5BYQ",
+      "description": "In-depth examination of Dropbox's reliability engineering practices by Sat Kriya Khalsa. The talk explores failure detection mechanisms, automated recovery systems, and reliability measurement approaches. Detailed analysis of monitoring infrastructure, incident response procedures, and proactive reliability improvements. Special focus on maintaining high availability for petabyte-scale storage systems.",
+      "source": "YouTube",
+      "tags": ["Reliability", "SRE", "Storage Systems"]
+    },
+    {
+      "id": "yt117",
+      "title": "Scaling with Performance at Facebook",
+      "link": "https://atscaleconference.com/videos/performance-scale-2018-opening-remarks/",
+      "description": "Technical deep dive into Facebook's performance scaling strategies by Bill Jia. The presentation examines infrastructure optimization, resource utilization improvements, and performance monitoring systems. Key focus on handling massive workload growth while maintaining performance targets. Includes detailed analysis of bottleneck identification and systematic performance optimization approaches.",
+      "source": "YouTube",
+      "tags": ["Performance", "Scalability", "Infrastructure"]
+    },
+    {
+      "id": "yt118",
+      "title": "Scaling Live Videos to a Billion Users at Facebook",
+      "link": "https://www.youtube.com/watch?v=IO4teCbHvZw",
+      "description": "Comprehensive analysis of Facebook's live video infrastructure by Sachin Kulkarni. The talk covers video ingestion pipelines, real-time transcoding systems, and global content delivery networks. Detailed examination of latency optimization, quality adaptation, and reliability mechanisms. Special focus on handling massive concurrent viewers while maintaining stream quality.",
+      "source": "YouTube",
+      "tags": ["Video Streaming", "Real-time Systems", "Content Delivery"]
+    },
+    {
+      "id": "yt119",
+      "title": "Scaling Infrastructure at Instagram",
+      "link": "https://www.youtube.com/watch?v=hnpzNAPiC0E",
+      "description": "Technical exploration of Instagram's infrastructure evolution by Lisa Guo. The presentation examines database sharding strategies, caching systems, and service architecture improvements. Key focus on handling rapid user growth, optimizing data access patterns, and maintaining system reliability. Includes detailed analysis of performance optimizations and architecture decisions.",
+      "source": "YouTube",
+      "tags": ["Infrastructure", "Scalability", "Databases"]
+    },
+    {
+      "id": "yt120",
+      "title": "Scaling Infrastructure at Twitter",
+      "link": "https://www.youtube.com/watch?v=6OvrFkLSoZ0",
+      "description": "In-depth analysis of Twitter's infrastructure scaling journey by Yao Yue. The talk covers distributed systems design, caching strategies, and real-time processing optimizations. Detailed examination of handling massive tweet volumes, timeline generation, and search infrastructure. Special focus on maintaining low latency while processing millions of tweets per second.",
+      "source": "YouTube",
+      "tags": ["Infrastructure", "Real-time Processing", "Distributed Systems"]
+    },
+    {
+      "id": "yt121",
+      "title": "Scaling Infrastructure at Etsy",
+      "link": "https://www.youtube.com/watch?v=LfqyhM1LeIU",
+      "description": "Detailed examination of Etsy's infrastructure scaling strategies by Bethany Macri. The presentation covers continuous deployment practices, monitoring systems, and performance optimization techniques. Key focus on maintaining reliability during rapid growth, automated testing approaches, and cultural transformation. Includes analysis of real-world scaling challenges and their solutions.",
+      "source": "YouTube",
+      "tags": ["Infrastructure", "DevOps", "Continuous Deployment"]
+    },
+    {
+      "id": "yt122",
+      "title": "Scaling Real-time Infrastructure at Alibaba for Global Shopping Holiday",
+      "link": "https://atscaleconference.com/videos/scaling-alibabas-real-time-infrastructure-for-global-shopping-holiday/",
+      "description": "Technical deep dive into Alibaba's real-time infrastructure scaling for Singles' Day by Xiaowei Jiang. The talk explores massive-scale event processing, distributed transaction handling, and global data synchronization. Detailed analysis of handling extreme traffic spikes, maintaining data consistency, and ensuring system reliability during peak loads.",
+      "source": "YouTube",
+      "tags": ["Real-time Systems", "E-commerce", "Scalability"]
+    },
+    {
+      "id": "yt123",
+      "title": "Scaling Data Infrastructure at Spotify",
+      "link": "https://www.youtube.com/watch?v=cdsfRXr9pJU",
+      "description": "Comprehensive exploration of Spotify's data infrastructure evolution by Matti Pehrs. The presentation examines data pipeline architectures, real-time processing systems, and analytics infrastructure. Key focus on handling massive event streams, maintaining data quality, and supporting machine learning workloads. Includes detailed analysis of data platform design decisions.",
+      "source": "YouTube",
+      "tags": ["Data Infrastructure", "Stream Processing", "Analytics"]
+    },
+    {
+      "id": "yt124",
+      "title": "Scaling Pinterest",
+      "link": "https://www.youtube.com/watch?v=jQNCuD_hxdQ",
+      "description": "In-depth analysis of Pinterest's scaling journey by Marty Weiner. The talk covers sharding strategies, caching systems, and service architecture evolution. Detailed examination of handling rapid user growth, optimizing image delivery, and maintaining system performance. Special focus on building reliable distributed systems for content discovery and delivery.",
+      "source": "YouTube",
+      "tags": ["Infrastructure", "Scalability", "Content Delivery"]
+    },
+    {
+      "id": "yt125",
+      "title": "Scaling Slack",
+      "link": "https://www.infoq.com/presentations/slack-scalability",
+      "description": "Technical exploration of Slack's infrastructure scaling by Bing Wei. The presentation examines real-time messaging systems, state synchronization, and data persistence strategies. Key focus on maintaining low latency for message delivery, handling concurrent users, and ensuring data consistency. Includes analysis of architecture evolution and performance optimizations.",
+      "source": "YouTube",
+      "tags": ["Real-time Systems", "Messaging", "Scalability"]
+    },
+    {
+      "id": "yt126",
+      "title": "Scaling Backend at Youtube",
+      "link": "https://www.youtube.com/watch?v=5yDO-tmIoXY",
+      "description": "Comprehensive analysis of YouTube's backend infrastructure by Sugu Sougoumarane. The talk covers video processing pipelines, storage systems, and content delivery optimization. Detailed examination of handling massive video uploads, transcoding workflows, and global content distribution. Special focus on maintaining system reliability at unprecedented scale.",
+      "source": "YouTube",
+      "tags": ["Video Processing", "Infrastructure", "Content Delivery"]
+    },
+    {
+      "id": "yt127",
+      "title": "Scaling Backend at Uber",
+      "link": "https://www.youtube.com/watch?v=nuiLcWE8sPA",
+      "description": "Technical deep dive into Uber's backend architecture by Matt Ranney. The presentation explores microservices design, distributed systems patterns, and reliability engineering practices. Key focus on handling global scale operations, maintaining consistency, and ensuring system resilience. Includes detailed analysis of architecture evolution and scaling challenges.",
+      "source": "YouTube",
+      "tags": ["Microservices", "Distributed Systems", "Scalability"]
+    },
+    {
+      "id": "yt128",
+      "title": "Scaling Global CDN at Netflix",
+      "link": "https://www.youtube.com/watch?v=tbqcsHg-Q_o",
+      "description": "In-depth examination of Netflix's global CDN infrastructure by Dave Temkin. The talk covers content delivery optimization, network architecture, and cache management strategies. Detailed analysis of global traffic management, edge computing deployment, and performance optimization techniques. Special focus on delivering streaming content efficiently at massive scale.",
+      "source": "YouTube",
+      "tags": ["CDN", "Content Delivery", "Network Architecture"]
+    },
+    {
+      "id": "yt129",
+      "title": "Scaling Load Balancing Infra to Support 1.3 Billion Users at Facebook",
+      "link": "https://www.youtube.com/watch?v=bxhYNfFeVF4",
+      "description": "Technical exploration of Facebook's load balancing infrastructure by Patrick Shuff. The presentation examines traffic distribution strategies, failure handling mechanisms, and performance optimization techniques. Key focus on managing massive request volumes, ensuring high availability, and maintaining consistent performance. Includes analysis of custom load balancing solutions.",
+      "source": "YouTube",
+      "tags": ["Load Balancing", "Infrastructure", "Scalability"]
+    },
+    {
+      "id": "yt130",
+      "title": "Scaling (a NSFW site) to 200 Million Views A Day And Beyond",
+      "link": "https://www.youtube.com/watch?v=RlkCdM_f3p4",
+      "description": "Comprehensive analysis of high-traffic website scaling by Eric Pickup. The talk covers content delivery optimization, database sharding strategies, and caching system design. Detailed examination of handling massive concurrent users, optimizing media delivery, and maintaining system performance. Special focus on cost-effective infrastructure scaling approaches.",
+      "source": "YouTube",
+      "tags": ["Infrastructure", "Content Delivery", "Performance"]
+    },
+    {
+      "id": "yt131",
+      "title": "Scaling Shopify Infrastructure",
+      "link": "https://www.youtube.com/watch?v=F-f0-k36-Z4",
+      "description": "Technical deep dive into Shopify's infrastructure scaling journey by Simon Eskildsen. The presentation explores database sharding strategies, caching systems, and deployment automation. Key focus on handling Black Friday traffic spikes, maintaining data consistency, and ensuring system reliability. Includes detailed analysis of infrastructure automation and monitoring approaches.",
+      "source": "YouTube",
+      "tags": ["Infrastructure", "E-commerce", "Scalability"]
+    },
+    {
+      "id": "yt132",
+      "title": "Scaling Instagram Infrastructure",
+      "link": "https://www.youtube.com/watch?v=hnpzNAPiC0E",
+      "description": "Comprehensive examination of Instagram's infrastructure evolution by Lisa Guo. The talk covers Python service optimization, database scaling strategies, and caching system design. Detailed analysis of handling massive user growth, optimizing image processing pipelines, and maintaining system performance. Special focus on transitioning from monolith to microservices architecture.",
+      "source": "YouTube",
+      "tags": ["Infrastructure", "Python", "Microservices"]
+    },
+    {
+      "id": "yt133",
+      "title": "Scaling Reddit's Architecture",
+      "link": "https://www.youtube.com/watch?v=nUcO7n4hek4",
+      "description": "In-depth analysis of Reddit's architecture scaling by Jeremy Edberg. The presentation explores service architecture evolution, caching strategies, and performance optimization techniques. Key focus on handling viral traffic spikes, maintaining data consistency, and ensuring system reliability. Includes detailed examination of infrastructure decisions and their impact on scalability.",
+      "source": "YouTube",
+      "tags": ["Architecture", "Scalability", "Performance"]
+    },
+    {
+      "id": "yt134",
+      "title": "MIT 6.824: Distributed Systems",
+      "link": "https://www.youtube.com/watch?v=cQP8WApzIQQ",
+      "description": "Comprehensive lecture series on distributed systems by Robert Morris at MIT. The course explores fundamental concepts including distributed consensus, fault tolerance, and replication strategies. Each lecture combines theoretical foundations with practical system design considerations. Special focus on implementing reliable distributed systems using Go programming language. Includes analysis of real-world distributed systems like Raft and MapReduce.",
+      "source": "YouTube",
+      "tags": ["Distributed Systems", "System Design", "MIT"]
+    },
+    {
+      "id": "yt135",
+      "title": "System Design: Instagram",
+      "link": "https://www.youtube.com/watch?v=VJpfO6KdyWE",
+      "description": "Detailed system design walkthrough of Instagram's architecture by Gaurav Sen. The presentation explores scalable image processing pipelines, feed generation algorithms, and storage optimization strategies. Key focus on handling millions of concurrent users, efficient content delivery, and maintaining low latency. Includes practical considerations for implementing social media features at scale.",
+      "source": "YouTube",
+      "tags": ["System Design", "Architecture", "Scalability"]
+    },
+    {
+      "id": "yt136",
+      "title": "Deep Learning Foundations: Neural Networks",
+      "link": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "description": "Foundational exploration of neural networks by 3Blue1Brown. The series provides intuitive visual explanations of backpropagation, gradient descent, and neural network architectures. Each video combines mathematical concepts with clear visual representations. Special focus on building deep understanding of fundamental neural network operations. Includes practical examples and interactive demonstrations of network behavior.",
+      "source": "YouTube",
+      "tags": ["Deep Learning", "Neural Networks", "Mathematics"]
+    },
+    {
+      "id": "yt137",
+      "title": "Building Large Language Models",
+      "link": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+      "description": "Comprehensive guide to large language model architecture and training by Andrej Karpathy. The presentation covers transformer architectures, attention mechanisms, and scaling considerations. Detailed analysis of training infrastructure, optimization techniques, and inference strategies. Special focus on practical implementation challenges and solutions. Includes real-world examples from GPT model development.",
+      "source": "YouTube",
+      "tags": ["Machine Learning", "Language Models", "Deep Learning"]
+    },
+    {
+      "id": "yt138",
+      "title": "Blockchain Scalability Solutions",
+      "link": "https://www.youtube.com/watch?v=9PbZn0AY_Zk",
+      "description": "Technical deep dive into blockchain scaling solutions by Vitalik Buterin. The talk explores layer 2 protocols, sharding implementations, and rollup technologies. Detailed examination of throughput optimization, consensus mechanisms, and security considerations. Special focus on Ethereum scaling solutions and their practical implementations. Includes analysis of various scaling approaches and their trade-offs.",
+      "source": "YouTube",
+      "tags": ["Blockchain", "Ethereum", "Scalability"]
+    },
+    {
+      "id": "yt139",
+      "title": "Microservices Patterns and Practices",
+      "link": "https://www.youtube.com/watch?v=rXi5CLjIQ9k",
+      "description": "Comprehensive guide to microservices architecture patterns by Sam Newman. The presentation covers service decomposition strategies, inter-service communication, and deployment patterns. Key focus on building resilient distributed systems, handling failures, and maintaining system consistency. Includes practical examples and common pitfalls to avoid in microservices implementations.",
+      "source": "YouTube",
+      "tags": ["Microservices", "Architecture", "System Design"]
+    },
+    {
+      "id": "yt140",
+      "title": "Computer Vision with Deep Learning",
+      "link": "https://www.youtube.com/watch?v=dJYGatp4SvA",
+      "description": "Advanced exploration of computer vision techniques using deep learning by Fei-Fei Li. The lecture series covers convolutional neural networks, object detection frameworks, and image segmentation methods. Detailed analysis of modern architectures like ResNet, YOLO, and Mask R-CNN. Special focus on practical implementation considerations and optimization techniques. Includes real-world applications and case studies.",
+      "source": "YouTube",
+      "tags": ["Computer Vision", "Deep Learning", "Neural Networks"]
+    },
+    {
+      "id": "yt141",
+      "title": "Database Internals: A Deep Dive",
+      "link": "https://www.youtube.com/watch?v=HZjKdCgTZBk",
+      "description": "In-depth exploration of database system internals by Alex Petrov. The presentation covers storage engines, indexing structures, and transaction processing mechanisms. Detailed analysis of B-tree implementations, write-ahead logging, and concurrency control techniques. Special focus on practical database engine implementation considerations. Includes examples from popular database systems.",
+      "source": "YouTube",
+      "tags": ["Databases", "System Design", "Performance"]
+    },
+    {
+      "id": "yt142",
+      "title": "Reinforcement Learning from Ground Up",
+      "link": "https://www.youtube.com/watch?v=2pWv7GOvuf0",
+      "description": "Comprehensive guide to reinforcement learning fundamentals by David Silver. The lecture series covers Markov decision processes, Q-learning, and policy gradient methods. Each session combines theoretical foundations with practical implementations. Special focus on modern deep reinforcement learning techniques. Includes case studies from AlphaGo and other breakthrough applications.",
+      "source": "YouTube",
+      "tags": ["Reinforcement Learning", "Machine Learning", "AI"]
+    },
+    {
+      "id": "yt143",
+      "title": "Building Reliable Distributed Systems",
+      "link": "https://www.youtube.com/watch?v=gZqZmH13Oi4",
+      "description": "Technical deep dive into distributed systems reliability by Werner Vogels. The talk explores consistency models, failure detection mechanisms, and recovery strategies. Detailed examination of Amazon's distributed systems principles and practices. Special focus on building highly available systems at scale. Includes real-world examples from AWS infrastructure.",
+      "source": "YouTube",
+      "tags": ["Distributed Systems", "Reliability", "Cloud Computing"]
+    },
+    {
+      "id": "yt144",
+      "title": "Smart Contract Security Patterns",
+      "link": "https://www.youtube.com/watch?v=8jI1TuEaTro",
+      "description": "Comprehensive analysis of smart contract security best practices by Trail of Bits. The presentation covers common vulnerabilities, security patterns, and audit methodologies. Detailed examination of real-world exploits and their prevention. Special focus on writing secure Solidity code and implementing proper safeguards. Includes practical examples and security testing approaches.",
+      "source": "YouTube",
+      "tags": ["Blockchain", "Smart Contracts", "Security"]
+    },
+    {
+      "id": "yt145",
+      "title": "System Design: Real-time Chat Application",
+      "link": "https://www.youtube.com/watch?v=uzeJb7ZjoQ4",
+      "description": "Detailed system design walkthrough of a scalable chat application by Clement Mihailescu. The talk explores WebSocket implementations, message delivery systems, and presence management. Key focus on handling millions of concurrent connections, message ordering, and real-time delivery guarantees. Includes practical considerations for building chat infrastructure at scale.",
+      "source": "YouTube",
+      "tags": ["System Design", "Real-time Systems", "WebSocket"]
+    },
+    {
+      "id": "yt146",
+      "title": "Advanced Natural Language Processing",
+      "link": "https://www.youtube.com/watch?v=8rXD5-xhemo",
+      "description": "In-depth exploration of modern NLP techniques by Christopher Manning. The lecture series covers transformer architectures, attention mechanisms, and language model pre-training. Detailed analysis of BERT, GPT, and their variants. Special focus on practical NLP application development and fine-tuning strategies. Includes hands-on examples and implementation considerations.",
+      "source": "YouTube",
+      "tags": ["NLP", "Deep Learning", "Transformers"]
+    },
+    {
+      "id": "yt147",
+      "title": "High-Performance Computing Architecture",
+      "link": "https://www.youtube.com/watch?v=w8_zZAr1Zxk",
+      "description": "Technical deep dive into high-performance computing systems by William Gropp. The presentation explores parallel architectures, interconnect designs, and performance optimization strategies. Detailed examination of memory hierarchies, communication patterns, and scaling considerations. Special focus on building efficient HPC applications. Includes case studies from supercomputing applications.",
+      "source": "YouTube",
+      "tags": ["HPC", "Computer Architecture", "Performance"]
+    },
+    {
+      "id": "yt148",
+      "title": "Zero-Knowledge Proofs and Their Applications",
+      "link": "https://www.youtube.com/watch?v=HUs1bH85X9I",
+      "description": "Comprehensive exploration of zero-knowledge proof systems by Eli Ben-Sasson. The presentation covers ZK-SNARK construction, proof systems, and practical applications. Detailed analysis of privacy-preserving computation and blockchain integration. Special focus on implementing efficient zero-knowledge protocols. Includes examples from real-world applications and recent developments.",
+      "source": "YouTube",
+      "tags": ["Cryptography", "Zero Knowledge Proofs", "Blockchain"]
+    },
+    {
+      "id": "yt149",
+      "title": "Machine Learning System Design",
+      "link": "https://www.youtube.com/watch?v=c_AUuTuPA5k",
+      "description": "Technical deep dive into ML system design principles by Chip Huyen. The talk explores feature engineering pipelines, model serving architectures, and monitoring systems. Detailed examination of ML infrastructure components, including feature stores and model deployment strategies. Special focus on building production-ready ML systems. Includes real-world case studies and best practices.",
+      "source": "YouTube",
+      "tags": ["Machine Learning", "System Design", "MLOps"]
+    },
+    {
+      "id": "yt150",
+      "title": "Advanced Kubernetes Patterns",
+      "link": "https://www.youtube.com/watch?v=xUumgxZ04FE",
+      "description": "In-depth analysis of advanced Kubernetes patterns and practices by Brendan Burns. The presentation covers custom controllers, operators, and advanced scheduling techniques. Detailed exploration of service mesh implementation, security patterns, and cluster management strategies. Special focus on building reliable and scalable Kubernetes platforms. Includes practical examples and production considerations.",
+      "source": "YouTube",
+      "tags": ["Kubernetes", "Cloud Native", "DevOps"]
+    },
+    {
+      "id": "yt151",
+      "title": "MIT 6.006: Introduction to Algorithms",
+      "link": "https://www.youtube.com/watch?v=HtSuA80QTyo",
+      "description": "Comprehensive introduction to algorithmic thinking and design by Erik Demaine. The lecture series covers fundamental algorithms, data structures, and complexity analysis. Detailed examination of sorting algorithms, graph theory, and dynamic programming techniques. Special focus on algorithm implementation and practical problem-solving strategies. Includes rigorous mathematical analysis and coding demonstrations.",
+      "source": "YouTube",
+      "tags": ["Algorithms", "Computer Science", "MIT"]
+    },
+    {
+      "id": "yt152",
+      "title": "System Design: Designing a Distributed Message Queue",
+      "link": "https://www.youtube.com/watch?v=iJLL-KPqBpM",
+      "description": "Technical deep dive into distributed message queue design by Gaurav Sen. The presentation explores message broker architectures, persistence strategies, and fault tolerance mechanisms. Detailed analysis of pub/sub systems, message ordering, and delivery guarantees. Special focus on building scalable and reliable messaging infrastructure. Includes practical implementation considerations.",
+      "source": "YouTube",
+      "tags": ["System Design", "Message Queues", "Distributed Systems"]
+    },
+    {
+      "id": "yt153",
+      "title": "Advanced React Patterns and Best Practices",
+      "link": "https://www.youtube.com/watch?v=YKmiLcXiMMo",
+      "description": "Comprehensive guide to advanced React patterns by Kent C. Dodds. The presentation covers component composition, state management strategies, and performance optimization techniques. Detailed examination of hooks patterns, context usage, and code splitting approaches. Special focus on building maintainable and scalable React applications. Includes real-world examples and common pitfalls.",
+      "source": "YouTube",
+      "tags": ["React", "JavaScript", "Web Development"]
+    },
+    {
+      "id": "yt154",
+      "title": "Building Data-Intensive Applications",
+      "link": "https://www.youtube.com/watch?v=b7FxG1_X7DE",
+      "description": "In-depth exploration of data-intensive application design by Martin Kleppmann. The talk covers distributed data systems, replication strategies, and consistency models. Detailed analysis of database internals, stream processing, and batch processing systems. Special focus on building reliable and scalable data systems. Includes case studies from real-world applications.",
+      "source": "YouTube",
+      "tags": ["Distributed Systems", "Databases", "System Design"]
+    },
+    {
+      "id": "yt155",
+      "title": "Advanced TypeScript Patterns",
+      "link": "https://www.youtube.com/watch?v=hBk4nV7q6-w",
+      "description": "Technical deep dive into advanced TypeScript patterns by Matt Pocock. The presentation explores type system features, generic constraints, and advanced type inference. Detailed examination of conditional types, mapped types, and template literal types. Special focus on building type-safe and maintainable applications. Includes practical examples and type system techniques.",
+      "source": "YouTube",
+      "tags": ["TypeScript", "JavaScript", "Programming Languages"]
+    },
+    {
+      "id": "yt156",
+      "title": "Rust Atomics and Locks",
+      "link": "https://www.youtube.com/watch?v=rMGWeSjctlY",
+      "description": "Comprehensive guide to concurrent programming in Rust by Mara Bos. The lecture covers atomic operations, memory ordering, and lock implementation details. Detailed analysis of synchronization primitives, lock-free algorithms, and safety guarantees. Special focus on writing correct concurrent code in Rust. Includes practical examples and common concurrency patterns.",
+      "source": "YouTube",
+      "tags": ["Rust", "Concurrency", "Systems Programming"]
+    },
+    {
+      "id": "yt157",
+      "title": "Building a Modern CI/CD Pipeline",
+      "link": "https://www.youtube.com/watch?v=R8_veQiYBjI",
+      "description": "Detailed walkthrough of modern CI/CD pipeline construction by Kelsey Hightower. The presentation explores continuous integration practices, deployment strategies, and automation techniques. Key focus on GitOps workflows, container orchestration, and infrastructure as code. Special emphasis on building reliable and secure deployment pipelines. Includes practical demonstrations and best practices.",
+      "source": "YouTube",
+      "tags": ["DevOps", "CI/CD", "Automation"]
+    },
+    {
+      "id": "yt158",
+      "title": "Designing Data-Intensive Neural Networks",
+      "link": "https://www.youtube.com/watch?v=8zAP2qWAsKg",
+      "description": "Advanced exploration of neural network design for large-scale data processing by Jeremy Howard. The talk covers architecture optimization, training strategies, and deployment considerations. Detailed analysis of model parallelism, distributed training, and inference optimization. Special focus on handling large datasets efficiently. Includes practical examples and performance techniques.",
+      "source": "YouTube",
+      "tags": ["Deep Learning", "Neural Networks", "Performance"]
+    },
+    {
+      "id": "yt159",
+      "title": "Advanced PostgreSQL Performance",
+      "link": "https://www.youtube.com/watch?v=xrMbzHdPLKM",
+      "description": "Technical deep dive into PostgreSQL performance optimization by Bruce Momjian. The presentation explores query optimization, indexing strategies, and configuration tuning. Detailed examination of execution plans, vacuum processes, and concurrency control. Special focus on maintaining high performance under load. Includes real-world optimization examples and monitoring techniques.",
+      "source": "YouTube",
+      "tags": ["PostgreSQL", "Databases", "Performance"]
+    },
+    {
+      "id": "yt160",
+      "title": "Building Secure APIs",
+      "link": "https://www.youtube.com/watch?v=t4UEQIrag8c",
+      "description": "Comprehensive guide to secure API design and implementation by Philippe De Ryck. The talk covers authentication mechanisms, authorization patterns, and security best practices. Detailed analysis of OAuth 2.0, JWT handling, and API vulnerability prevention. Special focus on building robust and secure web APIs. Includes practical security implementations and common attack vectors.",
+      "source": "YouTube",
+      "tags": ["API Security", "Web Security", "OAuth"]
+    },
+    {
+      "id": "yt161",
+      "title": "Advanced Go Concurrency Patterns",
+      "link": "https://www.youtube.com/watch?v=QDDwwePbDtw",
+      "description": "In-depth exploration of Go concurrency patterns by Rob Pike. The presentation covers goroutines, channels, and advanced synchronization techniques. Detailed analysis of select statements, context usage, and error handling in concurrent programs. Special focus on building efficient and correct concurrent applications. Includes practical examples and common concurrency pitfalls.",
+      "source": "YouTube",
+      "tags": ["Go", "Concurrency", "Programming Languages"]
+    },
+    {
+      "id": "yt162",
+      "title": "Building Resilient Microservices",
+      "link": "https://www.youtube.com/watch?v=KVbm3V8CEtI",
+      "description": "Technical deep dive into microservices resilience patterns by Adrian Cockcroft. The talk explores circuit breakers, bulkheads, and fallback mechanisms. Detailed examination of service mesh implementations, monitoring strategies, and failure recovery techniques. Special focus on building highly available distributed systems. Includes real-world examples from Netflix architecture.",
+      "source": "YouTube",
+      "tags": ["Microservices", "Resilience", "System Design"]
+    },
+    {
+      "id": "yt163",
+      "title": "Advanced CSS Architecture",
+      "link": "https://www.youtube.com/watch?v=Gg_f4PAF9vE",
+      "description": "Comprehensive guide to scalable CSS architecture by Harry Roberts. The presentation covers CSS methodology, component design, and performance optimization. Detailed analysis of BEM, ITCSS, and modern CSS features. Special focus on building maintainable and efficient stylesheets. Includes practical examples and best practices for large-scale applications.",
+      "source": "YouTube",
+      "tags": ["CSS", "Web Development", "Frontend"]
+    },
+    {
+      "id": "yt164",
+      "title": "Designing Event-Driven Systems",
+      "link": "https://www.youtube.com/watch?v=rJHTK2TfZ1I",
+      "description": "In-depth exploration of event-driven architecture by Martin Fowler. The talk covers event sourcing, CQRS patterns, and message-driven design. Detailed examination of event schemas, consistency models, and state management. Special focus on building scalable event-driven systems. Includes practical implementation strategies and common challenges.",
+      "source": "YouTube",
+      "tags": ["Event-Driven", "Architecture", "System Design"]
+    },
+    {
+      "id": "yt165",
+      "title": "Advanced Docker Patterns",
+      "link": "https://www.youtube.com/watch?v=zZsG3UxQhP8",
+      "description": "Technical deep dive into advanced Docker patterns by Bret Fisher. The presentation explores multi-stage builds, networking configurations, and security best practices. Detailed analysis of Docker Compose patterns, volume management, and optimization techniques. Special focus on building production-ready container environments. Includes practical examples and troubleshooting strategies.",
+      "source": "YouTube",
+      "tags": ["Docker", "Containers", "DevOps"]
+    },
+    {
+      "id": "yt166",
+      "title": "Machine Learning System Design Patterns",
+      "link": "https://www.youtube.com/watch?v=c9UiL2QH9ms",
+      "description": "Comprehensive guide to ML system design patterns by Chip Huyen. The talk covers feature stores, model serving architectures, and monitoring systems. Detailed examination of online prediction services, batch processing pipelines, and A/B testing frameworks. Special focus on building production ML systems. Includes real-world case studies and best practices.",
+      "source": "YouTube",
+      "tags": ["Machine Learning", "System Design", "MLOps"]
+    },
+    {
+      "id": "yt167",
+      "title": "Advanced Redis Patterns",
+      "link": "https://www.youtube.com/watch?v=6G22a5Iooqk",
+      "description": "In-depth exploration of Redis usage patterns by Antirez. The presentation covers data structures, persistence strategies, and clustering configurations. Detailed analysis of caching patterns, pub/sub implementations, and performance optimization. Special focus on building efficient Redis-based applications. Includes practical examples and common usage patterns.",
+      "source": "YouTube",
+      "tags": ["Redis", "Databases", "Caching"]
+    },
+    {
+      "id": "yt168",
+      "title": "Building Secure Microservices",
+      "link": "https://www.youtube.com/watch?v=ZXXaCCbpNYw",
+      "description": "Technical deep dive into microservices security by Sam Newman. The talk explores authentication patterns, service-to-service communication, and security boundaries. Detailed examination of API gateways, identity management, and threat modeling. Special focus on implementing zero-trust architecture. Includes practical security implementations and best practices.",
+      "source": "YouTube",
+      "tags": ["Security", "Microservices", "Architecture"]
+    },
+    {
+      "id": "yt169",
+      "title": "Advanced GraphQL Patterns",
+      "link": "https://www.youtube.com/watch?v=YQL-B3PV3Zk",
+      "description": "Comprehensive guide to advanced GraphQL implementation by Lee Byron. The presentation covers schema design, resolver patterns, and performance optimization. Detailed analysis of batching, caching, and real-time subscriptions. Special focus on building scalable GraphQL APIs. Includes practical examples and common pitfalls to avoid.",
+      "source": "YouTube",
+      "tags": ["GraphQL", "API Design", "Web Development"]
+    },
+    {
+      "id": "yt170",
+      "title": "Building High-Performance Web Applications",
+      "link": "https://www.youtube.com/watch?v=LZqg6JHJ0Ig",
+      "description": "In-depth exploration of web performance optimization by Addy Osmani. The talk covers rendering performance, bundle optimization, and loading strategies. Detailed examination of modern web APIs, performance metrics, and optimization techniques. Special focus on delivering fast user experiences. Includes practical examples and performance measurement tools.",
+      "source": "YouTube",
+      "tags": ["Web Performance", "Frontend", "Optimization"]
+    },
+    {
+      "id": "yt171",
+      "title": "Advanced Node.js Patterns",
+      "link": "https://www.youtube.com/watch?v=LlNVv_VYLXw",
+      "description": "Technical deep dive into Node.js patterns by James Snell. The presentation explores event loop internals, async patterns, and performance optimization. Detailed analysis of streams, worker threads, and memory management. Special focus on building efficient and scalable Node.js applications. Includes practical examples and debugging techniques.",
+      "source": "YouTube",
+      "tags": ["Node.js", "JavaScript", "Performance"]
+    },
+    {
+      "id": "yt172",
+      "title": "Building Scalable Real-time Systems",
+      "link": "https://www.youtube.com/watch?v=FKmX7Jz95Yc",
+      "description": "Comprehensive guide to real-time system architecture by Martin Thompson. The talk covers low-latency design, message passing patterns, and performance optimization. Detailed examination of queuing strategies, buffer management, and thread coordination. Special focus on building high-throughput systems. Includes practical examples from financial trading systems.",
+      "source": "YouTube",
+      "tags": ["Real-time Systems", "Low Latency", "System Design"]
+    },
+    {
+      "id": "yt173",
+      "title": "Advanced Elasticsearch",
+      "link": "https://www.youtube.com/watch?v=lWKEcRF8Ebc",
+      "description": "In-depth exploration of Elasticsearch internals by Clinton Gormley. The presentation covers cluster architecture, indexing strategies, and query optimization. Detailed analysis of shard allocation, relevance tuning, and aggregation pipelines. Special focus on building efficient search applications. Includes practical examples and performance tuning techniques.",
+      "source": "YouTube",
+      "tags": ["Elasticsearch", "Search", "Databases"]
+    },
+    {
+      "id": "yt174",
+      "title": "Modern Authentication Patterns",
+      "link": "https://www.youtube.com/watch?v=j8Yxff6L_po",
+      "description": "Technical deep dive into modern authentication by Vittorio Bertocci. The talk explores OAuth 2.0 flows, OpenID Connect, and token-based authentication. Detailed examination of security considerations, implementation patterns, and best practices. Special focus on building secure authentication systems. Includes practical examples and common vulnerabilities.",
+      "source": "YouTube",
+      "tags": ["Authentication", "Security", "OAuth"]
+    },
+    {
+      "id": "yt175",
+      "title": "Advanced Kubernetes Networking",
+      "link": "https://www.youtube.com/watch?v=0SXPsLvB0UI",
+      "description": "Comprehensive guide to Kubernetes networking by Tim Hockin. The presentation covers CNI implementations, service mesh architectures, and network policies. Detailed analysis of load balancing, service discovery, and traffic management. Special focus on building secure and efficient cluster networking. Includes practical examples and troubleshooting strategies.",
+      "source": "YouTube",
+      "tags": ["Kubernetes", "Networking", "Cloud Native"]
+    },
+    {
+      "id": "yt176",
+      "title": "Building Large-scale Vue Applications",
+      "link": "https://www.youtube.com/watch?v=7ljaa_JS7Sc",
+      "description": "In-depth exploration of Vue.js architecture patterns by Evan You. The talk covers component design, state management, and performance optimization. Detailed examination of composition API, build tooling, and testing strategies. Special focus on building maintainable Vue applications. Includes practical examples and best practices for large applications.",
+      "source": "YouTube",
+      "tags": ["Vue.js", "JavaScript", "Frontend"]
+    },
+    {
+      "id": "yt177",
+      "title": "Advanced Database Indexing",
+      "link": "https://www.youtube.com/watch?v=HubXt90MLfE",
+      "description": "Technical deep dive into database indexing strategies by Markus Winand. The presentation explores index types, query optimization, and performance tuning. Detailed analysis of B-tree structures, covering indexes, and partial indexes. Special focus on writing efficient database queries. Includes practical examples and common indexing patterns.",
+      "source": "YouTube",
+      "tags": ["Databases", "Performance", "SQL"]
+    },
+    {
+      "id": "yt178",
+      "title": "Building Serverless Applications",
+      "link": "https://www.youtube.com/watch?v=3pKNRgResq0",
+      "description": "Comprehensive guide to serverless architecture by Jeremy Daly. The talk covers AWS Lambda patterns, event-driven design, and infrastructure as code. Detailed examination of API Gateway, step functions, and monitoring strategies. Special focus on building cost-effective serverless systems. Includes practical examples and deployment techniques.",
+      "source": "YouTube",
+      "tags": ["Serverless", "AWS", "Cloud Computing"]
+    },
+    {
+      "id": "yt179",
+      "title": "Advanced Testing Patterns",
+      "link": "https://www.youtube.com/watch?v=2b8GQIWsY8k",
+      "description": "In-depth exploration of software testing patterns by Kent Beck. The presentation covers test-driven development, property-based testing, and test architecture. Detailed analysis of mocking strategies, test pyramids, and continuous testing. Special focus on building maintainable test suites. Includes practical examples and testing best practices.",
+      "source": "YouTube",
+      "tags": ["Testing", "TDD", "Software Engineering"]
+    },
+    {
+      "id": "yt180",
+      "title": "Building Observable Systems",
+      "link": "https://www.youtube.com/watch?v=lJ8ydIuPFeU",
+      "description": "Technical deep dive into observability patterns by Charity Majors. The talk explores metrics collection, distributed tracing, and log aggregation. Detailed examination of monitoring strategies, alerting systems, and debugging approaches. Special focus on building observable distributed systems. Includes practical examples and instrumentation techniques.",
+      "source": "YouTube",
+      "tags": ["Observability", "Monitoring", "DevOps"]
+    },
+    {
+      "id": "yt181",
+      "title": "Mathematics for Computer Science",
+      "link": "https://www.youtube.com/watch?v=wIq4CssPoO0",
+      "description": "Comprehensive introduction to mathematical foundations by Tom Leighton at MIT. The lecture series covers proof techniques, discrete mathematics, and probability theory. Detailed examination of graph theory, counting principles, and recurrence relations. Special focus on mathematical concepts essential for computer science. Includes practical examples and problem-solving techniques.",
+      "source": "YouTube",
+      "tags": ["Mathematics", "Computer Science", "MIT"]
+    },
+    {
+      "id": "yt182",
+      "title": "System Design: Distributed Cache",
+      "link": "https://www.youtube.com/watch?v=iuqZvajTOyA",
+      "description": "Technical deep dive into distributed cache design by Alex Xu. The presentation explores cache coherence protocols, eviction strategies, and consistency models. Detailed analysis of Redis cluster architecture, cache invalidation patterns, and failure handling. Special focus on building scalable caching systems. Includes practical implementation considerations.",
+      "source": "YouTube",
+      "tags": ["System Design", "Caching", "Distributed Systems"]
+    },
+    {
+      "id": "yt183",
+      "title": "Advanced Spring Boot Patterns",
+      "link": "https://www.youtube.com/watch?v=8LNJg6_IB-g",
+      "description": "Comprehensive guide to Spring Boot best practices by Josh Long. The talk covers application architecture, configuration management, and testing strategies. Detailed examination of reactive programming, security patterns, and performance optimization. Special focus on building production-ready Spring applications. Includes practical examples and common pitfalls.",
+      "source": "YouTube",
+      "tags": ["Spring Boot", "Java", "Microservices"]
+    },
+    {
+      "id": "yt184",
+      "title": "Rust Memory Safety Deep Dive",
+      "link": "https://www.youtube.com/watch?v=8M0QfLUDaaA",
+      "description": "In-depth exploration of Rust's memory safety features by Jon Gjengset. The presentation covers ownership model, borrowing rules, and lifetime annotations. Detailed analysis of unsafe code, raw pointers, and FFI interfaces. Special focus on writing safe and efficient Rust code. Includes practical examples and memory management patterns.",
+      "source": "YouTube",
+      "tags": ["Rust", "Memory Safety", "Systems Programming"]
+    },
+    {
+      "id": "yt185",
+      "title": "Building Data Lakes",
+      "link": "https://www.youtube.com/watch?v=v3CdHt7ZXRE",
+      "description": "Technical deep dive into data lake architecture by Databricks. The talk explores data ingestion patterns, storage formats, and query optimization. Detailed examination of Delta Lake features, data quality enforcement, and schema evolution. Special focus on building reliable and scalable data lakes. Includes real-world implementation examples.",
+      "source": "YouTube",
+      "tags": ["Data Engineering", "Big Data", "Data Lakes"]
+    },
+    {
+      "id": "yt186",
+      "title": "Advanced Kubernetes Operators",
+      "link": "https://www.youtube.com/watch?v=8_DaCcRMp5I",
+      "description": "Comprehensive guide to Kubernetes operator patterns by Jimmy Zelinskie. The presentation covers custom resource definitions, reconciliation loops, and operator lifecycle management. Detailed analysis of operator SDK usage, testing strategies, and deployment considerations. Special focus on building production-grade operators. Includes practical development examples.",
+      "source": "YouTube",
+      "tags": ["Kubernetes", "Operators", "Cloud Native"]
+    },
+    {
+      "id": "yt187",
+      "title": "WebRTC Deep Dive",
+      "link": "https://www.youtube.com/watch?v=FExZvpVvYxA",
+      "description": "In-depth exploration of WebRTC protocols and implementation by Tsahi Levent-Levi. The talk covers signaling mechanisms, media handling, and NAT traversal techniques. Detailed examination of peer connections, data channels, and security considerations. Special focus on building reliable real-time communication systems. Includes practical examples and debugging strategies.",
+      "source": "YouTube",
+      "tags": ["WebRTC", "Real-time Communication", "Networking"]
+    },
+    {
+      "id": "yt188",
+      "title": "Advanced gRPC Patterns",
+      "link": "https://www.youtube.com/watch?v=F2WYEFLTKEw",
+      "description": "Technical deep dive into gRPC implementation patterns by Varun Talwar. The presentation explores service design, streaming patterns, and error handling strategies. Detailed analysis of interceptors, load balancing, and monitoring approaches. Special focus on building robust microservices with gRPC. Includes practical examples and production considerations.",
+      "source": "YouTube",
+      "tags": ["gRPC", "Microservices", "API Design"]
+    },
+    {
+      "id": "yt189",
+      "title": "Building Event Sourcing Systems",
+      "link": "https://www.youtube.com/watch?v=ck7t592bvBg",
+      "description": "Comprehensive guide to event sourcing implementation by Greg Young. The talk covers event store design, projection patterns, and consistency models. Detailed examination of command handling, event versioning, and replay mechanisms. Special focus on building maintainable event-sourced systems. Includes practical examples and common challenges.",
+      "source": "YouTube",
+      "tags": ["Event Sourcing", "Architecture", "CQRS"]
+    },
+    {
+      "id": "yt190",
+      "title": "Advanced Site Reliability Engineering",
+      "link": "https://www.youtube.com/watch?v=c-w_GYvi0eA",
+      "description": "In-depth exploration of SRE practices by Liz Fong-Jones. The presentation covers service level objectives, error budgets, and reliability measurement. Detailed analysis of incident management, postmortem processes, and automation strategies. Special focus on building reliable distributed systems. Includes real-world case studies and best practices.",
+      "source": "YouTube",
+      "tags": ["SRE", "DevOps", "Reliability"]
+    },
+    {
+      "id": "yt191",
+      "title": "Advanced Prometheus and Grafana",
+      "link": "https://www.youtube.com/watch?v=h4Sl21AKiDg",
+      "description": "Technical deep dive into Prometheus and Grafana implementation by Julius Volz. The presentation explores query optimization, alert management, and visualization techniques. Detailed analysis of PromQL, recording rules, and high availability setups. Special focus on building comprehensive monitoring solutions. Includes practical examples and best practices.",
+      "source": "YouTube",
+      "tags": ["Monitoring", "Prometheus", "Observability"]
+    },
+    {
+      "id": "yt192",
+      "title": "Building Recommendation Systems",
+      "link": "https://www.youtube.com/watch?v=giIXNoiqO_U",
+      "description": "Comprehensive guide to recommendation system design by Xavier Amatriain. The talk covers collaborative filtering, content-based filtering, and hybrid approaches. Detailed examination of feature engineering, model evaluation, and scalability considerations. Special focus on building production-ready recommendation engines. Includes real-world implementation examples.",
+      "source": "YouTube",
+      "tags": ["Machine Learning", "Recommendations", "Data Science"]
+    },
+    {
+      "id": "yt193",
+      "title": "Advanced Terraform Patterns",
+      "link": "https://www.youtube.com/watch?v=7xngnjfIlK4",
+      "description": "In-depth exploration of Terraform best practices by Yevgeniy Brikman. The presentation covers module design, state management, and testing strategies. Detailed analysis of infrastructure composition, dependency management, and security patterns. Special focus on managing complex infrastructure as code. Includes practical examples and common pitfalls.",
+      "source": "YouTube",
+      "tags": ["Terraform", "Infrastructure as Code", "DevOps"]
+    },
+    {
+      "id": "yt194",
+      "title": "Building Streaming Data Pipelines",
+      "link": "https://www.youtube.com/watch?v=QWVB5mVX8cc",
+      "description": "Technical deep dive into streaming data architectures by Tyler Akidau. The talk explores stream processing patterns, windowing strategies, and exactly-once semantics. Detailed examination of Apache Beam, Kafka Streams, and Flink implementations. Special focus on building reliable streaming systems. Includes real-world use cases and design patterns.",
+      "source": "YouTube",
+      "tags": ["Stream Processing", "Data Engineering", "Apache Beam"]
+    },
+    {
+      "id": "yt195",
+      "title": "Advanced React Performance",
+      "link": "https://www.youtube.com/watch?v=7YhdqIR2Yzo",
+      "description": "Comprehensive guide to React performance optimization by Dan Abramov. The presentation covers rendering optimization, state management, and memory management. Detailed analysis of React profiler, memo patterns, and code splitting strategies. Special focus on building high-performance React applications. Includes practical examples and measurement techniques.",
+      "source": "YouTube",
+      "tags": ["React", "Performance", "JavaScript"]
+    },
+    {
+      "id": "yt196",
+      "title": "Building Secure APIs with OAuth 2.0",
+      "link": "https://www.youtube.com/watch?v=996OiexHze0",
+      "description": "In-depth exploration of OAuth 2.0 implementation by Aaron Parecki. The talk covers authorization flows, token management, and security considerations. Detailed examination of OpenID Connect, JWT handling, and access control patterns. Special focus on building secure authentication systems. Includes practical examples and security best practices.",
+      "source": "YouTube",
+      "tags": ["Security", "OAuth", "API Design"]
+    },
+    {
+      "id": "yt197",
+      "title": "Advanced PostgreSQL Internals",
+      "link": "https://www.youtube.com/watch?v=5u9yVgxrfe4",
+      "description": "Technical deep dive into PostgreSQL architecture by Bruce Momjian. The presentation explores query planning, indexing internals, and transaction management. Detailed analysis of MVCC implementation, vacuum processes, and buffer management. Special focus on database performance optimization. Includes practical tuning examples and monitoring strategies.",
+      "source": "YouTube",
+      "tags": ["PostgreSQL", "Databases", "Performance"]
+    },
+    {
+      "id": "yt198",
+      "title": "Building Scalable Frontend Architecture",
+      "link": "https://www.youtube.com/watch?v=K1Tya6ovVwI",
+      "description": "Comprehensive guide to frontend architecture patterns by Mark Erikson. The talk covers state management, code organization, and build optimization. Detailed examination of module federation, micro-frontends, and testing strategies. Special focus on building maintainable large-scale applications. Includes practical examples and architectural decisions.",
+      "source": "YouTube",
+      "tags": ["Frontend", "Architecture", "Web Development"]
+    },
+    {
+      "id": "yt199",
+      "title": "Advanced Kubernetes Security",
+      "link": "https://www.youtube.com/watch?v=YRR-kZub0cA",
+      "description": "In-depth exploration of Kubernetes security patterns by Ian Coldwater. The presentation covers pod security policies, network policies, and RBAC configuration. Detailed analysis of security contexts, admission controllers, and audit logging. Special focus on building secure container platforms. Includes practical examples and threat mitigation strategies.",
+      "source": "YouTube",
+      "tags": ["Kubernetes", "Security", "Container Security"]
+    },
+    {
+      "id": "yt200",
+      "title": "Building Machine Learning Platforms",
+      "link": "https://www.youtube.com/watch?v=UROj5aPxbhc",
+      "description": "Technical deep dive into ML platform architecture by Chip Huyen. The talk explores feature stores, model serving infrastructure, and experiment tracking systems. Detailed examination of ML pipelines, monitoring solutions, and deployment strategies. Special focus on building production ML infrastructure. Includes real-world case studies and best practices.",
+      "source": "YouTube",
+      "tags": ["Machine Learning", "MLOps", "Infrastructure"]
     }
   ]
 } 
