@@ -1,37 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NerdTok 🧠
 
-## Getting Started
+A TikTok-style interface for exploring Computer Science Research Papers and Technical Content. Swipe through curated research papers from ArXiv and high-quality technical content from around the web!
 
-First, run the development server:
+## Features 🚀
 
+- **Research Papers**: Browse through computer science research papers from ArXiv
+- **Tech Articles**: Discover curated technical blogs and engineering articles
+- **Video Content**: Access hand-picked technical talks and tutorials
+- **Like & Save**: Save your favorite papers and articles for later reference
+- **Export**: Export your liked items in JSON format
+- **Mobile-First**: Responsive design that works great on all devices
+- **Smart Feed**: Temporally and categorically diverse content selection
+
+## Tech Stack 💻
+
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- ArXiv API Integration
+
+## Getting Started 🏁
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/sidxh/nerd-tok.git
+cd nerd-tok
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## Contributing 🤝
 
-To learn more about Next.js, take a look at the following resources:
+### Adding Technical Articles
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can contribute by adding high-quality technical articles to `src/data/curated_blog.json`. Follow this schema:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```json
+{
+  "id": "blog{number}",
+  "title": "Article Title",
+  "link": "https://link-to-article",
+  "description": "Detailed technical description of the article content",
+  "source": "Blog",
+  "tags": ["Tag1", "Tag2", "Tag3"]
+}
+```
 
-## Deploy on Vercel
+Guidelines for blog entries:
+- Ensure articles are technical and in-depth
+- Focus on system design, architecture, or engineering practices
+- Include articles from reputable tech blogs (company engineering blogs preferred)
+- Write detailed, technical descriptions
+- Use relevant tags for categorization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Adding YouTube Content
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# nerd-tok" 
+Contribute educational technical videos to `src/data/curated_youtube.json` using this schema:
+
+```json
+{
+  "id": "yt{number}",
+  "title": "Video Title",
+  "link": "https://youtube.com/watch?v={video-id}",
+  "description": "Detailed description of the video content",
+  "source": "YouTube",
+  "tags": ["Tag1", "Tag2", "Tag3"]
+}
+```
+
+Guidelines for video entries:
+- Focus on educational content (lectures, tutorials, conference talks)
+- Prefer content from reputable sources (universities, conferences, known experts)
+- Include comprehensive technical descriptions
+- Ensure videos are high-quality and in-depth
+- Use appropriate technical tags
+
+### Contribution Process
+
+1. Fork the repository
+2. Add your entries to the respective JSON files
+3. Ensure your entries follow the schema and guidelines
+4. Submit a pull request with your additions
+5. Include a brief description of the added content in your PR
+
+## Technical Details 🔧
+
+### ArXiv Integration
+
+The platform fetches papers from ArXiv with:
+- Diverse temporal distribution (from recent to classic papers)
+- Category combinations (AI, SE, PL, ML, etc.)
+- Quality filters (abstract length, author count)
+- Rate limiting and error handling
+
+### Content Delivery
+
+- Batch loading with prefetching
+- Infinite scroll implementation
+- Smart content mixing (papers, blogs, videos)
+- Optimized for mobile viewing
+
+## Acknowledgments 🙏
+
+- ArXiv for providing access to research papers
+- All contributors who help curate high-quality technical content
+- The open-source community for various tools and libraries used
+
+## Contact 📧
+
+For questions, suggestions, or issues, please:
+1. Open an issue in this repository
+2. Reach out on Twitter [@siddhantxh](https://x.com/siddhantxh)
+
+---
+
+Built with 💙 by [siddhant](https://x.com/siddhantxh)

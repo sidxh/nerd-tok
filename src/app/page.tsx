@@ -7,6 +7,7 @@ import { ArticleCard } from '@/components/ArticleCard'
 import { useArxivPapers } from '@/hooks/useArxivPapers'
 import { useArticles } from '@/hooks/useArticles'
 import { useLikedPapers } from '@/context/LikedPapersContext'
+import Link from 'next/link'
 
 const scrollbarHideStyles = `
   .hide-scrollbar {
@@ -326,6 +327,7 @@ function App() {
               </p>
               <p className="text-lg text-white/90 leading-relaxed mb-6">👆🏻 Swipe through the papers, save your favorites, and discover new research in an engaging way</p>
               <p className="text-lg text-white/90 leading-relaxed mb-6">🔄 You can always refresh the entire feed by clicking on the NerdTok icon in the leftmost corner.</p>
+              <p className="text-lg text-white/90 leading-relaxed mb-6">❤️ built by <Link className='text-gray-400 underline' href="https://x.com/siddhantxh">siddhant.</Link> refer to the <Link className='text-gray-400 underline' href="https://github.com/sidxh/nerd-tok">source code</Link></p>
             </div>
           </div>
         )}
